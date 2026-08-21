@@ -1,6 +1,6 @@
-import { eq } from "drizzle-orm";
+import { and, asc, desc, eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, users } from "../drizzle/schema";
+import { ChatMessage, ChatSession, InsertUser, chatMessages, chatSessions, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -89,4 +89,62 @@ export async function getUserByOpenId(openId: string) {
   return result.length > 0 ? result[0] : undefined;
 }
 
-// TODO: add feature queries here as your schema grows.
+export async function listChatSessions(userId: number): Promise<ChatSession[]> {
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  return db.select().from(chatSessions).where(eq(chatSessions.userId, userId)).orderBy(desc(chatSessions.updatedAt));
+}
+
+export async function getChatSession(userId: number, sessionId: number): Promise<ChatSession | undefined> {
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  const rows = await db
+    .select()
+    .from(chatSessions)
+    .where(and(eq(chatSessions.id, sessionId), eq(chatSessions.userId, userId)))
+    .limit(1);
+  return rows[0];
+}
+
+export async function createChatSession(userId: number, title: string, model?: string): Promise<ChatSession> {
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  const result = await db.insert(chatSessions).values({ userId, title, model: model || null });
+  const sessionId = Number((result as unknown as Array<{ insertId: number }>)[0]?.insertId);
+  const session = await getChatSession(userId, sessionId);
+  if (!session) throw new Error("Chat session could not be created");
+  return session;
+}
+
+export async function getChatMessages(userId: number, sessionId: number): Promise<ChatMessage[]> {
+  const session = await getChatSession(userId, sessionId);
+  if (!session) return [];
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  return db
+    .select()
+    .from(chatMessages)
+    .where(eq(chatMessages.sessionId, sessionId))
+    .orderBy(asc(chatMessages.createdAt), asc(chatMessages.id));
+}
+
+export async function addChatMessage(sessionId: number, role: "user" | "assistant", content: string): Promise<ChatMessage> {
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  const result = await db.insert(chatMessages).values({ sessionId, role, content });
+  const messageId = Number((result as unknown as Array<{ insertId: number }>)[0]?.insertId);
+  const rows = await db.select().from(chatMessages).where(eq(chatMessages.id, messageId)).limit(1);
+  if (!rows[0]) throw new Error("Chat message could not be created");
+  await db.update(chatSessions).set({ updatedAt: new Date() }).where(eq(chatSessions.id, sessionId));
+  return rows[0];
+}
+
+export async function deleteChatSession(userId: number, sessionId: number): Promise<boolean> {
+  const session = await getChatSession(userId, sessionId);
+  if (!session) return false;
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  await db.delete(chatMessages).where(eq(chatMessages.sessionId, sessionId));
+  await db.delete(chatSessions).where(and(eq(chatSessions.id, sessionId), eq(chatSessions.userId, userId)));
+  return true;
+}

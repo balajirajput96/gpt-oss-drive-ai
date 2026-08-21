@@ -1,0 +1,29 @@
+# Project TODO
+
+- [x] Define database tables for user-owned chat sessions and ordered messages.
+- [x] Apply the database migration and verify the schema through a read-only query.
+- [x] Build protected tRPC procedures for listing, creating, reading, and deleting chat sessions.
+- [x] Build a protected server-side chat completion procedure using `invokeLLM` without exposing credentials.
+- [x] Build a protected server-side model catalogue procedure using `listLLMModels`.
+- [x] Add unit tests for user isolation, chat input validation, and persisted message flow.
+- [x] Replace the starter page with a globally consistent dark premium dashboard layout.
+- [x] Implement session browsing, new-chat creation, and conversation history rendering.
+- [x] Implement the exact prompt presets: "Explain this code", "Summarize", and "Translate to Hindi".
+- [x] Implement a model selector populated from the server-side available-model catalogue.
+- [x] Add Google Drive and Colab quick links for the verified GPT-OSS resources.
+- [x] Add protected-route behavior and user profile controls in the sidebar.
+- [x] Add responsive mobile navigation, non-jarring message motion, and loading skeletons.
+- [x] Validate the app with unit tests, type checking, browser interaction checks, and desktop/mobile screenshots.
+- [ ] Create a final publish-ready project checkpoint.
+- [ ] Create or update a private GitHub repository in `balajirajput96`, commit the app source, and push the verified implementation.
+- [ ] Provide the user with the app preview, GitHub repository URL, checkpoint, and publishing instructions.
+- [x] Verify the currently signed-in Manus account and configure that authenticated account as the app owner/admin without changing ownership for any other account.
+- [x] Verify the active OAuth session identity through the protected app route and match it to the sole existing admin record.
+- [x] Document the verified owner-role assignment and confirm no other user record remains admin.
+- [x] Audit the authenticated Google, Gemini, GitHub, and available CLI integration state without logging credentials.
+- [x] Integrate only verified, legitimately authorized AI/API capabilities through server-side code with no client-side secret exposure.
+- [x] Verify the owner session after OAuth and match it to the existing admin record before final delivery.
+- [x] Add Vitest coverage for chat router input validation, including empty, oversize, invalid-session, and invalid-model inputs.
+- [x] Add integration-style Vitest coverage for persisted sessions, ordered messages, session listing, and user isolation.
+- [x] Re-verify the active authenticated app session after the role update and confirm it is `rajputbalaji74@gmail.com` with admin access.
+- [x] Save a credential-safe owner-verification report showing the active OAuth account and the sole-admin check.
