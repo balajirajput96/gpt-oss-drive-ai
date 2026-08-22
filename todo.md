@@ -27,3 +27,17 @@
 - [x] Add integration-style Vitest coverage for persisted sessions, ordered messages, session listing, and user isolation.
 - [x] Re-verify the active authenticated app session after the role update and confirm it is `rajputbalaji74@gmail.com` with admin access.
 - [x] Save a credential-safe owner-verification report showing the active OAuth account and the sole-admin check.
+- [x] Audit the restored environment and authorized media, Drive, research, and scheduling capabilities without exposing credentials.
+- [x] Complete the research-grounded 3,000-reel Hindi topic taxonomy, unique-ID registry, evidence classification rules, and quality-control contract.
+- [x] Create a machine-readable 3,000-entry registry mapping every reel ID to its batch, pillar, lens, question template, and lifecycle status.
+- [x] Add a per-pillar evidence matrix that records source bases, prohibited overclaims, and allowed evidence labels for all 10 topic pillars.
+- [x] Link the taxonomy, registry, evidence matrix, and checkpoint format into the production workflow so each later run consumes the same deterministic source of truth.
+- [x] Implement a stateful production runner that loads the registry, evidence contract, and checkpoint state before selecting the next reel.
+- [x] Add automated validation that proves lifecycle selection, failure recording, and verified completion advance deterministically without duplicate IDs.
+- [x] Create and verify the connected Google Drive folder hierarchy for 100 batches and provenance metadata.
+- [x] Produce, quality-check, upload, and verify the first Hindi research reel with its research-source metadata.
+- [ ] Create a resumable bounded batch-production workflow with duplicate prevention, failure logging, and checkpoint records.
+- [x] Configure an authorized recurring continuation within the supported scheduling limits.
+- [ ] Research, script, render, quality-check, upload, and verify Reel 0002 with its Hindi captions and claim-level source metadata.
+- [x] Reconcile conflicting historical Drive folders labelled Reel 0002 by preserving them as non-canonical drafts and establishing one deterministic canonical mapping.
+- [ ] Finish the pending private GitHub push for the verified GPT-OSS Drive AI app once account authentication is restored.

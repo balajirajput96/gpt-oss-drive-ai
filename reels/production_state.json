@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "targetReelCount": 3000,
+  "nextReelId": "0002",
+  "completedReelIds": [
+    "0001"
+  ],
+  "verifiedReels": [
+    {
+      "reelId": "0001",
+      "driveFolderId": "1-TVdwDN2HIf2OWfPb6Jv-FmCgFJ7LT4u",
+      "videoFileId": "1qDSolJqGGNA7p7ZwFOInHWjVO3vwgD0R",
+      "scriptFileId": "1nqTGxkQm_cypMs5RnAlU6bwTjF_hfa0K",
+      "captionsFileId": "1I8hawswGYedEpg5C0GBrprfuJ1cuJJAs",
+      "sourcesFileId": "1Nm6nN40RayIM00llQZshDYJtEZEoEx-Q",
+      "qcFileId": "1kQc_6lp5eU5UqM68h1FQ7tC0LRfg9wh6",
+      "manifestFileId": "1b76dGM8XV5_IeTLINKF-24_8lJNeURZG",
+      "verifiedAt": "2026-08-22T05:32:30Z"
+    }
+  ],
+  "canonicalMappings": {
+    "0001": {
+      "driveFolderId": "1-TVdwDN2HIf2OWfPb6Jv-FmCgFJ7LT4u",
+      "topic": "Affect labeling: emotions ko naam dene se regulation mein kya madad mil sakti hai",
+      "status": "drive_verified"
+    },
+    "0002": {
+      "driveFolderId": "1CinfMAWs2CPCdc3IsBTdZONFIoPtw0Al",
+      "topic": "Attention and consciousness: a common conceptual confusion",
+      "status": "canonical_research_in_progress",
+      "legacyNonCanonicalFolderIds": [
+        "1JzyQOs5SYvvrk12rPOXD9kf1OtP1FVHP",
+        "18xQxeiMfdTlMCDf09VQnzYMXkfSKAbzD",
+        "1dDaQ4z5sS-JQhu1-oEx24MW6-bPEMY3a"
+      ]
+    }
+  },
+  "failedReels": [
+    {
+      "reelId": "0002",
+      "stage": "researching",
+      "errorCategory": "canonical_id_conflict",
+      "message": "Drive already contains unapproved Reel 0002 drafts on different topics; preserve all artifacts and reconcile the canonical topic and approval status before any rerender or upload.",
+      "occurredAt": "2026-08-22T05:51:12.780Z",
+      "retryCount": 1,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    }
+  ],
+  "driveArchiveArtifacts": [
+    {
+      "name": "RESEARCH_EVIDENCE_RULES.md",
+      "fileId": "1DH2tF0eC0Wo4jDJTvlruWuBp3FXNmkqg",
+      "verifiedAt": "2026-08-22T05:42:45Z"
+    },
+    {
+      "name": "REEL_TAXONOMY_AND_QC.md",
+      "fileId": "1PKERhR9-7uZtHqYGJMr1DDa4anMkCTZZ",
+      "verifiedAt": "2026-08-22T05:42:45Z"
+    },
+    {
+      "name": "PILLAR_EVIDENCE_MATRIX.md",
+      "fileId": "1_oaruVXA24WhppvJezZIHFAc6i3ab0XZ",
+      "verifiedAt": "2026-08-22T05:42:45Z"
+    },
+    {
+      "name": "PRODUCTION_WORKFLOW.md",
+      "fileId": "1O6etMuBjIFOgkCAoCWleTkr6e7wWIQ-M",
+      "verifiedAt": "2026-08-22T05:42:45Z"
+    },
+    {
+      "name": "reel_registry.json",
+      "fileId": "1jQ9RimNByeVM2mrxDdJX4Wf-MsrAMNAY",
+      "verifiedAt": "2026-08-22T05:42:45Z"
+    },
+    {
+      "name": "production_state.json",
+      "fileId": "1sIEySRVL3yGTESxVERFOvna1UTAcFcb5",
+      "verifiedAt": "2026-08-22T05:42:45Z"
+    },
+    {
+      "name": "REEL-0001_DRIVE_RECONCILIATION.md",
+      "fileId": "1i7E2XGyCNtTDftq7oQQvsOWEVHaervR6",
+      "verifiedAt": "2026-08-22T05:42:45Z"
+    }
+  ],
+  "lastCheckpointAt": "2026-08-22T05:53:22.423Z",
+  "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
+  "runStatus": "researching",
+  "activeReelId": "0002"
+}

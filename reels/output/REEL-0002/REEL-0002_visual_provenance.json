@@ -1,0 +1,43 @@
+{
+  "reelId": "0002",
+  "assetClass": "original AI-generated stills with deterministic pan-and-zoom animation",
+  "status": "generation_requested",
+  "assets": [
+    {
+      "scene": 1,
+      "localPath": "/home/ubuntu/webdev-static-assets/reel0002_scene01.png",
+      "reservedAssetUrl": "/manus-storage/reel0002_scene01_622593f0.png"
+    },
+    {
+      "scene": 2,
+      "localPath": "/home/ubuntu/webdev-static-assets/reel0002_scene02.png",
+      "reservedAssetUrl": "/manus-storage/reel0002_scene02_3abf04f5.png"
+    },
+    {
+      "scene": 3,
+      "localPath": "/home/ubuntu/webdev-static-assets/reel0002_scene03.png",
+      "reservedAssetUrl": "/manus-storage/reel0002_scene03_4fd50578.png"
+    },
+    {
+      "scene": 4,
+      "localPath": "/home/ubuntu/webdev-static-assets/reel0002_scene04.png",
+      "reservedAssetUrl": "/manus-storage/reel0002_scene04_0b5a6179.png"
+    },
+    {
+      "scene": 5,
+      "localPath": "/home/ubuntu/webdev-static-assets/reel0002_scene05.png",
+      "reservedAssetUrl": "/manus-storage/reel0002_scene05_6181b12b.png"
+    },
+    {
+      "scene": 6,
+      "localPath": "/home/ubuntu/webdev-static-assets/reel0002_scene06.png",
+      "reservedAssetUrl": "/manus-storage/reel0002_scene06_0a956dad.png"
+    }
+  ],
+  "constraints": [
+    "No real-person imitation or copyrighted reference material.",
+    "No medical scans, diagnostic imagery, or unsupported anatomical claims.",
+    "No native text-to-video claim; motion is rendered deterministically from original stills."
+  ]
+}
+

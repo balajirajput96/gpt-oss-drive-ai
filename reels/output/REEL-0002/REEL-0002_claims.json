@@ -1,0 +1,35 @@
+{
+  "reelId": "0002",
+  "title": "क्या ध्यान और चेतना एक ही चीज़ हैं?",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Attention and consciousness are often treated as distinct but related processes in the scholarly literature.",
+      "evidenceLabel": "scholarly review",
+      "requiredHindiFraming": "अलग, लेकिन जुड़े हुए, प्रक्रियाएँ माना जाता है",
+      "source": {
+        "title": "The Neural Correlates of Consciousness and Attention: Two Sister Processes of the Brain",
+        "authors": "Nani A, Manuello J, Mancuso L, et al.",
+        "year": 2019,
+        "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2019.01169/full",
+        "doi": "10.3389/fnins.2019.01169"
+      },
+      "boundary": "Do not claim unanimous scientific agreement or complete independence."
+    },
+    {
+      "id": "C2",
+      "claim": "Neural correlates of consciousness are not automatically complete causal explanations of conscious experience.",
+      "evidenceLabel": "reference scholarship",
+      "requiredHindiFraming": "शुरुआती संकेत है, पूरा कारण नहीं",
+      "source": {
+        "title": "The Neuroscience of Consciousness",
+        "authors": "Wu W",
+        "year": 2024,
+        "url": "https://plato.stanford.edu/entries/consciousness-neuroscience/"
+      },
+      "boundary": "Do not equate correlation with causation or identify a single brain region as the sole cause of consciousness."
+    }
+  ],
+  "medicalSafety": "Educational content only; not diagnostic, therapeutic, or clinical advice.",
+  "researchCheckedAt": "2026-08-22T05:45:34Z"
+}

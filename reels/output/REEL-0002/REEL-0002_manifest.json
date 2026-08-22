@@ -1,0 +1,26 @@
+{
+  "reelId": "0002",
+  "topic": "Attention and consciousness: a common conceptual confusion",
+  "status": "blocked_canonical_id_conflict",
+  "targetFormat": {
+    "container": "mp4",
+    "aspectRatio": "9:16",
+    "targetResolution": "720x1280",
+    "targetDurationSeconds": "55-65",
+    "language": "hi-IN"
+  },
+  "originalVisualAssetPaths": [
+    "/home/ubuntu/webdev-static-assets/reel0002_scene01.png",
+    "/home/ubuntu/webdev-static-assets/reel0002_scene02.png",
+    "/home/ubuntu/webdev-static-assets/reel0002_scene03.png",
+    "/home/ubuntu/webdev-static-assets/reel0002_scene04.png",
+    "/home/ubuntu/webdev-static-assets/reel0002_scene05.png",
+    "/home/ubuntu/webdev-static-assets/reel0002_scene06.png"
+  ],
+  "animationMethod": "Deterministic gentle pan-and-zoom animation of original generated stills; not represented as native text-to-video generation.",
+  "narrationPath": "/home/ubuntu/reel-production-assets/REEL-0002/REEL-0002_voice_final.wav",
+  "narrationDurationSeconds": 62.01,
+  "captionsPath": "REEL-0002_captions.srt",
+  "sourceLedgerPath": "REEL-0002_claims.json",
+  "qcStatus": "blocked_before_render"
+}

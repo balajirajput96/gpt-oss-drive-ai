@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "canonicalRule": "Each deterministic registry ID has at most one canonical Drive folder. Historical files with a conflicting ID are preserved, never overwritten or deleted, and recorded as non-canonical until manually or programmatically reconciled.",
+  "reels": {
+    "0001": {
+      "canonicalFolderId": "1-TVdwDN2HIf2OWfPb6Jv-FmCgFJ7LT4u",
+      "status": "drive_verified",
+      "topic": "Affect labeling: emotions ko naam dene se regulation mein kya madad mil sakti hai"
+    },
+    "0002": {
+      "canonicalFolderId": "1CinfMAWs2CPCdc3IsBTdZONFIoPtw0Al",
+      "status": "research_in_progress",
+      "topic": "क्या ध्यान और चेतना एक ही चीज़ हैं?",
+      "legacyNonCanonicalFolders": [
+        {
+          "id": "1JzyQOs5SYvvrk12rPOXD9kf1OtP1FVHP",
+          "reason": "Sleep-environment fallback draft marked not publication ready."
+        },
+        {
+          "id": "18xQxeiMfdTlMCDf09VQnzYMXkfSKAbzD",
+          "reason": "Historical incomplete Reel 0002 folder; topic/source set differs."
+        },
+        {
+          "id": "1dDaQ4z5sS-JQhu1-oEx24MW6-bPEMY3a",
+          "reason": "Predictive-processing draft conflicts with deterministic registry topic."
+        }
+      ]
+    }
+  }
+}
