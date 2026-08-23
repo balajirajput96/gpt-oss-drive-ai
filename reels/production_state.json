@@ -70,6 +70,15 @@
         "1rN5GQlgObiU_mxs4e0RrYWkUlBXsulw1",
         "151fUghK2X7wURMqBZtPxTzD7AtlOZWtn"
       ]
+    },
+    "0004": {
+      "driveFolderId": "19rBfxAij_JShvkT6iEWLYIDrcFYAZ0Pt",
+      "topic": "Proposed mechanisms behind selective attention and missed unexpected details",
+      "status": "canonical_research_in_progress",
+      "legacyNonCanonicalFolderIds": [
+        "1pCBkFgBOQSWkd-dosEqsuYlBZcQYoROO",
+        "1uYBw--o8pSZi_7ni8tlaVJTaZk6X0JXW"
+      ]
     }
   },
   "failedReels": [
@@ -129,8 +138,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-23T03:06:52.810Z",
+  "lastCheckpointAt": "2026-08-23T03:10:43.213Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0004"
 }
