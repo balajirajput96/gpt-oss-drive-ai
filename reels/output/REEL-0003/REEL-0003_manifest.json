@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0003",
+  "titleHi": "रोज़मर्रा में ध्यान को कैसे पहचानें?",
+  "canonicalDriveFolderId": "1GtlxBPxFIN0CMVTPelIe3GUKALc4a6eE",
+  "status": "qc_passed_pending_drive_verification",
+  "contentClassification": "research-grounded explanatory content",
+  "evidenceBoundary": "Focused attention can sometimes make an unexpected detail easier to miss; this does not mean the unattended world entirely disappears or establish a diagnosis, intelligence trait, or consciousness conclusion.",
+  "sourceBasis": [
+    {
+      "citation": "Kreitz, Furley, Memmert & Simons (2015), PLOS ONE",
+      "doi": "10.1371/journal.pone.0134675"
+    },
+    {
+      "citation": "van Boxtel, Tsuchiya & Koch (2010), Frontiers in Psychology",
+      "doi": "10.3389/fpsyg.2010.00217"
+    }
+  ],
+  "archivedPreproductionDriveFiles": {
+    "research": "1ivpqe4s_dwDV9OsFG0aCZ-dbnT_5lWv1",
+    "script": "1wpS5LPyalgNsvdQ05im-YW96Fa-UhM3o",
+    "captions": "14a7dcLBLQmQkvbon7IAccjAy8Mavb22H",
+    "claimLedger": "1iBJ-w9cQZkRKyt5rI9e5hzb3PJx_-GmM",
+    "storyboard": "1VmQMa-gsfduWeQykyz8BW_THiq3DsA63"
+  },
+  "media": {
+    "canonicalUploadFilename": "REEL-0003_final.mp4",
+    "localReviewedCandidate": "REEL-0003_final_R2.mp4",
+    "sha256": "33c1d54a15fa40e8697f141091f109f4438d20e1daf46a775faac34a7404e7d9",
+    "durationSeconds": 58.8,
+    "width": 720,
+    "height": 1280,
+    "frameRate": 30,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "captionFile": "REEL-0003_captions.srt",
+    "narrationFile": "REEL-0003_voice.wav"
+  },
+  "provenanceFile": "REEL-0003_visual_provenance.json",
+  "qualityControlFile": "REEL-0003_qc.md",
+  "renderer": "reels/scripts/render-reel.mjs",
+  "requiresCanonicalDriveVerification": true
+}

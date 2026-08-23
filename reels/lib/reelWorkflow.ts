@@ -187,6 +187,7 @@ export function markDriveVerified(rootDir: string, verification: { videoFileId: 
   if (canonicalMapping && verification.canonicalFolderId !== canonicalMapping.driveFolderId) {
     throw new Error(`Reel ${reel.reelId} must be verified in its canonical Drive folder ${canonicalMapping.driveFolderId}.`);
   }
+  if (canonicalMapping) canonicalMapping.status = "drive_verified";
   program.state.completedReelIds.push(reel.reelId);
   program.state.verifiedReels = [
     ...(program.state.verifiedReels ?? []),

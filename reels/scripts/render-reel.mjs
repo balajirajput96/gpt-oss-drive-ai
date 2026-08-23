@@ -2,13 +2,13 @@ import { existsSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { resolve } from "node:path";
 
-const [assetDir, captionsPath, outputPath] = process.argv.slice(2);
+const [assetDir, captionsPath, outputPath, voiceFilename = "REEL-0002_voice_final.wav", imagePrefix = "reel0002_scene"] = process.argv.slice(2);
 if (!assetDir || !captionsPath || !outputPath) {
-  throw new Error("Usage: node render-reel.mjs <assetDir> <captions.srt> <output.mp4>");
+  throw new Error("Usage: node render-reel.mjs <assetDir> <captions.srt> <output.mp4> [voiceFilename] [imagePrefix]");
 }
 
-const voicePath = resolve(assetDir, "REEL-0002_voice_final.wav");
-const imagePaths = [1, 2, 3, 4, 5, 6].map(number => resolve("/home/ubuntu/webdev-static-assets", `reel0002_scene0${number}.png`));
+const voicePath = resolve(assetDir, voiceFilename);
+const imagePaths = [1, 2, 3, 4, 5, 6].map(number => resolve("/home/ubuntu/webdev-static-assets", `${imagePrefix}0${number}.png`));
 for (const requiredPath of [voicePath, captionsPath, ...imagePaths]) {
   if (!existsSync(requiredPath)) throw new Error(`Missing render input: ${requiredPath}`);
 }
@@ -20,7 +20,10 @@ if (!Number.isFinite(duration) || duration < 1) throw new Error("Narration durat
 const sceneDuration = (duration / imagePaths.length).toFixed(3);
 const frameCount = Math.ceil((duration / imagePaths.length) * 30);
 
-const imageArgs = imagePaths.flatMap(imagePath => ["-loop", "1", "-t", sceneDuration, "-i", imagePath]);
+// Each static image supplies one source frame; zoompan then emits exactly frameCount frames.
+// Looping an image before zoompan would multiply frameCount by every looped source frame,
+// leaving the first concat segment long enough to swallow the full narration.
+const imageArgs = imagePaths.flatMap(imagePath => ["-i", imagePath]);
 const filterParts = imagePaths.map((_, index) => `[${index}:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,zoompan=z='min(zoom+0.00045,1.055)':d=${frameCount}:s=720x1280:fps=30,setsar=1[v${index}]`);
 filterParts.push(`${imagePaths.map((_, index) => `[v${index}]`).join("")}concat=n=${imagePaths.length}:v=1:a=0[base]`);
 const subtitlePath = resolve(captionsPath).replaceAll("\\", "\\\\").replaceAll(":", "\\:").replaceAll("'", "\\'");

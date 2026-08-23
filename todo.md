@@ -41,9 +41,13 @@
 - [x] Research, script, render, quality-check, upload, and verify Reel 0002 with its Hindi captions and claim-level source metadata.
 - [x] Begin the evidence retrieval and unique-angle preparation for the next deterministic item, Reel 0003.
 - [x] Reconcile historical Drive folders labelled Reel 0003 into a single deterministic canonical mapping while preserving all legacy drafts.
+- [x] Create the evidence-labeled Hindi script, captions, claim ledger, and visual storyboard for canonical Reel 0003.
 - [x] Create a complete inventory of current GitHub Dependabot alerts, mapping every open alert to package, affected version or range, scope, severity, and disposition status.
 - [x] Remediate or explicitly disposition the remaining moderate and low production dependency-audit findings, then rerun validation.
 - [x] Document any non-fixable or transitive-only security findings with exact technical justification and compensating controls.
-- [ ] Recheck the authenticated Dependabot UI after lockfile reprocessing and record which alerts closed versus remain open.
+- [x] Persist and independently verify the final authenticated Dependabot recheck result: 140 closed alerts and one development-only transitive esbuild alert remaining open.
 - [x] Reconcile conflicting historical Drive folders labelled Reel 0002 by preserving them as non-canonical drafts and establishing one deterministic canonical mapping.
 - [x] Finish the pending private GitHub push for the verified GPT-OSS Drive AI app once account authentication is restored.
+- [x] Generate original Reel 0003 visuals, render captioned Hindi video, perform QC, upload the complete provenance package to the canonical Drive folder, and verify the lifecycle transition.
+- [x] Keep canonical Drive-mapping status synchronized when a reel is marked Drive-verified, with regression coverage for the state transition.
+- [ ] Begin evidence retrieval and a distinct, registry-guided preproduction package for the next eligible item, Reel 0004.

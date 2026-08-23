@@ -1,0 +1,36 @@
+{
+  "reelId": "0003",
+  "title": "क्या फोकस में होने पर कुछ स्पष्ट चीज़ें भी छूट सकती हैं?",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "When attention is occupied, people can sometimes fail to report salient unexpected objects.",
+      "evidenceLabel": "peer-reviewed empirical study",
+      "requiredHindiFraming": "कभी-कभी कोई अनपेक्षित लेकिन स्पष्ट चीज़ रिपोर्ट करना छूट सकता है",
+      "source": {
+        "title": "The Relationship Between Inattentional Blindness and Cognitive Abilities",
+        "authors": "Kreitz C, Furley P, Memmert D, Simons DJ",
+        "year": 2015,
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134675",
+        "doi": "10.1371/journal.pone.0134675"
+      },
+      "boundary": "Do not claim inevitability, diagnose an individual, or treat noticing as a simple intelligence measure."
+    },
+    {
+      "id": "C2",
+      "claim": "Attention-related blindness does not usually establish total absence of perception; scene gist can remain available in some paradigms.",
+      "evidenceLabel": "peer-reviewed scholarly review",
+      "requiredHindiFraming": "इसका मतलब यह नहीं कि दुनिया गायब हो गई; सामान्य संदर्भ बना रह सकता है",
+      "source": {
+        "title": "Consciousness and Attention: on Sufficiency and Necessity",
+        "authors": "van Boxtel JJA, Tsuchiya N, Koch C",
+        "year": 2010,
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2010.00217/full",
+        "doi": "10.3389/fpsyg.2010.00217"
+      },
+      "boundary": "Do not claim that an everyday lapse proves a theory of consciousness or that unattended information is entirely absent."
+    }
+  ],
+  "medicalSafety": "Educational content only; not diagnostic, therapeutic, clinical, intelligence, or driving-safety advice.",
+  "researchCheckedAt": "2026-08-23T02:56:00Z"
+}

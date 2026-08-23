@@ -21,6 +21,12 @@ The authenticated Dependabot review confirmed that GitHub reprocessed the pushed
 
 The second authenticated results page showed that the open findings continue into **moderate** development-only `pnpm` integrity, path traversal, archive extraction, and configuration advisories, plus development `postcss` and `tar` advisory chains. This supports treating the current count as a lockfile/tooling refresh issue rather than a production-runtime exposure, while keeping the complete inventory and post-refresh reconciliation open until the latest local removal/update commit is pushed and scanned.
 
+## Final authenticated recheck
+
+After the final toolchain and lockfile push, the authenticated GitHub Dependabot UI reported **140 closed alerts and 1 open alert**. The sole remaining item is a **moderate, development-only, transitive** `esbuild` alert in `pnpm-lock.yaml`, matching the documented `drizzle-kit → @esbuild-kit` legacy chain. It is absent from the production audit, which remains zero across all severities. The remaining item is retained for scheduled upstream monitoring rather than misrepresented as resolved.
+
+**Independent verification:** The authenticated Dependabot UI was rechecked immediately after this record was prepared and continued to show **1 open / 140 closed**, with alert **#3** (`esbuild`, moderate, development scope) as the sole remaining finding.
+
 ## Next remediation order
 
 1. Recheck the authenticated Dependabot page after GitHub has ingested the pushed lockfile update; the prior alert count is expected to refresh asynchronously.

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0003",
+  "canonicalDriveFolderId": "1GtlxBPxFIN0CMVTPelIe3GUKALc4a6eE",
+  "provenanceType": "original_ai_generated_visual_stills",
+  "generator": "Manus built-in image generation",
+  "styleContinuity": "Scene 1 established the visual reference; scenes 2–6 were generated with that reference for consistent subject, lighting, wardrobe, and palette.",
+  "assetPolicy": {
+    "embeddedText": false,
+    "logosOrWatermarks": false,
+    "realPersonImitation": false,
+    "medicalOrDiagnosticClaimImagery": false,
+    "drivingDepiction": false
+  },
+  "assets": [
+    {
+      "order": 1,
+      "filename": "reel0003_scene01.png",
+      "sha256": "a3d9319c7ffc97f64abf71162ec8aabb9b9887275c1cd07fe0d2be5190f4ec90",
+      "role": "Focused desk-work hook"
+    },
+    {
+      "order": 2,
+      "filename": "reel0003_scene02.png",
+      "sha256": "e61b6f5bb17d5ff2c599f6c64dd9512aa4a496f37fee43b474ced0151995985f",
+      "role": "Everyday unexpected-detail illustration"
+    },
+    {
+      "order": 3,
+      "filename": "reel0003_scene03.png",
+      "sha256": "41921f1c0719a9b8adbc58276e7c84df9c7744ac293bcba4fc1203f95442187c",
+      "role": "Focus metaphor without a literal perceptual-absence claim"
+    },
+    {
+      "order": 4,
+      "filename": "reel0003_scene04.png",
+      "sha256": "ea3eec3cd74f01b52086dba467f306c4176e71587a832d00b6fee9a7dcc561ac",
+      "role": "Abstract information-selection transition"
+    },
+    {
+      "order": 5,
+      "filename": "reel0003_scene05.png",
+      "sha256": "c5ebf964d9694e59520878110398557b17f7e168a496f0e02622ec5da1988758",
+      "role": "Reflective everyday observation"
+    },
+    {
+      "order": 6,
+      "filename": "reel0003_scene06.png",
+      "sha256": "69590bcdad5a294f847ec9c591b269e168689eb7ff00db4db859b4b8f5dbb720",
+      "role": "Calm practical closing prompt"
+    }
+  ]
+}

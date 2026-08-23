@@ -62,5 +62,6 @@ describe("reel production workflow", () => {
     markDriveVerified(root, { videoFileId: "video-1", metadataFileId: "meta-1", sha256: "hash-1", canonicalFolderId: "canonical-folder" }, 3);
     const verifiedState = JSON.parse(readFileSync(statePath, "utf8"));
     expect(verifiedState.verifiedReels[0].driveFolderId).toBe("canonical-folder");
+    expect(verifiedState.canonicalMappings["0001"].status).toBe("drive_verified");
   });
 });
