@@ -20,6 +20,7 @@
   "animationMethod": "Deterministic gentle pan-and-zoom animation of original generated stills; not represented as native text-to-video generation.",
   "narrationPath": "/home/ubuntu/reel-production-assets/REEL-0002/REEL-0002_voice_final.wav",
   "narrationDurationSeconds": 62.01,
+  "narrationDriveFileId": "1Py83YX2cKCDM1nfc6yNwD1d2-eb5d_xI",
   "captionsPath": "REEL-0002_captions.srt",
   "sourceLedgerPath": "REEL-0002_claims.json",
   "qcStatus": "blocked_before_render"

@@ -48,5 +48,19 @@ describe("reel production workflow", () => {
     expect(state.completedReelIds).toEqual(["0001"]);
     expect(state.nextReelId).toBe("0002");
   });
-});
 
+  it("requires the configured canonical Drive folder before marking a mapped reel verified", () => {
+    const root = makeProgramRoot();
+    const statePath = join(root, "reels", "production_state.json");
+    const state = JSON.parse(readFileSync(statePath, "utf8"));
+    state.canonicalMappings = {
+      "0001": { driveFolderId: "canonical-folder", topic: "Canonical topic", status: "researching" },
+    };
+    writeFileSync(statePath, JSON.stringify(state));
+    beginNextReel(root, 3);
+    expect(() => markDriveVerified(root, { videoFileId: "video-1", metadataFileId: "meta-1", sha256: "hash-1", canonicalFolderId: "legacy-folder" }, 3)).toThrow("canonical Drive folder");
+    markDriveVerified(root, { videoFileId: "video-1", metadataFileId: "meta-1", sha256: "hash-1", canonicalFolderId: "canonical-folder" }, 3);
+    const verifiedState = JSON.parse(readFileSync(statePath, "utf8"));
+    expect(verifiedState.verifiedReels[0].driveFolderId).toBe("canonical-folder");
+  });
+});

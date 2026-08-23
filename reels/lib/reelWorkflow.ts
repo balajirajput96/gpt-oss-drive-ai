@@ -46,6 +46,13 @@ export type DriveArchiveArtifact = {
   verifiedAt: string;
 };
 
+export type CanonicalReelMapping = {
+  driveFolderId: string;
+  topic: string;
+  status: string;
+  legacyNonCanonicalFolderIds?: string[];
+};
+
 export type ProductionState = {
   schemaVersion: number;
   targetReelCount: number;
@@ -53,6 +60,7 @@ export type ProductionState = {
   activeReelId?: string | null;
   completedReelIds: string[];
   verifiedReels?: VerifiedReelRecord[];
+  canonicalMappings?: Record<string, CanonicalReelMapping>;
   failedReels: FailureRecord[];
   driveArchiveArtifacts?: DriveArchiveArtifact[];
   lastCheckpointAt: string | null;
@@ -163,7 +171,7 @@ export function recordFailure(rootDir: string, stage: ReelLifecycle, errorCatego
   return failure;
 }
 
-export function markDriveVerified(rootDir: string, verification: { videoFileId: string; metadataFileId: string; sha256: string }, expectedEntryCount = 3000) {
+export function markDriveVerified(rootDir: string, verification: { videoFileId: string; metadataFileId: string; sha256: string; canonicalFolderId?: string }, expectedEntryCount = 3000) {
   if (!verification.videoFileId || !verification.metadataFileId || !verification.sha256) {
     throw new Error("Drive verification requires videoFileId, metadataFileId, and SHA-256 checksum.");
   }
@@ -175,7 +183,26 @@ export function markDriveVerified(rootDir: string, verification: { videoFileId: 
   if (program.state.completedReelIds.includes(reel.reelId)) {
     throw new Error(`Reel ${reel.reelId} is already verified.`);
   }
+  const canonicalMapping = program.state.canonicalMappings?.[reel.reelId];
+  if (canonicalMapping && verification.canonicalFolderId !== canonicalMapping.driveFolderId) {
+    throw new Error(`Reel ${reel.reelId} must be verified in its canonical Drive folder ${canonicalMapping.driveFolderId}.`);
+  }
   program.state.completedReelIds.push(reel.reelId);
+  program.state.verifiedReels = [
+    ...(program.state.verifiedReels ?? []),
+    {
+      reelId: reel.reelId,
+      driveFolderId: verification.canonicalFolderId ?? program.state.driveRootId ?? "unmapped",
+      videoFileId: verification.videoFileId,
+      scriptFileId: "recorded_in_metadata",
+      captionsFileId: "recorded_in_metadata",
+      sourcesFileId: "recorded_in_metadata",
+      qcFileId: "recorded_in_metadata",
+      manifestFileId: verification.metadataFileId,
+      verifiedAt: new Date().toISOString(),
+      sha256: verification.sha256,
+    },
+  ];
   const next = program.registry.find(entry => !program.state.completedReelIds.includes(entry.reelId));
   program.state.nextReelId = next?.reelId ?? null;
   program.state.activeReelId = null;
