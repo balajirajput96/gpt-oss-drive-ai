@@ -16,7 +16,7 @@
 - [x] Validate the app with unit tests, type checking, browser interaction checks, and desktop/mobile screenshots.
 - [x] Create a final publish-ready project checkpoint.
 - [x] Create or update a private GitHub repository in `balajirajput96`, commit the app source, and push the verified implementation.
-- [ ] Provide the user with the app preview, GitHub repository URL, checkpoint, and publishing instructions.
+- [x] Provide the user with the app preview, GitHub repository URL, checkpoint, and publishing instructions.
 - [x] Verify the currently signed-in Manus account and configure that authenticated account as the app owner/admin without changing ownership for any other account.
 - [x] Verify the active OAuth session identity through the protected app route and match it to the sole existing admin record.
 - [x] Document the verified owner-role assignment and confirm no other user record remains admin.
