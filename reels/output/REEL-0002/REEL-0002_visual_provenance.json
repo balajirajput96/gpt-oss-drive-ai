@@ -1,7 +1,20 @@
 {
   "reelId": "0002",
   "assetClass": "original AI-generated stills with deterministic pan-and-zoom animation",
-  "status": "generation_requested",
+  "status": "generation_complete_visual_qc_in_progress",
+  "visualQcFindings": {
+    "scene01": "Pass: portrait 9:16 frame, human-scale curiosity hook, dark lower caption-safe region, no visible text or diagnostic claim.",
+    "scene02": "Pass: coherent dark cinematic palette, selective-attention metaphor is clear, lower caption-safe region preserved, no visible labels or medical assertion.",
+    "scene03": "Pass: abstract sensory-field composition clearly reads as a metaphor, maintains a caption-safe lower region, and avoids claiming a literal neural model.",
+    "scene04": "Pass: grounded everyday phone-notification example fits the narration, contains no visible text, and retains a sufficiently dark lower caption-safe zone.",
+    "scene05": "Pass: layered beam-and-field metaphor visually supports a qualified conceptual distinction; frame is clearly non-diagnostic and has dark lower caption space.",
+    "scene06": "Pass: reflective dawn closing is visually consistent, has no visible text or certainty claim, and provides dark lower caption-safe space."
+  },
+  "visualQcStatus": "passed",
+  "renderedCaptionQc": {
+    "firstAttempt": "Rejected: caption scaling obscured the visual subject.",
+    "correctedAttempt": "Passed: reduced lower-third Hindi captions are legible and do not obstruct the primary subject in sampled mid- and late-reel frames."
+  },
   "assets": [
     {
       "scene": 1,

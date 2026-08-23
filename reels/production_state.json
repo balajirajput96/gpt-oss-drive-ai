@@ -1,9 +1,10 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0002",
+  "nextReelId": "0003",
   "completedReelIds": [
-    "0001"
+    "0001",
+    "0002"
   ],
   "verifiedReels": [
     {
@@ -16,6 +17,18 @@
       "qcFileId": "1kQc_6lp5eU5UqM68h1FQ7tC0LRfg9wh6",
       "manifestFileId": "1b76dGM8XV5_IeTLINKF-24_8lJNeURZG",
       "verifiedAt": "2026-08-22T05:32:30Z"
+    },
+    {
+      "reelId": "0002",
+      "driveFolderId": "1CinfMAWs2CPCdc3IsBTdZONFIoPtw0Al",
+      "videoFileId": "1tNWzCzQmE2_ePomgoh7bbqQ6Tsx8yYE9",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1bXXCtEZGiIAFAdV4bfbfAZagA0Cro0KA",
+      "verifiedAt": "2026-08-23T02:28:07.900Z",
+      "sha256": "f935c306fb611cd48dedc0825bf9c2fb3487a2af17785d6d3f8ebf0b9de5a4c4"
     }
   ],
   "canonicalMappings": {
@@ -27,11 +40,22 @@
     "0002": {
       "driveFolderId": "1CinfMAWs2CPCdc3IsBTdZONFIoPtw0Al",
       "topic": "Attention and consciousness: a common conceptual confusion",
-      "status": "canonical_research_in_progress",
+      "status": "drive_verified",
       "legacyNonCanonicalFolderIds": [
         "1JzyQOs5SYvvrk12rPOXD9kf1OtP1FVHP",
         "18xQxeiMfdTlMCDf09VQnzYMXkfSKAbzD",
         "1dDaQ4z5sS-JQhu1-oEx24MW6-bPEMY3a"
+      ]
+    },
+    "0003": {
+      "driveFolderId": "1GtlxBPxFIN0CMVTPelIe3GUKALc4a6eE",
+      "topic": "Recognizing selective attention in everyday life",
+      "status": "canonical_research_in_progress",
+      "legacyNonCanonicalFolderIds": [
+        "1MeLizDcKU1J5SEiv0H5pJsAVkEkBIWat",
+        "1RAfj9uOe67srsRiGlhLx1LJNO8bioLx-",
+        "1rN5GQlgObiU_mxs4e0RrYWkUlBXsulw1",
+        "151fUghK2X7wURMqBZtPxTzD7AtlOZWtn"
       ]
     }
   },
@@ -42,6 +66,15 @@
       "errorCategory": "canonical_id_conflict",
       "message": "Drive already contains unapproved Reel 0002 drafts on different topics; preserve all artifacts and reconcile the canonical topic and approval status before any rerender or upload.",
       "occurredAt": "2026-08-22T05:51:12.780Z",
+      "retryCount": 1,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    },
+    {
+      "reelId": "0003",
+      "stage": "researching",
+      "errorCategory": "canonical_id_conflict",
+      "message": "Drive contains multiple historical Reel 0003 folders on different topics; preserve all drafts and establish a deterministic canonical mapping before archiving the active everyday-attention research.",
+      "occurredAt": "2026-08-23T02:31:53.793Z",
       "retryCount": 1,
       "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
     }
@@ -83,8 +116,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-22T05:53:22.423Z",
+  "lastCheckpointAt": "2026-08-23T02:32:43.294Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "researching",
-  "activeReelId": "0002"
+  "activeReelId": "0003"
 }

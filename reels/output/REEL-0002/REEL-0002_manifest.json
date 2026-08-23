@@ -1,7 +1,7 @@
 {
   "reelId": "0002",
   "topic": "Attention and consciousness: a common conceptual confusion",
-  "status": "blocked_canonical_id_conflict",
+  "status": "drive_verified",
   "targetFormat": {
     "container": "mp4",
     "aspectRatio": "9:16",
@@ -23,5 +23,14 @@
   "narrationDriveFileId": "1Py83YX2cKCDM1nfc6yNwD1d2-eb5d_xI",
   "captionsPath": "REEL-0002_captions.srt",
   "sourceLedgerPath": "REEL-0002_claims.json",
-  "qcStatus": "blocked_before_render"
+  "qcStatus": "passed",
+  "renderedVideoPath": "/home/ubuntu/reel-production-assets/REEL-0002/REEL-0002.mp4",
+  "renderedVideoSha256": "f935c306fb611cd48dedc0825bf9c2fb3487a2af17785d6d3f8ebf0b9de5a4c4",
+  "driveVerification": {
+    "canonicalFolderId": "1CinfMAWs2CPCdc3IsBTdZONFIoPtw0Al",
+    "videoFileId": "1tNWzCzQmE2_ePomgoh7bbqQ6Tsx8yYE9",
+    "manifestFileId": "1bXXCtEZGiIAFAdV4bfbfAZagA0Cro0KA",
+    "qcRecordFileId": "18sonP8K2BxE0RSjRZ2OckadrHrHz7Cqu",
+    "nextReelId": "0003"
+  }
 }

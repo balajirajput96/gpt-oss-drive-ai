@@ -13,8 +13,11 @@ if (command === "inspect") {
   if (!stage || !errorCategory || message.length === 0) throw new Error("Usage: fail <stage> <category> <message>");
   console.log(JSON.stringify(recordFailure(rootDir, stage as never, errorCategory, message.join(" ")), null, 2));
 } else if (command === "verify") {
-  const [videoFileId, metadataFileId, sha256] = args;
-  console.log(JSON.stringify(markDriveVerified(rootDir, { videoFileId, metadataFileId, sha256 }), null, 2));
+  const [videoFileId, metadataFileId, sha256, canonicalFolderId] = args;
+  if (!videoFileId || !metadataFileId || !sha256 || !canonicalFolderId) {
+    throw new Error("Usage: verify <videoFileId> <metadataFileId> <sha256> <canonicalFolderId>");
+  }
+  console.log(JSON.stringify(markDriveVerified(rootDir, { videoFileId, metadataFileId, sha256, canonicalFolderId }), null, 2));
 } else {
   throw new Error(`Unknown command: ${command}`);
 }

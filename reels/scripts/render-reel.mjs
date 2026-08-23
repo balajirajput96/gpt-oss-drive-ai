@@ -24,13 +24,13 @@ const imageArgs = imagePaths.flatMap(imagePath => ["-loop", "1", "-t", sceneDura
 const filterParts = imagePaths.map((_, index) => `[${index}:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,zoompan=z='min(zoom+0.00045,1.055)':d=${frameCount}:s=720x1280:fps=30,setsar=1[v${index}]`);
 filterParts.push(`${imagePaths.map((_, index) => `[v${index}]`).join("")}concat=n=${imagePaths.length}:v=1:a=0[base]`);
 const subtitlePath = resolve(captionsPath).replaceAll("\\", "\\\\").replaceAll(":", "\\:").replaceAll("'", "\\'");
-const subtitleFilter = `subtitles='${subtitlePath}':force_style='FontName=Noto Sans Devanagari,FontSize=38,PrimaryColour=&H00FFFFFF,OutlineColour=&H80000000,BorderStyle=1,Outline=2,Shadow=0,Alignment=2,MarginV=84'`;
+const subtitleFilter = `subtitles='${subtitlePath}':force_style='FontName=Noto Sans Devanagari,FontSize=14,PrimaryColour=&H00FFFFFF,OutlineColour=&H80000000,BorderStyle=1,Outline=1,Shadow=0,Alignment=2,MarginV=36'`;
+filterParts.push(`[base]${subtitleFilter}[captioned]`);
 
 const args = [
   "-y", ...imageArgs, "-i", voicePath,
   "-filter_complex", filterParts.join(";"),
-  "-map", "[base]", "-map", `${imagePaths.length}:a:0`,
-  "-vf", subtitleFilter,
+  "-map", "[captioned]", "-map", `${imagePaths.length}:a:0`,
   "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
   "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", outputPath,
 ];

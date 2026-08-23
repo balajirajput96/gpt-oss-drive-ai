@@ -36,8 +36,10 @@
 - [x] Add automated validation that proves lifecycle selection, failure recording, and verified completion advance deterministically without duplicate IDs.
 - [x] Create and verify the connected Google Drive folder hierarchy for 100 batches and provenance metadata.
 - [x] Produce, quality-check, upload, and verify the first Hindi research reel with its research-source metadata.
-- [ ] Create a resumable bounded batch-production workflow with duplicate prevention, failure logging, and checkpoint records.
+- [x] Create a resumable bounded batch-production workflow with duplicate prevention, failure logging, and checkpoint records.
 - [x] Configure an authorized recurring continuation within the supported scheduling limits.
-- [ ] Research, script, render, quality-check, upload, and verify Reel 0002 with its Hindi captions and claim-level source metadata.
+- [x] Research, script, render, quality-check, upload, and verify Reel 0002 with its Hindi captions and claim-level source metadata.
+- [x] Begin the evidence retrieval and unique-angle preparation for the next deterministic item, Reel 0003.
+- [x] Reconcile historical Drive folders labelled Reel 0003 into a single deterministic canonical mapping while preserving all legacy drafts.
 - [x] Reconcile conflicting historical Drive folders labelled Reel 0002 by preserving them as non-canonical drafts and establishing one deterministic canonical mapping.
 - [x] Finish the pending private GitHub push for the verified GPT-OSS Drive AI app once account authentication is restored.

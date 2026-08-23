@@ -1,0 +1,31 @@
+{
+  "reelId": "0002",
+  "status": "passed_pending_drive_video_verification",
+  "render": {
+    "container": "mp4",
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "durationSeconds": 62.01,
+    "fileBytes": 4856582,
+    "sha256": "f935c306fb611cd48dedc0825bf9c2fb3487a2af17785d6d3f8ebf0b9de5a4c4"
+  },
+  "visualQc": {
+    "originalSceneSequence": "passed",
+    "captionPlacement": "passed after one corrective re-render",
+    "sampledFrames": [
+      "15s: lower-third caption readable and subject remains visible",
+      "45s: three-line lower-third caption readable and subject remains visible"
+    ],
+    "contentBoundary": "Visuals are illustrative metaphors, not evidence of a literal neural mechanism or diagnostic claim."
+  },
+  "evidenceQc": {
+    "claimLedger": "REEL-0002_claims.json",
+    "researchFile": "REEL-0002_research.md",
+    "status": "passed"
+  },
+  "nextRequiredAction": "Upload the MP4 and this QC record to canonical Drive folder 1CinfMAWs2CPCdc3IsBTdZONFIoPtw0Al, re-fetch metadata, then mark the registry ID drive_verified."
+}
+
