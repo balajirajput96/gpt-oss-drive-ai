@@ -15,7 +15,9 @@ The private repository’s authenticated GitHub Dependabot page was inspected di
 
 The dependency graph was updated using the exact patched Vite and Vitest version requirements identified in Dependabot, alongside targeted direct upgrades and transitive overrides for the audited production chain. A fresh `pnpm audit --prod --json` completed with **0 critical, 0 high, 0 moderate, and 0 low** findings. `pnpm check` and all **11** Vitest tests passed on the hardened graph.
 
-The authenticated Dependabot review confirmed that the initial alert count was based on the earlier lockfile state. GitHub must asynchronously re-ingest the pushed lockfile before its historical alert count refreshes; no claim is made that its UI count changed before that scan completes.
+The authenticated Dependabot review confirmed that GitHub reprocessed the pushed lockfile: **99 alerts closed** and **42 open** remained. The observed remaining alerts are development-scope findings concentrated in package-manager/build tooling chains (`pnpm`, `tar`, and `postcss`) in `pnpm-lock.yaml`; the current local **production** audit remains zero across critical, high, moderate, and low severities. A complete current-alert inventory and explicit post-refresh disposition remain active tasks.
+
+The second authenticated results page showed that the open findings continue into **moderate** development-only `pnpm` integrity, path traversal, archive extraction, and configuration advisories, plus development `postcss` and `tar` advisory chains. This supports treating the current count as a lockfile/tooling refresh issue rather than a production-runtime exposure, while keeping the complete inventory and post-refresh reconciliation open until the latest local removal/update commit is pushed and scanned.
 
 ## Next remediation order
 
