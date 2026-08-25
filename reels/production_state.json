@@ -311,6 +311,18 @@
         "1VmX2x8wZGxiwyj-b9LPlcjG__C5pqyKQ",
         "1L9cMUgmqN4imShHeBLOC7vESAGvOGzo0"
       ]
+    },
+    "0014": {
+      "driveFolderId": "1rjZ3crsqBT3iAAgL11S2O4RMjue_jgxd",
+      "topic": "ध्यान/अनुभव को नापने में कठिनाई क्या है?",
+      "status": "research_archived",
+      "researchFileId": "1nlBMtcTbSTj5t5x_8Ngq_OglMbTa4GyI",
+      "reconciliationFileId": "1Z6T0RcLEsF784ewcVGPzQG3fbwbPD-2Q",
+      "legacyNonCanonicalFolderIds": [
+        "1EYwce1jIuV4jM0ccL_BqOT2fUhcA6OgS",
+        "1-nXxO8q8hXlmH9mBPCD35OXZxoDsnFBI",
+        "1urXUeUh1txX_AaNjr13xy8XHHWzJr7bH"
+      ]
     }
   },
   "failedReels": [
@@ -379,8 +391,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T10:19:51.250Z",
+  "lastCheckpointAt": "2026-08-25T10:22:04.720Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0014"
 }
