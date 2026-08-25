@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0012",
+  "nextReelId": "0013",
   "completedReelIds": [
     "0001",
     "0002",
@@ -13,7 +13,8 @@
     "0008",
     "0009",
     "0010",
-    "0011"
+    "0011",
+    "0012"
   ],
   "verifiedReels": [
     {
@@ -146,6 +147,18 @@
       "manifestFileId": "1ZKyPCyJRpsJscepsFXUsxdKHsOLDfO0W",
       "verifiedAt": "2026-08-25T10:10:31.955Z",
       "sha256": "4c100c189918068f5362735a3c39543d937f4c4fbfd7a4394aae9fb6cab66324"
+    },
+    {
+      "reelId": "0012",
+      "driveFolderId": "1V5XhL6RpyIV7JcXnCIivmktH9-uG4xF8",
+      "videoFileId": "1LvvXVuziwvCdK_uFuOLZuPol_wTiPKRU",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1De_rSZjlQgF3cMJJJX7s7aQRT9YUkrk8",
+      "verifiedAt": "2026-08-25T10:15:41.755Z",
+      "sha256": "ef7fb73df28030a2ccaff1b9d2ba03ae94bf5efd9136e55ec20436bcae8aa482"
     }
   ],
   "canonicalMappings": {
@@ -266,6 +279,16 @@
       "legacyNonCanonicalArtifactIds": [
         "1mkpQhIQZw2hoEIiavABkT3qdJULHxUhy"
       ]
+    },
+    "0012": {
+      "driveFolderId": "1V5XhL6RpyIV7JcXnCIivmktH9-uG4xF8",
+      "topic": "यादें क्या समय के साथ बदल सकती हैं?",
+      "status": "drive_verified",
+      "legacyNonCanonicalFolderIds": [
+        "1ntonHcLjxtPBDh3Weaexp7bT3ZYWR-1U",
+        "1G__iYq9OkiLANKyQV5vf5bjrYw9pVGNE",
+        "1DgpSQ-qxWICF4K12T4NiGSN3xui0TI14"
+      ]
     }
   },
   "failedReels": [
@@ -334,7 +357,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T10:10:31.955Z",
+  "lastCheckpointAt": "2026-08-25T10:15:41.755Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "ready_for_next",
   "activeReelId": null
