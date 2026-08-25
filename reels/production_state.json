@@ -465,6 +465,15 @@
       "occurredAt": "2026-08-25T09:08:57.638Z",
       "retryCount": 1,
       "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    },
+    {
+      "reelId": "0019",
+      "stage": "researching",
+      "errorCategory": "canonical_id_conflict",
+      "message": "Drive already contains an authoritative Reel 0019 folder 1jo0b5IpSKnHx9DRA96dzH31r_awlx5FP marked complete_drive_verified for the different topic 'क्या आप बातचीत में अगली turn का अंत पहले पहचान लेते हैं?'; existing local/Drive packages about technology-mediated attention are not canonical. Preserve all existing folders and artifacts; do not create, merge, rerender, upload, or advance Reel 0019 until the canonical mapping is reconciled.",
+      "occurredAt": "2026-08-25T12:38:11.022Z",
+      "retryCount": 1,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
     }
   ],
   "driveArchiveArtifacts": [
@@ -504,8 +513,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T11:40:44.350Z",
+  "lastCheckpointAt": "2026-08-25T12:38:11.022Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
+  "runStatus": "blocked",
   "activeReelId": "0019"
 }
