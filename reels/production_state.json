@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0013",
+  "nextReelId": "0014",
   "completedReelIds": [
     "0001",
     "0002",
@@ -14,7 +14,8 @@
     "0009",
     "0010",
     "0011",
-    "0012"
+    "0012",
+    "0013"
   ],
   "verifiedReels": [
     {
@@ -159,6 +160,18 @@
       "manifestFileId": "1De_rSZjlQgF3cMJJJX7s7aQRT9YUkrk8",
       "verifiedAt": "2026-08-25T10:15:41.755Z",
       "sha256": "ef7fb73df28030a2ccaff1b9d2ba03ae94bf5efd9136e55ec20436bcae8aa482"
+    },
+    {
+      "reelId": "0013",
+      "driveFolderId": "1J7HQ4bvfwJMlnhPRAFU9IBaql9nlYLfv",
+      "videoFileId": "1Z0WlMOUXRD7tXmzIDIb6H_xMEukopuu8",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1GIsyOqyqSEAQcYHKmEf4f8azVEYP_MHt",
+      "verifiedAt": "2026-08-25T10:19:51.250Z",
+      "sha256": "38410ad33c286150448e2911914cdffe99e440067b1eaa5fe564bbdef06195d5"
     }
   ],
   "canonicalMappings": {
@@ -289,6 +302,15 @@
         "1G__iYq9OkiLANKyQV5vf5bjrYw9pVGNE",
         "1DgpSQ-qxWICF4K12T4NiGSN3xui0TI14"
       ]
+    },
+    "0013": {
+      "driveFolderId": "1J7HQ4bvfwJMlnhPRAFU9IBaql9nlYLfv",
+      "topic": "यह research result किन लोगों पर लागू होता है?",
+      "status": "drive_verified",
+      "legacyNonCanonicalFolderIds": [
+        "1VmX2x8wZGxiwyj-b9LPlcjG__C5pqyKQ",
+        "1L9cMUgmqN4imShHeBLOC7vESAGvOGzo0"
+      ]
     }
   },
   "failedReels": [
@@ -357,7 +379,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T10:15:41.755Z",
+  "lastCheckpointAt": "2026-08-25T10:19:51.250Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "ready_for_next",
   "activeReelId": null
