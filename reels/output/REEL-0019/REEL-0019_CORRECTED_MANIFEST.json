@@ -1,0 +1,55 @@
+{
+  "reelId": "0019",
+  "canonicalTuple": "Batch_001/MND/L01/Q19",
+  "question": "प्रौद्योगिकी इसे कैसे बदलती है?",
+  "title": "Technology ध्यान को कैसे बदलती है?",
+  "status": "drive_verified",
+  "canonicalDriveFolderId": "1DnbHa5PaQC8nQR9l0QaQUjfr4JcMQoKT",
+  "preservedNonCanonicalFolderIds": [
+    "1jo0b5IpSKnHx9DRA96dzH31r_awlx5FP"
+  ],
+  "correctedArtifacts": {
+    "videoFileId": "1iFt1F_QwCE2iv2xXMTMv2K60S1Vv_n-c",
+    "captionsFileId": "1uNJDlldTQh6ck4SzKRoQsYEuZORR-Ibo",
+    "qcFileId": "1R0ND71BI9Ft2o3PES_01DJi9VPlILHU9",
+    "reconciliationFileId": "1r7oVrFjVFwT_w4mjD9Uq9xx0JItCtXxX"
+  },
+  "preservedSourceArtifacts": {
+    "originalCandidateManifestFileId": "1H0X2udycUnXamjBHmSXKLir19Yd23YSp",
+    "scriptFileId": "1xCnKDbGX4fRNmeEQgdr7yO-7b-CcaHQN",
+    "researchSourcesFileId": "1ynmao27s2Sd0I6GGyBEBi67ER2R3TlhA",
+    "narrationFileId": "1zrdAaV_Sy01guuC3kEv1MaYVMjnv2Krj",
+    "visualSourceLogFileId": "1jh3BoKhiOoIxz8U-T6ek8VD0y2mWHMLt"
+  },
+  "checksums": {
+    "videoSha256": "f60e8423af00388a1743008cb5f08d57ed06bf9526140bb27eb72a8c69e72882",
+    "videoMd5": "92dd50be1883ae46913ca36fd5a59caa",
+    "captionsSha256": "9f09119b29b77704a69bdf531c1f4017d1173ffcd426363f28e83fc163219856",
+    "captionsMd5": "981154ec0e1040001d892d14be914d46"
+  },
+  "technical": {
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 720,
+    "height": 1280,
+    "durationSeconds": 62.333333,
+    "captionCueCount": 7,
+    "captionMaxEndSeconds": 62.2
+  },
+  "runnerVerification": {
+    "status": "accepted",
+    "nextReelId": "0020"
+  },
+  "provenance": {
+    "correction": "Original candidate visual sequence and audio retained; only the subtitle band was masked and re-rendered using the transcript-aligned non-overlapping SRT.",
+    "imageGenerationQuotaBypass": false,
+    "externalStockOrLogoUsed": false,
+    "recognizablePersonUsed": false
+  },
+  "safety": {
+    "contextDependentReviewClaim": true,
+    "taskSpecificExperimentClaim": true,
+    "noUniversalTechnologyHarmClaim": true,
+    "noDiagnosticOrTreatmentClaim": true
+  }
+}

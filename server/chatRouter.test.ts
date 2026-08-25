@@ -26,33 +26,64 @@ const state = vi.hoisted(() => ({
 }));
 
 vi.mock("./db", () => ({
-  listChatSessions: async (userId: number) => state.sessions.filter(session => session.userId === userId),
-  getChatSession: async (userId: number, sessionId: number) => state.sessions.find(session => session.id === sessionId && session.userId === userId),
+  listChatSessions: async (userId: number) =>
+    state.sessions.filter(session => session.userId === userId),
+  getChatSession: async (userId: number, sessionId: number) =>
+    state.sessions.find(
+      session => session.id === sessionId && session.userId === userId
+    ),
   createChatSession: async (userId: number, title: string, model?: string) => {
-    const session: SessionRecord = { id: state.nextSessionId++, userId, title, model: model ?? null, createdAt: new Date(), updatedAt: new Date() };
+    const session: SessionRecord = {
+      id: state.nextSessionId++,
+      userId,
+      title,
+      model: model ?? null,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    };
     state.sessions.push(session);
     return session;
   },
   getChatMessages: async (userId: number, sessionId: number) => {
-    const ownsSession = state.sessions.some(session => session.id === sessionId && session.userId === userId);
-    return ownsSession ? state.messages.filter(message => message.sessionId === sessionId) : [];
+    const ownsSession = state.sessions.some(
+      session => session.id === sessionId && session.userId === userId
+    );
+    return ownsSession
+      ? state.messages.filter(message => message.sessionId === sessionId)
+      : [];
   },
-  addChatMessage: async (sessionId: number, role: "user" | "assistant", content: string) => {
-    const message: MessageRecord = { id: state.nextMessageId++, sessionId, role, content, createdAt: new Date() };
+  addChatMessage: async (
+    sessionId: number,
+    role: "user" | "assistant",
+    content: string
+  ) => {
+    const message: MessageRecord = {
+      id: state.nextMessageId++,
+      sessionId,
+      role,
+      content,
+      createdAt: new Date(),
+    };
     state.messages.push(message);
     return message;
   },
   deleteChatSession: async (userId: number, sessionId: number) => {
-    const index = state.sessions.findIndex(session => session.id === sessionId && session.userId === userId);
+    const index = state.sessions.findIndex(
+      session => session.id === sessionId && session.userId === userId
+    );
     if (index < 0) return false;
     state.sessions.splice(index, 1);
-    state.messages = state.messages.filter(message => message.sessionId !== sessionId);
+    state.messages = state.messages.filter(
+      message => message.sessionId !== sessionId
+    );
     return true;
   },
 }));
 
 vi.mock("./_core/llm", () => ({
-  invokeLLM: vi.fn(async () => ({ choices: [{ message: { content: "Server-side test response" } }] })),
+  invokeLLM: vi.fn(async () => ({
+    choices: [{ message: { content: "Server-side test response" } }],
+  })),
   listLLMModels: vi.fn(async () => ({ data: [{ id: "gemini-test" }] })),
 }));
 
@@ -86,22 +117,35 @@ describe("chat router contracts", () => {
 
   it("rejects invalid empty, oversize, invalid-session, and blank-model inputs", async () => {
     const caller = appRouter.createCaller(contextFor(1));
-    await expect(caller.chat.complete({ content: "" })).rejects.toMatchObject({ code: "BAD_REQUEST" });
-    await expect(caller.chat.complete({ content: "x".repeat(8001) })).rejects.toMatchObject({ code: "BAD_REQUEST" });
-    await expect(caller.chat.complete({ content: "Hi", sessionId: 0 })).rejects.toMatchObject({ code: "BAD_REQUEST" });
-    await expect(caller.chat.complete({ content: "Hi", model: " " })).rejects.toMatchObject({ code: "BAD_REQUEST" });
+    await expect(caller.chat.complete({ content: "" })).rejects.toMatchObject({
+      code: "BAD_REQUEST",
+    });
+    await expect(
+      caller.chat.complete({ content: "x".repeat(8001) })
+    ).rejects.toMatchObject({ code: "BAD_REQUEST" });
+    await expect(
+      caller.chat.complete({ content: "Hi", sessionId: 0 })
+    ).rejects.toMatchObject({ code: "BAD_REQUEST" });
+    await expect(
+      caller.chat.complete({ content: "Hi", model: " " })
+    ).rejects.toMatchObject({ code: "BAD_REQUEST" });
   });
 
   it("persists a user request and assistant response in ordered history", async () => {
     const caller = appRouter.createCaller(contextFor(1));
-    const result = await caller.chat.complete({ content: "Explain protected routes", model: "gemini-test" });
+    const result = await caller.chat.complete({
+      content: "Explain protected routes",
+      model: "gemini-test",
+    });
 
     expect(result.session.title).toBe("Explain protected routes");
     expect(result.session.model).toBe("gemini-test");
     expect(result.userMessage.role).toBe("user");
     expect(result.assistantMessage.content).toBe("Server-side test response");
     await expect(caller.chat.listSessions()).resolves.toHaveLength(1);
-    await expect(caller.chat.getMessages({ sessionId: result.session.id })).resolves.toMatchObject([
+    await expect(
+      caller.chat.getMessages({ sessionId: result.session.id })
+    ).resolves.toMatchObject([
       { role: "user", content: "Explain protected routes" },
       { role: "assistant", content: "Server-side test response" },
     ]);
@@ -112,8 +156,12 @@ describe("chat router contracts", () => {
     const outsider = appRouter.createCaller(contextFor(2));
     const result = await owner.chat.complete({ content: "Private note" });
 
-    await expect(outsider.chat.getMessages({ sessionId: result.session.id })).rejects.toMatchObject({ code: "NOT_FOUND" });
-    await expect(outsider.chat.deleteSession({ sessionId: result.session.id })).resolves.toEqual({ deleted: false });
+    await expect(
+      outsider.chat.getMessages({ sessionId: result.session.id })
+    ).rejects.toMatchObject({ code: "NOT_FOUND" });
+    await expect(
+      outsider.chat.deleteSession({ sessionId: result.session.id })
+    ).resolves.toEqual({ deleted: false });
     await expect(outsider.chat.listSessions()).resolves.toEqual([]);
   });
 });

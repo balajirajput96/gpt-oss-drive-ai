@@ -7,11 +7,11 @@ describe("Gemini server secret", () => {
 
     const response = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models?key=${encodeURIComponent(apiKey ?? "")}`,
-      { signal: AbortSignal.timeout(12_000) },
+      { signal: AbortSignal.timeout(12_000) }
     );
 
     expect(response.ok).toBe(true);
-    const payload = await response.json() as { models?: unknown[] };
+    const payload = (await response.json()) as { models?: unknown[] };
     expect(Array.isArray(payload.models)).toBe(true);
   }, 20_000);
 });

@@ -1,0 +1,7 @@
+# Reel 0019 Canonical Mapping Reconciliation
+
+The registry requires `Batch_001 / MND / L01 / Q19`, **“प्रौद्योगिकी इसे कैसे बदलती है?”**. Drive folder `1jo0b5IpSKnHx9DRA96dzH31r_awlx5FP` remains preserved as a noncanonical conflict because its conversation-turn-taking topic is different. The preserved folder `1DnbHa5PaQC8nQR9l0QaQUjfr4JcMQoKT` is registry-aligned: its original manifest identifies technology-mediated attention and names the review and experiment sources matching the bounded local topic.
+
+The prior candidate could not be adopted because its SRT had a documented overlap. The corrected package does not reuse the invalid source-note cue. It retains the original candidate video sequence and audio while replacing only the subtitle band with seven transcript-aligned, Hindi, non-overlapping cues. Its local technical decoding, caption validation, and SHA-256 checks passed.
+
+No historical Drive item has been moved, renamed, deleted, or overwritten. The candidate’s new correction artifacts were re-fetched with the expected parent/metadata, and the deterministic runner accepted canonical folder `1DnbHa5PaQC8nQR9l0QaQUjfr4JcMQoKT`, corrected video `1iFt1F_QwCE2iv2xXMTMv2K60S1Vv_n-c`, corrected manifest `1FUcNqOpkoP8-d4AdmiPJRUWwrROGmhQV`, and corrected SHA-256 `f60e8423af00388a1743008cb5f08d57ed06bf9526140bb27eb72a8c69e72882`. Reel 0019 is now Drive-verified; the conflicting historical folder remains preserved and noncanonical.

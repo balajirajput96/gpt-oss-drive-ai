@@ -19,4 +19,3 @@ The official Antigravity CLI was installed and verified in the development envir
 ## GitHub
 
 GitHub CLI access is available for the authorized `balajirajput96` account and will be used to create or update the private source repository after app validation.
-

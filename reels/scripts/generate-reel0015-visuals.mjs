@@ -1,6 +1,49 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { spawnSync } from "node:child_process";
-const src="/home/ubuntu/reel-production-assets/REEL-0015/visual-src", out="/home/ubuntu/webdev-static-assets"; mkdirSync(src,{recursive:true}); mkdirSync(out,{recursive:true});
-const svg=(n,a)=>`<svg width="720" height="1280" viewBox="0 0 720 1280" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071425"/><stop offset="1" stop-color="#462162"/></linearGradient></defs><rect width="720" height="1280" fill="url(#g)"/><circle cx="360" cy="570" r="360" fill="#76e3d5" opacity=".09"/>${a}<rect x="28" y="28" width="664" height="1224" rx="44" fill="none" stroke="#d7fff9" opacity=".18" stroke-width="2"/></svg>`;
-const art=[`<g stroke="#8be8df" stroke-width="6" fill="none"><circle cx="360" cy="460" r="85"/><path d="M360 545V720M360 545L165 750M360 545L555 750"/></g><circle cx="165" cy="750" r="48" fill="#f7ca75"/><circle cx="360" cy="720" r="48" fill="#bcadff"/><circle cx="555" cy="750" r="48" fill="#74dfe0"/>`,`<g fill="#16376a" stroke="#bffbf1" stroke-width="5"><circle cx="220" cy="480" r="78"/><circle cx="500" cy="480" r="78"/><circle cx="360" cy="720" r="78"/></g><path d="M290 530h140M360 558v84" stroke="#ffcf78" stroke-width="7"/>`,`<g fill="none" stroke="#8ce8df" stroke-width="7"><path d="M160 430h160v180H160zM400 670h160v180H400zM320 520h80M400 760h-80"/></g><circle cx="360" cy="600" r="35" fill="#ffcf78"/>`,`<g fill="none" stroke="#8ce8df" stroke-width="6"><path d="M130 780C210 390 300 980 360 620S510 320 600 760"/><path d="M120 940h480"/></g><circle cx="220" cy="600" r="30" fill="#ffcf78"/><circle cx="500" cy="520" r="30" fill="#bcadff"/>`,`<g fill="#173765" stroke="#d5fff8" stroke-width="5"><rect x="130" y="450" width="190" height="150" rx="28"/><rect x="400" y="450" width="190" height="150" rx="28"/></g><path d="M225 650v180M495 650v180M225 830h270" stroke="#8be8df" stroke-width="7"/><circle cx="360" cy="830" r="28" fill="#ffcf78"/>`,`<g fill="none" stroke="#8ce8df" stroke-width="7"><circle cx="330" cy="590" r="150"/><path d="M440 700l145 145"/></g><g fill="#173765" stroke="#d8fff9" stroke-width="4"><circle cx="240" cy="530" r="36"/><circle cx="390" cy="470" r="36"/><circle cx="270" cy="690" r="36"/></g><circle cx="460" cy="760" r="44" fill="#ffcf78"/>`];
-const scenes=[]; for(const [i,a] of art.entries()){const no=String(i+1).padStart(2,"0"),s=`${src}/reel0015_scene${no}.svg`,p=`${out}/reel0015_scene${no}.png`;writeFileSync(s,svg(no,a));const r=spawnSync("ffmpeg",["-y","-i",s,"-frames:v","1",p],{encoding:"utf8"});if(r.status)throw Error(r.stderr);scenes.push({scene:no,source:"deterministic_svg",sourcePath:s,outputPath:p,containsText:false});}writeFileSync("/home/ubuntu/reel-production-assets/REEL-0015/visual_provenance.json",JSON.stringify({reelId:"0015",visualRoute:"original_deterministic_svg_motion_graphics",embeddedText:false,imageGenerationUsed:false,quotaOrAccessControlBypass:false,scenes},null,2));
+const src = "/home/ubuntu/reel-production-assets/REEL-0015/visual-src",
+  out = "/home/ubuntu/webdev-static-assets";
+mkdirSync(src, { recursive: true });
+mkdirSync(out, { recursive: true });
+const svg = (n, a) =>
+  `<svg width="720" height="1280" viewBox="0 0 720 1280" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071425"/><stop offset="1" stop-color="#462162"/></linearGradient></defs><rect width="720" height="1280" fill="url(#g)"/><circle cx="360" cy="570" r="360" fill="#76e3d5" opacity=".09"/>${a}<rect x="28" y="28" width="664" height="1224" rx="44" fill="none" stroke="#d7fff9" opacity=".18" stroke-width="2"/></svg>`;
+const art = [
+  `<g stroke="#8be8df" stroke-width="6" fill="none"><circle cx="360" cy="460" r="85"/><path d="M360 545V720M360 545L165 750M360 545L555 750"/></g><circle cx="165" cy="750" r="48" fill="#f7ca75"/><circle cx="360" cy="720" r="48" fill="#bcadff"/><circle cx="555" cy="750" r="48" fill="#74dfe0"/>`,
+  `<g fill="#16376a" stroke="#bffbf1" stroke-width="5"><circle cx="220" cy="480" r="78"/><circle cx="500" cy="480" r="78"/><circle cx="360" cy="720" r="78"/></g><path d="M290 530h140M360 558v84" stroke="#ffcf78" stroke-width="7"/>`,
+  `<g fill="none" stroke="#8ce8df" stroke-width="7"><path d="M160 430h160v180H160zM400 670h160v180H400zM320 520h80M400 760h-80"/></g><circle cx="360" cy="600" r="35" fill="#ffcf78"/>`,
+  `<g fill="none" stroke="#8ce8df" stroke-width="6"><path d="M130 780C210 390 300 980 360 620S510 320 600 760"/><path d="M120 940h480"/></g><circle cx="220" cy="600" r="30" fill="#ffcf78"/><circle cx="500" cy="520" r="30" fill="#bcadff"/>`,
+  `<g fill="#173765" stroke="#d5fff8" stroke-width="5"><rect x="130" y="450" width="190" height="150" rx="28"/><rect x="400" y="450" width="190" height="150" rx="28"/></g><path d="M225 650v180M495 650v180M225 830h270" stroke="#8be8df" stroke-width="7"/><circle cx="360" cy="830" r="28" fill="#ffcf78"/>`,
+  `<g fill="none" stroke="#8ce8df" stroke-width="7"><circle cx="330" cy="590" r="150"/><path d="M440 700l145 145"/></g><g fill="#173765" stroke="#d8fff9" stroke-width="4"><circle cx="240" cy="530" r="36"/><circle cx="390" cy="470" r="36"/><circle cx="270" cy="690" r="36"/></g><circle cx="460" cy="760" r="44" fill="#ffcf78"/>`,
+];
+const scenes = [];
+for (const [i, a] of art.entries()) {
+  const no = String(i + 1).padStart(2, "0"),
+    s = `${src}/reel0015_scene${no}.svg`,
+    p = `${out}/reel0015_scene${no}.png`;
+  writeFileSync(s, svg(no, a));
+  const r = spawnSync("ffmpeg", ["-y", "-i", s, "-frames:v", "1", p], {
+    encoding: "utf8",
+  });
+  if (r.status) throw Error(r.stderr);
+  scenes.push({
+    scene: no,
+    source: "deterministic_svg",
+    sourcePath: s,
+    outputPath: p,
+    containsText: false,
+  });
+}
+writeFileSync(
+  "/home/ubuntu/reel-production-assets/REEL-0015/visual_provenance.json",
+  JSON.stringify(
+    {
+      reelId: "0015",
+      visualRoute: "original_deterministic_svg_motion_graphics",
+      embeddedText: false,
+      imageGenerationUsed: false,
+      quotaOrAccessControlBypass: false,
+      scenes,
+    },
+    null,
+    2
+  )
+);

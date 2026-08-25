@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0019",
+  "nextReelId": "0020",
   "completedReelIds": [
     "0001",
     "0002",
@@ -20,7 +20,8 @@
     "0015",
     "0016",
     "0017",
-    "0018"
+    "0018",
+    "0019"
   ],
   "verifiedReels": [
     {
@@ -237,6 +238,18 @@
       "manifestFileId": "1RX8kLA6rFIFopyQg5r3LDr8Wo3QKSmYO",
       "verifiedAt": "2026-08-25T11:20:41.564Z",
       "sha256": "a7dedd502e7177b17828403ef8b2e434472bebe3c3e49319bb3db901159e4bde"
+    },
+    {
+      "reelId": "0019",
+      "driveFolderId": "1DnbHa5PaQC8nQR9l0QaQUjfr4JcMQoKT",
+      "videoFileId": "1iFt1F_QwCE2iv2xXMTMv2K60S1Vv_n-c",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1FUcNqOpkoP8-d4AdmiPJRUWwrROGmhQV",
+      "verifiedAt": "2026-08-25T16:10:56.576Z",
+      "sha256": "f60e8423af00388a1743008cb5f08d57ed06bf9526140bb27eb72a8c69e72882"
     }
   ],
   "canonicalMappings": {
@@ -317,9 +330,7 @@
         "1hTHUL-ASp7pBXcJBaP99QbAf7OHxHuZP",
         "1S94P7Oo4jCdaOqd_r3jR3fa8RV39CWBT"
       ],
-      "legacyNonCanonicalArtifactIds": [
-        "1_Q5Uk1Kt8pPkH2VgJ48qry_c7i1f1b6y"
-      ]
+      "legacyNonCanonicalArtifactIds": ["1_Q5Uk1Kt8pPkH2VgJ48qry_c7i1f1b6y"]
     },
     "0009": {
       "driveFolderId": "1Rt5Lu5DuuMn8U91o20eXluJJZYIaAjhn",
@@ -335,12 +346,8 @@
       "driveFolderId": "1EKLMwTXS8PNVqPaEfBjVbeW0tfq5-HwN",
       "topic": "क्या यह कारण है या केवल संबंध?",
       "status": "drive_verified",
-      "legacyNonCanonicalFolderIds": [
-        "1o_VOEOAF7NEA-RF8b-q1I0PN9fO1iJJ-"
-      ],
-      "legacyNonCanonicalArtifactIds": [
-        "1BfVjLBL3eNWgrNGrKy6VTH7c6qC47q35"
-      ]
+      "legacyNonCanonicalFolderIds": ["1o_VOEOAF7NEA-RF8b-q1I0PN9fO1iJJ-"],
+      "legacyNonCanonicalArtifactIds": ["1BfVjLBL3eNWgrNGrKy6VTH7c6qC47q35"]
     },
     "0011": {
       "driveFolderId": "11abkm3_w7J0x60xBXDZEfVMatTBJbK8k",
@@ -354,9 +361,7 @@
         "1LbecuDUWTZNGs77gPVrNQJaUm-zGvlJN",
         "1EIMusEIx7Nd3BEKwlGJn9G9_fimzTPcJ"
       ],
-      "legacyNonCanonicalArtifactIds": [
-        "1mkpQhIQZw2hoEIiavABkT3qdJULHxUhy"
-      ]
+      "legacyNonCanonicalArtifactIds": ["1mkpQhIQZw2hoEIiavABkT3qdJULHxUhy"]
     },
     "0012": {
       "driveFolderId": "1V5XhL6RpyIV7JcXnCIivmktH9-uG4xF8",
@@ -436,6 +441,13 @@
         "1SmrrkuOLVeNa8Z3Gg0uJGnKdOoAJ13fJ",
         "1yDapQpUqbNj--ciuD7ryjm05sW9JfcUO"
       ]
+    },
+    "0019": {
+      "driveFolderId": "1DnbHa5PaQC8nQR9l0QaQUjfr4JcMQoKT",
+      "topic": "प्रौद्योगिकी इसे कैसे बदलती है?",
+      "status": "drive_verified",
+      "reconciliationFileId": "1r7oVrFjVFwT_w4mjD9Uq9xx0JItCtXxX",
+      "legacyNonCanonicalFolderIds": ["1jo0b5IpSKnHx9DRA96dzH31r_awlx5FP"]
     }
   },
   "failedReels": [
@@ -522,8 +534,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T15:39:52.914Z",
+  "lastCheckpointAt": "2026-08-25T16:10:56.576Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "blocked",
-  "activeReelId": "0019"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

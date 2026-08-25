@@ -11,6 +11,13 @@ build/
 *.tsbuildinfo
 coverage/
 
+# Immutable evidence archives and generated reel packages
+reels/output/
+reels/research/
+reels/checkpoints/
+reels/*.md
+SECURITY_*.md
+
 # Package files
 package-lock.json
 pnpm-lock.yaml

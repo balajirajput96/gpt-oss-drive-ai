@@ -47,10 +47,7 @@
       "indexes": {
         "chat_messages_session_created_idx": {
           "name": "chat_messages_session_created_idx",
-          "columns": [
-            "sessionId",
-            "createdAt"
-          ],
+          "columns": ["sessionId", "createdAt"],
           "isUnique": false
         }
       },
@@ -58,9 +55,7 @@
       "compositePrimaryKeys": {
         "chat_messages_id": {
           "name": "chat_messages_id",
-          "columns": [
-            "id"
-          ]
+          "columns": ["id"]
         }
       },
       "uniqueConstraints": {},
@@ -118,10 +113,7 @@
       "indexes": {
         "chat_sessions_user_updated_idx": {
           "name": "chat_sessions_user_updated_idx",
-          "columns": [
-            "userId",
-            "updatedAt"
-          ],
+          "columns": ["userId", "updatedAt"],
           "isUnique": false
         }
       },
@@ -129,9 +121,7 @@
       "compositePrimaryKeys": {
         "chat_sessions_id": {
           "name": "chat_sessions_id",
-          "columns": [
-            "id"
-          ]
+          "columns": ["id"]
         }
       },
       "uniqueConstraints": {},
@@ -214,17 +204,13 @@
       "compositePrimaryKeys": {
         "users_id": {
           "name": "users_id",
-          "columns": [
-            "id"
-          ]
+          "columns": ["id"]
         }
       },
       "uniqueConstraints": {
         "users_openId_unique": {
           "name": "users_openId_unique",
-          "columns": [
-            "openId"
-          ]
+          "columns": ["openId"]
         }
       },
       "checkConstraint": {}

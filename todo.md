@@ -74,3 +74,10 @@
 - [x] Activate deterministic Reel 0018, reconcile any historical Drive drafts, and archive an evidence-bounded canonical research package before media production.
 - [x] Produce canonical Reel 0018 through evidence-safe Hindi script, narration, original visuals, captioned render, QC, canonical Drive verification, and deterministic lifecycle advancement.
 - [x] Correct Reel 0018 caption completeness against the verified narration transcript, re-render, recompute checksum, refresh canonical Drive artifacts, and re-verify deterministic lifecycle state without advancing past Reel 0018 prematurely.
+- [x] Audit current local/GitHub branch, CI, workflow, connector, CLI, configuration, and runtime evidence; catalog only confirmed reachable failures before remediation.
+- [ ] Repair every confirmed reachable repository, CI, integration, configuration, or validation failure with regression coverage and without weakening security controls.
+- [x] Rebase safely only if the fetched upstream/base relationship requires it after all pending repairs validate; otherwise record why no rebase is necessary.
+- [x] Repair preserved Reel 0019’s verified caption-timing overlap by producing a transcript-preserving corrected captioned render, re-running technical/caption QC, and completing canonical-mapping reconciliation without altering conflicting historical folders.
+- [x] Normalize source and configuration formatting, while excluding immutable reel evidence archives from code-formatting checks so the formatter gate is meaningful and non-destructive.
+- [ ] Add a least-privilege first-party GitHub Actions validation workflow because the repository has no workflow files, then verify its real run after push.
+- [x] Preserve and document the current Dependabot alert status: repository-level alert enumeration is blocked by GitHub API 403 despite authenticated GitHub access, so no alert may be changed without the required security-alert permission.

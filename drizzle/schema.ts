@@ -1,4 +1,12 @@
-import { index, int, mysqlEnum, mysqlTable, text, timestamp, varchar } from "drizzle-orm/mysql-core";
+import {
+  index,
+  int,
+  mysqlEnum,
+  mysqlTable,
+  text,
+  timestamp,
+  varchar,
+} from "drizzle-orm/mysql-core";
 
 /**
  * Core user table backing auth flow.
@@ -35,7 +43,9 @@ export const chatSessions = mysqlTable(
     createdAt: timestamp("createdAt").defaultNow().notNull(),
     updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
   },
-  table => [index("chat_sessions_user_updated_idx").on(table.userId, table.updatedAt)],
+  table => [
+    index("chat_sessions_user_updated_idx").on(table.userId, table.updatedAt),
+  ]
 );
 
 export const chatMessages = mysqlTable(
@@ -47,7 +57,12 @@ export const chatMessages = mysqlTable(
     content: text("content").notNull(),
     createdAt: timestamp("createdAt").defaultNow().notNull(),
   },
-  table => [index("chat_messages_session_created_idx").on(table.sessionId, table.createdAt)],
+  table => [
+    index("chat_messages_session_created_idx").on(
+      table.sessionId,
+      table.createdAt
+    ),
+  ]
 );
 
 export type ChatSession = typeof chatSessions.$inferSelect;

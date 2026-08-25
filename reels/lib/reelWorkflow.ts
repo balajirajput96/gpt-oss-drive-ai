@@ -1,7 +1,14 @@
 import { existsSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 
-export type ReelLifecycle = "planned" | "researching" | "scripted" | "assets_ready" | "rendered" | "qc_passed" | "drive_verified";
+export type ReelLifecycle =
+  | "planned"
+  | "researching"
+  | "scripted"
+  | "assets_ready"
+  | "rendered"
+  | "qc_passed"
+  | "drive_verified";
 
 export type RegistryEntry = {
   reelId: string;
@@ -65,7 +72,12 @@ export type ProductionState = {
   driveArchiveArtifacts?: DriveArchiveArtifact[];
   lastCheckpointAt: string | null;
   driveRootId: string | null;
-  runStatus: "initialized" | "researching" | "blocked" | "ready_for_next" | "complete";
+  runStatus:
+    | "initialized"
+    | "researching"
+    | "blocked"
+    | "ready_for_next"
+    | "complete";
 };
 
 export type Program = {
@@ -98,28 +110,45 @@ function saveState(rootDir: string, state: ProductionState) {
 
 function assertProgramIntegrity(program: Program, expectedEntryCount = 3000) {
   const reelIds = program.registry.map(entry => entry.reelId);
-  if (program.registry.length !== expectedEntryCount || new Set(reelIds).size !== expectedEntryCount) {
-    throw new Error(`Registry must contain ${expectedEntryCount} unique entries.`);
+  if (
+    program.registry.length !== expectedEntryCount ||
+    new Set(reelIds).size !== expectedEntryCount
+  ) {
+    throw new Error(
+      `Registry must contain ${expectedEntryCount} unique entries.`
+    );
   }
   if (program.state.targetReelCount !== expectedEntryCount) {
-    throw new Error("State targetReelCount does not match registry cardinality.");
+    throw new Error(
+      "State targetReelCount does not match registry cardinality."
+    );
   }
   for (const completedId of program.state.completedReelIds) {
-    if (!reelIds.includes(completedId)) throw new Error(`Completed ID ${completedId} is absent from registry.`);
+    if (!reelIds.includes(completedId))
+      throw new Error(`Completed ID ${completedId} is absent from registry.`);
   }
 }
 
-export function loadProgram(rootDir: string, expectedEntryCount = 3000): Program {
+export function loadProgram(
+  rootDir: string,
+  expectedEntryCount = 3000
+): Program {
   const reelsDir = resolve(rootDir, "reels");
   for (const requiredDocument of REQUIRED_DOCUMENTS) {
     if (!existsSync(resolve(reelsDir, requiredDocument))) {
-      throw new Error(`Missing required evidence or workflow document: ${requiredDocument}`);
+      throw new Error(
+        `Missing required evidence or workflow document: ${requiredDocument}`
+      );
     }
   }
   const program: Program = {
     rootDir,
-    registry: readJson<RegistryEntry[]>(resolve(reelsDir, "reel_registry.json")),
-    state: readJson<ProductionState>(resolve(reelsDir, "production_state.json")),
+    registry: readJson<RegistryEntry[]>(
+      resolve(reelsDir, "reel_registry.json")
+    ),
+    state: readJson<ProductionState>(
+      resolve(reelsDir, "production_state.json")
+    ),
   };
   assertProgramIntegrity(program, expectedEntryCount);
   return program;
@@ -127,10 +156,17 @@ export function loadProgram(rootDir: string, expectedEntryCount = 3000): Program
 
 export function selectNextReel(program: Program): RegistryEntry | null {
   if (!program.state.nextReelId) return null;
-  const next = program.registry.find(entry => entry.reelId === program.state.nextReelId);
-  if (!next) throw new Error(`nextReelId ${program.state.nextReelId} is absent from registry.`);
+  const next = program.registry.find(
+    entry => entry.reelId === program.state.nextReelId
+  );
+  if (!next)
+    throw new Error(
+      `nextReelId ${program.state.nextReelId} is absent from registry.`
+    );
   if (program.state.completedReelIds.includes(next.reelId)) {
-    throw new Error(`nextReelId ${next.reelId} is already completed; checkpoint is inconsistent.`);
+    throw new Error(
+      `nextReelId ${next.reelId} is already completed; checkpoint is inconsistent.`
+    );
   }
   return next;
 }
@@ -139,8 +175,13 @@ export function beginNextReel(rootDir: string, expectedEntryCount = 3000) {
   const program = loadProgram(rootDir, expectedEntryCount);
   const next = selectNextReel(program);
   if (!next) return null;
-  if (program.state.activeReelId && program.state.activeReelId !== next.reelId) {
-    throw new Error(`Active reel ${program.state.activeReelId} must be resolved before starting ${next.reelId}.`);
+  if (
+    program.state.activeReelId &&
+    program.state.activeReelId !== next.reelId
+  ) {
+    throw new Error(
+      `Active reel ${program.state.activeReelId} must be resolved before starting ${next.reelId}.`
+    );
   }
   program.state.activeReelId = next.reelId;
   program.state.runStatus = "researching";
@@ -149,11 +190,20 @@ export function beginNextReel(rootDir: string, expectedEntryCount = 3000) {
   return next;
 }
 
-export function recordFailure(rootDir: string, stage: ReelLifecycle, errorCategory: string, message: string, expectedEntryCount = 3000) {
+export function recordFailure(
+  rootDir: string,
+  stage: ReelLifecycle,
+  errorCategory: string,
+  message: string,
+  expectedEntryCount = 3000
+) {
   const program = loadProgram(rootDir, expectedEntryCount);
   const activeReelId = program.state.activeReelId ?? program.state.nextReelId;
-  if (!activeReelId) throw new Error("No active reel exists to record a failure.");
-  const retryCount = program.state.failedReels.filter(record => record.reelId === activeReelId).length + 1;
+  if (!activeReelId)
+    throw new Error("No active reel exists to record a failure.");
+  const retryCount =
+    program.state.failedReels.filter(record => record.reelId === activeReelId)
+      .length + 1;
   const failure: FailureRecord = {
     reelId: activeReelId,
     stage,
@@ -161,7 +211,8 @@ export function recordFailure(rootDir: string, stage: ReelLifecycle, errorCatego
     message,
     occurredAt: new Date().toISOString(),
     retryCount,
-    nextSafeAction: "Retry the same reel ID after correcting the recorded failure; do not advance the registry.",
+    nextSafeAction:
+      "Retry the same reel ID after correcting the recorded failure; do not advance the registry.",
   };
   program.state.failedReels.push(failure);
   program.state.activeReelId = activeReelId;
@@ -171,21 +222,43 @@ export function recordFailure(rootDir: string, stage: ReelLifecycle, errorCatego
   return failure;
 }
 
-export function markDriveVerified(rootDir: string, verification: { videoFileId: string; metadataFileId: string; sha256: string; canonicalFolderId?: string }, expectedEntryCount = 3000) {
-  if (!verification.videoFileId || !verification.metadataFileId || !verification.sha256) {
-    throw new Error("Drive verification requires videoFileId, metadataFileId, and SHA-256 checksum.");
+export function markDriveVerified(
+  rootDir: string,
+  verification: {
+    videoFileId: string;
+    metadataFileId: string;
+    sha256: string;
+    canonicalFolderId?: string;
+  },
+  expectedEntryCount = 3000
+) {
+  if (
+    !verification.videoFileId ||
+    !verification.metadataFileId ||
+    !verification.sha256
+  ) {
+    throw new Error(
+      "Drive verification requires videoFileId, metadataFileId, and SHA-256 checksum."
+    );
   }
   const program = loadProgram(rootDir, expectedEntryCount);
   const reel = selectNextReel(program);
   if (!reel || program.state.activeReelId !== reel.reelId) {
-    throw new Error("The next reel must be active before it can be marked Drive-verified.");
+    throw new Error(
+      "The next reel must be active before it can be marked Drive-verified."
+    );
   }
   if (program.state.completedReelIds.includes(reel.reelId)) {
     throw new Error(`Reel ${reel.reelId} is already verified.`);
   }
   const canonicalMapping = program.state.canonicalMappings?.[reel.reelId];
-  if (canonicalMapping && verification.canonicalFolderId !== canonicalMapping.driveFolderId) {
-    throw new Error(`Reel ${reel.reelId} must be verified in its canonical Drive folder ${canonicalMapping.driveFolderId}.`);
+  if (
+    canonicalMapping &&
+    verification.canonicalFolderId !== canonicalMapping.driveFolderId
+  ) {
+    throw new Error(
+      `Reel ${reel.reelId} must be verified in its canonical Drive folder ${canonicalMapping.driveFolderId}.`
+    );
   }
   if (canonicalMapping) canonicalMapping.status = "drive_verified";
   program.state.completedReelIds.push(reel.reelId);
@@ -193,7 +266,10 @@ export function markDriveVerified(rootDir: string, verification: { videoFileId: 
     ...(program.state.verifiedReels ?? []),
     {
       reelId: reel.reelId,
-      driveFolderId: verification.canonicalFolderId ?? program.state.driveRootId ?? "unmapped",
+      driveFolderId:
+        verification.canonicalFolderId ??
+        program.state.driveRootId ??
+        "unmapped",
       videoFileId: verification.videoFileId,
       scriptFileId: "recorded_in_metadata",
       captionsFileId: "recorded_in_metadata",
@@ -204,7 +280,9 @@ export function markDriveVerified(rootDir: string, verification: { videoFileId: 
       sha256: verification.sha256,
     },
   ];
-  const next = program.registry.find(entry => !program.state.completedReelIds.includes(entry.reelId));
+  const next = program.registry.find(
+    entry => !program.state.completedReelIds.includes(entry.reelId)
+  );
   program.state.nextReelId = next?.reelId ?? null;
   program.state.activeReelId = null;
   program.state.runStatus = next ? "ready_for_next" : "complete";
@@ -213,17 +291,45 @@ export function markDriveVerified(rootDir: string, verification: { videoFileId: 
   return { reel, verification, nextReelId: program.state.nextReelId };
 }
 
-export function reverifyDriveArtifact(rootDir: string, reelId: string, verification: { videoFileId: string; metadataFileId: string; sha256: string; canonicalFolderId?: string }, expectedEntryCount = 3000) {
-  if (!reelId || !verification.videoFileId || !verification.metadataFileId || !verification.sha256) {
-    throw new Error("Corrected artifact re-verification requires reel ID, videoFileId, metadataFileId, and SHA-256 checksum.");
+export function reverifyDriveArtifact(
+  rootDir: string,
+  reelId: string,
+  verification: {
+    videoFileId: string;
+    metadataFileId: string;
+    sha256: string;
+    canonicalFolderId?: string;
+  },
+  expectedEntryCount = 3000
+) {
+  if (
+    !reelId ||
+    !verification.videoFileId ||
+    !verification.metadataFileId ||
+    !verification.sha256
+  ) {
+    throw new Error(
+      "Corrected artifact re-verification requires reel ID, videoFileId, metadataFileId, and SHA-256 checksum."
+    );
   }
   const program = loadProgram(rootDir, expectedEntryCount);
-  if (!program.state.completedReelIds.includes(reelId)) throw new Error(`Reel ${reelId} is not already Drive-verified.`);
-  const verifiedIndex = (program.state.verifiedReels ?? []).findIndex(record => record.reelId === reelId);
-  if (verifiedIndex < 0) throw new Error(`Reel ${reelId} has no verified artifact record to replace.`);
+  if (!program.state.completedReelIds.includes(reelId))
+    throw new Error(`Reel ${reelId} is not already Drive-verified.`);
+  const verifiedIndex = (program.state.verifiedReels ?? []).findIndex(
+    record => record.reelId === reelId
+  );
+  if (verifiedIndex < 0)
+    throw new Error(
+      `Reel ${reelId} has no verified artifact record to replace.`
+    );
   const canonicalMapping = program.state.canonicalMappings?.[reelId];
-  if (canonicalMapping && verification.canonicalFolderId !== canonicalMapping.driveFolderId) {
-    throw new Error(`Reel ${reelId} must be re-verified in its canonical Drive folder ${canonicalMapping.driveFolderId}.`);
+  if (
+    canonicalMapping &&
+    verification.canonicalFolderId !== canonicalMapping.driveFolderId
+  ) {
+    throw new Error(
+      `Reel ${reelId} must be re-verified in its canonical Drive folder ${canonicalMapping.driveFolderId}.`
+    );
   }
   const previous = program.state.verifiedReels![verifiedIndex];
   program.state.verifiedReels![verifiedIndex] = {
