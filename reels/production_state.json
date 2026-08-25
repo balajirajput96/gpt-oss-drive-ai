@@ -390,7 +390,9 @@
     "0017": {
       "driveFolderId": "1Bvt7KE2479K3f38DbHKvAesB6Kyu2Vml",
       "topic": "कौन-सी सीमा उपयोगी है?",
-      "status": "researching",
+      "status": "research_archived",
+      "researchFileId": "1qQBjgFQ7nhc2una8512PBP3XacpprIb0",
+      "reconciliationFileId": "1tVroGzaeXBtTjqinDaWNAoOi5_LcdEBv",
       "legacyNonCanonicalFolderIds": [
         "1jlo5T--LxaOiZuqu1LCh3636D3ze5KmY",
         "1Yx6LUX89UrUU4lCBfHeFnQyXFnIK0JvO",
