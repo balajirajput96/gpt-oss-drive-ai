@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0006",
+  "nextReelId": "0007",
   "completedReelIds": [
     "0001",
     "0002",
     "0003",
     "0004",
-    "0005"
+    "0005",
+    "0006"
   ],
   "verifiedReels": [
     {
@@ -68,6 +69,18 @@
       "manifestFileId": "1IyA-VoreHdIbPB9ynAsgfxMoWjrsm9CH",
       "verifiedAt": "2026-08-25T09:32:49.587Z",
       "sha256": "6f5d6395252616cad8d0a99696f80e144af31c2a726cd6812157464e6a9da192"
+    },
+    {
+      "reelId": "0006",
+      "driveFolderId": "14Ud3qCRv27UWcli5x01JR9zoQaXRf6zU",
+      "videoFileId": "1T4LlRIQlmbaUwx5rP2AQHQeN8vRf1HLj",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1bT1JfzoqKBpXJtq0Z2PCuZLHoFC_zrwW",
+      "verifiedAt": "2026-08-25T09:37:44.023Z",
+      "sha256": "7a1bb16ef0e6fd3f0f2e420581f99c413a79cb48a776db7fbc97361482c353ba"
     }
   ],
   "canonicalMappings": {
@@ -114,6 +127,16 @@
         "1Hw3j4xEH4xHcuie6gv_TY39EsPYt-HVl",
         "1W3X_PyL-fYb3FJ27E-iy3NfxGpk60MoN",
         "1TdFL0-csWAJlVB0te-kVANu1ohSASRr0"
+      ]
+    },
+    "0006": {
+      "driveFolderId": "14Ud3qCRv27UWcli5x01JR9zoQaXRf6zU",
+      "topic": "Predictive processing पर शोध कहाँ असहमत है?",
+      "status": "drive_verified",
+      "legacyNonCanonicalArtifactIds": [
+        "1rjeTbIVEf7x69hxBVxTySLyoizIi7qtR",
+        "1PcGOOA496MKyJ76JKQzvmRdE3SMP4WBf",
+        "1oBnNR7BChgP3pishGQiNCPLy48Us2NfZ"
       ]
     }
   },
@@ -183,7 +206,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T09:32:49.587Z",
+  "lastCheckpointAt": "2026-08-25T09:37:44.023Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "ready_for_next",
   "activeReelId": null
