@@ -71,4 +71,5 @@
 - [x] Produce canonical Reel 0016 through evidence-safe Hindi script, narration, original visuals, captioned render, QC, canonical Drive verification, and deterministic lifecycle advancement.
 - [x] Activate deterministic Reel 0017, reconcile any historical Drive drafts, and archive an evidence-bounded canonical research package before media production.
 - [x] Produce canonical Reel 0017 through evidence-safe Hindi script, narration, original visuals, captioned render, QC, canonical Drive verification, and deterministic lifecycle advancement.
-- [ ] Activate deterministic Reel 0018, reconcile any historical Drive drafts, and archive an evidence-bounded canonical research package before media production.
+- [x] Activate deterministic Reel 0018, reconcile any historical Drive drafts, and archive an evidence-bounded canonical research package before media production.
+- [ ] Produce canonical Reel 0018 through evidence-safe Hindi script, narration, original visuals, captioned render, QC, canonical Drive verification, and deterministic lifecycle advancement.

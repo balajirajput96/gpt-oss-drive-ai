@@ -411,6 +411,18 @@
         "1Yx6LUX89UrUU4lCBfHeFnQyXFnIK0JvO",
         "1XxGwGBhIxBHbvplXR9E893vCoCp1rKQN"
       ]
+    },
+    "0018": {
+      "driveFolderId": "1Nx6tHeTe2s7pdOUU7XAKHnOhGzW6-NnJ",
+      "topic": "क्या विशेषज्ञों में मतभेद है?",
+      "status": "research_archived",
+      "researchFileId": "1OdrA8193bRj3uL3qD8IKOZq3TjWGeeHF",
+      "reconciliationFileId": "1lLJfWNhimCMnNNZHMT60UVVNgZ5hAmqG",
+      "legacyNonCanonicalFolderIds": [
+        "1ClE_5nLHW0eW1ohNTIWYGbYSkg9tg9mq",
+        "1SmrrkuOLVeNa8Z3Gg0uJGnKdOoAJ13fJ",
+        "1yDapQpUqbNj--ciuD7ryjm05sW9JfcUO"
+      ]
     }
   },
   "failedReels": [
@@ -479,8 +491,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T11:02:00.033Z",
+  "lastCheckpointAt": "2026-08-25T11:03:51.070Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0018"
 }
