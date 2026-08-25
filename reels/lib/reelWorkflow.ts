@@ -212,3 +212,30 @@ export function markDriveVerified(rootDir: string, verification: { videoFileId: 
   saveState(rootDir, program.state);
   return { reel, verification, nextReelId: program.state.nextReelId };
 }
+
+export function reverifyDriveArtifact(rootDir: string, reelId: string, verification: { videoFileId: string; metadataFileId: string; sha256: string; canonicalFolderId?: string }, expectedEntryCount = 3000) {
+  if (!reelId || !verification.videoFileId || !verification.metadataFileId || !verification.sha256) {
+    throw new Error("Corrected artifact re-verification requires reel ID, videoFileId, metadataFileId, and SHA-256 checksum.");
+  }
+  const program = loadProgram(rootDir, expectedEntryCount);
+  if (!program.state.completedReelIds.includes(reelId)) throw new Error(`Reel ${reelId} is not already Drive-verified.`);
+  const verifiedIndex = (program.state.verifiedReels ?? []).findIndex(record => record.reelId === reelId);
+  if (verifiedIndex < 0) throw new Error(`Reel ${reelId} has no verified artifact record to replace.`);
+  const canonicalMapping = program.state.canonicalMappings?.[reelId];
+  if (canonicalMapping && verification.canonicalFolderId !== canonicalMapping.driveFolderId) {
+    throw new Error(`Reel ${reelId} must be re-verified in its canonical Drive folder ${canonicalMapping.driveFolderId}.`);
+  }
+  const previous = program.state.verifiedReels![verifiedIndex];
+  program.state.verifiedReels![verifiedIndex] = {
+    ...previous,
+    driveFolderId: verification.canonicalFolderId ?? previous.driveFolderId,
+    videoFileId: verification.videoFileId,
+    manifestFileId: verification.metadataFileId,
+    sha256: verification.sha256,
+    verifiedAt: new Date().toISOString(),
+  };
+  if (canonicalMapping) canonicalMapping.status = "drive_verified";
+  program.state.lastCheckpointAt = new Date().toISOString();
+  saveState(rootDir, program.state);
+  return { reelId, verification, nextReelId: program.state.nextReelId };
+}

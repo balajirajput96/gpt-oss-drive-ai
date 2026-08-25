@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0018",
+  "nextReelId": "0019",
   "completedReelIds": [
     "0001",
     "0002",
@@ -19,7 +19,8 @@
     "0014",
     "0015",
     "0016",
-    "0017"
+    "0017",
+    "0018"
   ],
   "verifiedReels": [
     {
@@ -224,6 +225,18 @@
       "manifestFileId": "1YTDkM1yEw0Sx8zRdMFK8OMOEonUK3BuR",
       "verifiedAt": "2026-08-25T11:02:00.032Z",
       "sha256": "49a1d1760ebd927e23f7efb9ddbb89363dd740142e6f8cd60479b75098b04152"
+    },
+    {
+      "reelId": "0018",
+      "driveFolderId": "1Nx6tHeTe2s7pdOUU7XAKHnOhGzW6-NnJ",
+      "videoFileId": "1f1RPkNSv7Tg4ivkXoOTvQM9phqfWudYO",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1RX8kLA6rFIFopyQg5r3LDr8Wo3QKSmYO",
+      "verifiedAt": "2026-08-25T11:20:41.564Z",
+      "sha256": "a7dedd502e7177b17828403ef8b2e434472bebe3c3e49319bb3db901159e4bde"
     }
   ],
   "canonicalMappings": {
@@ -415,7 +428,7 @@
     "0018": {
       "driveFolderId": "1Nx6tHeTe2s7pdOUU7XAKHnOhGzW6-NnJ",
       "topic": "क्या विशेषज्ञों में मतभेद है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1OdrA8193bRj3uL3qD8IKOZq3TjWGeeHF",
       "reconciliationFileId": "1lLJfWNhimCMnNNZHMT60UVVNgZ5hAmqG",
       "legacyNonCanonicalFolderIds": [
@@ -491,8 +504,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T11:03:51.070Z",
+  "lastCheckpointAt": "2026-08-25T11:20:41.564Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0018"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

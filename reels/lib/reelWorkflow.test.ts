@@ -2,7 +2,7 @@ import { mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "nod
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { afterEach, describe, expect, it } from "vitest";
-import { beginNextReel, loadProgram, markDriveVerified, recordFailure, selectNextReel } from "./reelWorkflow";
+import { beginNextReel, loadProgram, markDriveVerified, recordFailure, reverifyDriveArtifact, selectNextReel } from "./reelWorkflow";
 
 const roots: string[] = [];
 
@@ -63,5 +63,23 @@ describe("reel production workflow", () => {
     const verifiedState = JSON.parse(readFileSync(statePath, "utf8"));
     expect(verifiedState.verifiedReels[0].driveFolderId).toBe("canonical-folder");
     expect(verifiedState.canonicalMappings["0001"].status).toBe("drive_verified");
+  });
+
+  it("re-verifies a corrected completed artifact without duplicating or advancing IDs", () => {
+    const root = makeProgramRoot();
+    beginNextReel(root, 3);
+    markDriveVerified(root, { videoFileId: "video-1", metadataFileId: "meta-1", sha256: "hash-1", canonicalFolderId: "canonical-folder" }, 3);
+    const statePath = join(root, "reels", "production_state.json");
+    const state = JSON.parse(readFileSync(statePath, "utf8"));
+    state.canonicalMappings = { "0001": { driveFolderId: "canonical-folder", topic: "Canonical topic", status: "drive_verified" } };
+    writeFileSync(statePath, JSON.stringify(state));
+    expect(() => reverifyDriveArtifact(root, "0001", { videoFileId: "video-2", metadataFileId: "meta-2", sha256: "hash-2", canonicalFolderId: "legacy-folder" }, 3)).toThrow("canonical Drive folder");
+    const result = reverifyDriveArtifact(root, "0001", { videoFileId: "video-2", metadataFileId: "meta-2", sha256: "hash-2", canonicalFolderId: "canonical-folder" }, 3);
+    const corrected = JSON.parse(readFileSync(statePath, "utf8"));
+    expect(result.nextReelId).toBe("0002");
+    expect(corrected.completedReelIds).toEqual(["0001"]);
+    expect(corrected.verifiedReels).toHaveLength(1);
+    expect(corrected.verifiedReels[0]).toMatchObject({ videoFileId: "video-2", manifestFileId: "meta-2", sha256: "hash-2" });
+    expect(corrected.nextReelId).toBe("0002");
   });
 });
