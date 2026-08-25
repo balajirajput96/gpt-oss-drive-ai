@@ -365,7 +365,9 @@
     "0016": {
       "driveFolderId": "1BWgh0NqSSzqoCnTBfHlghKkPbpa9Qnf-",
       "topic": "छोटी सफलता क्यों मायने रखती है?",
-      "status": "researching",
+      "status": "research_archived",
+      "researchFileId": "1JZU0fC4Z9mUosY9giVoMuZ2M4Kk-QT6y",
+      "reconciliationFileId": "1KnlwsmoEupe7cZA4MD9ouohxm0w1dbK7",
       "legacyNonCanonicalFolderIds": [
         "1sls9nQW0cxIfSixDwfWb1RLVoqaykjFW",
         "107L52S_1v0oj8OIH-as0f-jm5YX3DcER",
