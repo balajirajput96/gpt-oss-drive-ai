@@ -1,0 +1,20 @@
+{
+  "reelId": "0004",
+  "language": "hi-IN",
+  "voice": "Sadaltager",
+  "generationMethod": "AI text-to-speech with English delivery direction and Hindi spoken script",
+  "sourceNarration": {
+    "filename": "REEL-0004_voice.wav",
+    "sha256": "7b5e6e6b79570522a6793ee8564209022d8d86bc3f25a04d14ff4aa6a25b7ad3",
+    "sampleRateHz": 24000,
+    "channels": 1,
+    "durationSeconds": 50.96
+  },
+  "renderNarration": {
+    "filename": "REEL-0004_voice_final.wav",
+    "transformation": "tempo normalized with FFmpeg atempo=0.92; no content was removed or added",
+    "sha256": "408d522d9975556266cca8edd9f9d9dd8c29bdd16b4e4a54743700938be99f56",
+    "durationSeconds": 55.367458
+  },
+  "contentBoundary": "Narration describes context-dependent accounts from attention research and makes no diagnosis, treatment, intelligence, personality, or universal-causation claim."
+}

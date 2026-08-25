@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0004",
+  "titleHi": "ध्यान की चूक के पीछे क्या काम कर सकता है?",
+  "canonicalDriveFolderId": "19rBfxAij_JShvkT6iEWLYIDrcFYAZ0Pt",
+  "status": "visual_generation_pending",
+  "contentClassification": "research-grounded explanatory content",
+  "evidenceBoundary": "This reel describes context-dependent accounts studied in controlled visual-attention research. It does not diagnose a person, prescribe a safety action, or establish one final mechanism for everyday missed details.",
+  "sourceBasis": [
+    {
+      "citation": "Wood & Simons (2017), Collabra: Psychology",
+      "doi": "10.1525/collabra.90"
+    },
+    {
+      "citation": "Lavie, Beck & Konstantinou (2014), Philosophical Transactions of the Royal Society B",
+      "doi": "10.1098/rstb.2013.0205"
+    },
+    {
+      "citation": "Kreitz, Furley, Memmert & Simons (2015), PLOS ONE",
+      "doi": "10.1371/journal.pone.0134675"
+    }
+  ],
+  "archivedPreproductionDriveFiles": {
+    "research": "1xRIwMCCOwc_8QqiTwpzbOFPLQjJMm1nz",
+    "conflictRecord": "1D9xg39nsaKGH4N3YktoDW8wJbfl9X22c",
+    "script": "1Ebih3BHQa-xJuoHyMOh9V4_buKzZwLme",
+    "captions": "1OBBjVugbPJ_dYdWcR6uNxaK7teGK1Mft",
+    "claimLedger": "1dlg-gJHia2-PR6hp_4tIbJKrRpaP6tGg",
+    "storyboard": "1eriIv4DQbSpVVKuq_Rxdq9Pk8nDLoLSG",
+    "narration": "1m_EwOEJNfAHMY4rQiDNTmVHNGKf4xjih",
+    "audioProvenance": "1gnBpzpYEITriNzi_-WHmaO6Xgyo5Ehrc"
+  },
+  "media": {
+    "narrationFile": "REEL-0004_voice_final.wav",
+    "narrationSha256": "408d522d9975556266cca8edd9f9d9dd8c29bdd16b4e4a54743700938be99f56",
+    "narrationDurationSeconds": 55.367458,
+    "targetWidth": 720,
+    "targetHeight": 1280,
+    "targetFrameRate": 30,
+    "captionFile": "REEL-0004_captions.srt"
+  },
+  "renderer": "reels/scripts/render-reel.mjs",
+  "requiresCanonicalDriveVerification": true,
+  "completionGuard": "Do not set status to complete or call production-runner verify until original visual provenance, rendered MP4, technical QC, visual QC, canonical Drive upload, and re-fetch verification are all present."
+}
