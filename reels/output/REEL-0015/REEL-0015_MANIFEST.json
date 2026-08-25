@@ -1,0 +1,14 @@
+{
+  "reelId": "0015",
+  "canonicalTuple": "MND-L01-Q15",
+  "batch": "Batch_001",
+  "title": "एक result की दूसरी कहानी क्या हो सकती है?",
+  "question": "कौन-सी वैकल्पिक व्याख्या संभव है?",
+  "status": "complete_drive_verified",
+  "driveFolderId": "1NHCs71oO2ZdCXZR0HytXwcDhfxasRk2n",
+  "driveArtifactIds": {"video":"1HK0WRzMW9RWJmIJFgPL6wgjmJ4ffN9tE","narration":"1a3lNMfxhNfp36tgk4woPPIL-ygrO9dY3","visualProvenance":"1__B0Cokj752zzbPZS298fWytdaged1ao","qc":"19ukzG3R-oInxVrd13J_r0l3M9Z4m2FQy","script":"1yOymY03GdkcxrC04MMIxfI7fT21QWSqq","captions":"1cqJZPm-3FYtHTmOSgQ3HBi6PdUTX-89k","claimLedger":"1Ngjy9dP2pNNOuIEQaUP_2oGpf7-9Xvqs","storyboard":"1lrBYhi2ayounrLEZjZRhiGagXBKdedHM","research":"1ICiY9-N-NYbwno9J1703Lg6um1pa1R48","reconciliation":"1Iuvw3nnDzOqAHa_zgLTcboq3hWZUfJnp"},
+  "checksums": {"videoSha256":"0e95d6d30aada479fab34dc0199ddb11bf5b37c6abeb7db965ee33dab92e9330","videoMd5":"2c7694e7691bfced2c676585975414d6"},
+  "technical": {"width":720,"height":1280,"aspectRatio":"9:16","durationSeconds":60.001,"videoCodec":"h264","audioCodec":"aac","captionCueCount":6},
+  "provenance": {"visualRoute":"original_deterministic_svg_motion_graphics","embeddedText":false,"imageGenerationUsed":false,"quotaOrAccessControlBypass":false},
+  "safety": {"noDiagnosisOrTreatment":true,"noIndividualPrediction":true,"noUniversalAgeClaim":true,"noUniversalCultureClaim":true,"measuredResultSeparatedFromInterpretation":true,"uncertaintyStated":true}
+}

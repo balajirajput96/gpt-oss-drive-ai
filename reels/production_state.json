@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0015",
+  "nextReelId": "0016",
   "completedReelIds": [
     "0001",
     "0002",
@@ -16,7 +16,8 @@
     "0011",
     "0012",
     "0013",
-    "0014"
+    "0014",
+    "0015"
   ],
   "verifiedReels": [
     {
@@ -185,6 +186,18 @@
       "manifestFileId": "19vBXBM0g7vZaTwUtXabsdxHSNqtklomd",
       "verifiedAt": "2026-08-25T10:31:22.382Z",
       "sha256": "917761a535449c0c2e27f06a9ac6325b601d5378264cbffaf9e9ca0e056ec989"
+    },
+    {
+      "reelId": "0015",
+      "driveFolderId": "1NHCs71oO2ZdCXZR0HytXwcDhfxasRk2n",
+      "videoFileId": "1HK0WRzMW9RWJmIJFgPL6wgjmJ4ffN9tE",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1NuinLF_MNhLC_i5_mcjVi4Dg5pwxcDTn",
+      "verifiedAt": "2026-08-25T10:42:08.595Z",
+      "sha256": "0e95d6d30aada479fab34dc0199ddb11bf5b37c6abeb7db965ee33dab92e9330"
     }
   ],
   "canonicalMappings": {
@@ -340,7 +353,7 @@
     "0015": {
       "driveFolderId": "1NHCs71oO2ZdCXZR0HytXwcDhfxasRk2n",
       "topic": "कौन-सी वैकल्पिक व्याख्या संभव है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1ICiY9-N-NYbwno9J1703Lg6um1pa1R48",
       "reconciliationFileId": "1Iuvw3nnDzOqAHa_zgLTcboq3hWZUfJnp",
       "legacyNonCanonicalFolderIds": [
@@ -416,8 +429,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T10:33:37.006Z",
+  "lastCheckpointAt": "2026-08-25T10:42:08.595Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0015"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

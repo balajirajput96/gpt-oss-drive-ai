@@ -1,0 +1,29 @@
+1
+00:00:00,000 --> 00:00:08,000
+किसी study में attention का effect मिला।
+क्या बस एक ही explanation हो सकती है?
+
+2
+00:00:08,000 --> 00:00:19,000
+Task में attention के साथ memory, response तैयारी,
+या decision भी बदल सकता है।
+
+3
+00:00:19,000 --> 00:00:31,000
+अच्छे experiments इन processes को समय,
+comparison, या task design से अलग करते हैं।
+
+4
+00:00:31,000 --> 00:00:43,000
+क्या stimulus, instruction, memory, movement,
+या sample भी फर्क डाल सकते हैं?
+
+5
+00:00:43,000 --> 00:00:53,000
+Causal claim के लिए manipulation, controls,
+और alternatives देखना ज़रूरी है।
+
+6
+00:00:53,000 --> 00:01:00,000
+Measure क्या था, किस group में था,
+और दूसरी कहानी कौन-सी संभव है?
