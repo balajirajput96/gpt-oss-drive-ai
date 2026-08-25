@@ -361,6 +361,16 @@
         "13oQD3fq-8d4O_ts7UDYT-HHZzLwvV67u",
         "14UVsrcM6JhQy80HMNWxiiQHgaQzyHSrN"
       ]
+    },
+    "0016": {
+      "driveFolderId": "1BWgh0NqSSzqoCnTBfHlghKkPbpa9Qnf-",
+      "topic": "छोटी सफलता क्यों मायने रखती है?",
+      "status": "researching",
+      "legacyNonCanonicalFolderIds": [
+        "1sls9nQW0cxIfSixDwfWb1RLVoqaykjFW",
+        "107L52S_1v0oj8OIH-as0f-jm5YX3DcER",
+        "1GHDWdBvdtvOjWGn-wDxtqBN_FSsaBz1W"
+      ]
     }
   },
   "failedReels": [
@@ -429,8 +439,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T10:42:08.595Z",
+  "lastCheckpointAt": "2026-08-25T10:44:09.519Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0016"
 }
