@@ -336,6 +336,16 @@
         "1-nXxO8q8hXlmH9mBPCD35OXZxoDsnFBI",
         "1urXUeUh1txX_AaNjr13xy8XHHWzJr7bH"
       ]
+    },
+    "0015": {
+      "driveFolderId": "1NHCs71oO2ZdCXZR0HytXwcDhfxasRk2n",
+      "topic": "कौन-सी वैकल्पिक व्याख्या संभव है?",
+      "status": "researching",
+      "legacyNonCanonicalFolderIds": [
+        "1sTgWFUYpz8wOF09-QE3Vzs9fGLrvCjfV",
+        "13oQD3fq-8d4O_ts7UDYT-HHZzLwvV67u",
+        "14UVsrcM6JhQy80HMNWxiiQHgaQzyHSrN"
+      ]
     }
   },
   "failedReels": [
@@ -404,8 +414,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T10:31:22.383Z",
+  "lastCheckpointAt": "2026-08-25T10:33:37.006Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0015"
 }
