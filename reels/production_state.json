@@ -514,6 +514,15 @@
       "occurredAt": "2026-08-25T16:50:07.479Z",
       "retryCount": 1,
       "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    },
+    {
+      "reelId": "0020",
+      "stage": "rendered",
+      "errorCategory": "missing_original_visual_inputs",
+      "message": "Canonical Reel 0020 candidate 1JJh2gsSy_4CXKXUTLZUgcqPRV5p3ENpo has narration, video, captions, script, sources, visual-source log, QC, and manifest but no scene-image inputs; the only Drive Reel 0020 PNGs are four files in preserved non-canonical folder 10wxO1NH1rw0Ji2CnfjvOw6P1lmQ2wrAQ for a different brain-energy topic, and scenes 05-06 are absent. Do not reuse legacy assets, render, upload, re-fetch, verify, advance, or publish.",
+      "occurredAt": "2026-08-25T18:40:23.443Z",
+      "retryCount": 2,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
     }
   ],
   "driveArchiveArtifacts": [
@@ -553,7 +562,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T17:39:40.141Z",
+  "lastCheckpointAt": "2026-08-25T18:40:23.443Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "blocked",
   "activeReelId": "0020"
