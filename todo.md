@@ -52,3 +52,4 @@
 - [x] Keep canonical Drive-mapping status synchronized when a reel is marked Drive-verified, with regression coverage for the state transition.
 - [x] Begin evidence retrieval and a distinct, registry-guided preproduction package for the next eligible item, Reel 0004.
 - [x] Produce canonical Reel 0004 from its evidence-safe research package through Hindi narration, original visuals, captioned render, QC, canonical Drive verification, and deterministic lifecycle advancement.
+- [ ] Activate deterministic Reel 0005, reconcile any historical Drive drafts, and archive an evidence-bounded canonical research package before media production.

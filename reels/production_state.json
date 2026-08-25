@@ -92,6 +92,16 @@
         "1pCBkFgBOQSWkd-dosEqsuYlBZcQYoROO",
         "1uYBw--o8pSZi_7ni8tlaVJTaZk6X0JXW"
       ]
+    },
+    "0005": {
+      "driveFolderId": "13AE69kPGYZ4xBieoBFGNfbQYzqn4GwTt",
+      "topic": "Evidence hierarchy for inattentional blindness and selective attention",
+      "status": "canonical_research_in_progress",
+      "legacyNonCanonicalFolderIds": [
+        "1Hw3j4xEH4xHcuie6gv_TY39EsPYt-HVl",
+        "1W3X_PyL-fYb3FJ27E-iy3NfxGpk60MoN",
+        "1TdFL0-csWAJlVB0te-kVANu1ohSASRr0"
+      ]
     }
   },
   "failedReels": [
@@ -160,8 +170,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T09:12:56.420Z",
+  "lastCheckpointAt": "2026-08-25T09:15:47.845Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0005"
 }
