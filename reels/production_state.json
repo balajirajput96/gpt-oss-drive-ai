@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0017",
+  "nextReelId": "0018",
   "completedReelIds": [
     "0001",
     "0002",
@@ -18,7 +18,8 @@
     "0013",
     "0014",
     "0015",
-    "0016"
+    "0016",
+    "0017"
   ],
   "verifiedReels": [
     {
@@ -211,6 +212,18 @@
       "manifestFileId": "1NwmuNJqa9cF-MuNSyh4O1IkFfSXaf7RL",
       "verifiedAt": "2026-08-25T10:52:03.170Z",
       "sha256": "12bf7c0cd598391613b668a5ffe4879f7279231acc3869cf40dda0ffa17ce732"
+    },
+    {
+      "reelId": "0017",
+      "driveFolderId": "1Bvt7KE2479K3f38DbHKvAesB6Kyu2Vml",
+      "videoFileId": "1jC-9KSsIlrO_ppuMhYOMyebA3nif36yS",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1YTDkM1yEw0Sx8zRdMFK8OMOEonUK3BuR",
+      "verifiedAt": "2026-08-25T11:02:00.032Z",
+      "sha256": "49a1d1760ebd927e23f7efb9ddbb89363dd740142e6f8cd60479b75098b04152"
     }
   ],
   "canonicalMappings": {
@@ -390,7 +403,7 @@
     "0017": {
       "driveFolderId": "1Bvt7KE2479K3f38DbHKvAesB6Kyu2Vml",
       "topic": "कौन-सी सीमा उपयोगी है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1qQBjgFQ7nhc2una8512PBP3XacpprIb0",
       "reconciliationFileId": "1tVroGzaeXBtTjqinDaWNAoOi5_LcdEBv",
       "legacyNonCanonicalFolderIds": [
@@ -466,8 +479,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T10:53:47.286Z",
+  "lastCheckpointAt": "2026-08-25T11:02:00.033Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0017"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

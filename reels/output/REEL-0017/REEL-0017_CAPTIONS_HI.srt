@@ -1,0 +1,29 @@
+1
+00:00:00,000 --> 00:00:09,000
+हर सीमा बुरी नहीं होती।
+सही boundary focus साफ कर सकती है।
+
+2
+00:00:09,000 --> 00:00:20,000
+ध्यान और working memory जुड़े हैं,
+पर वे एक ही चीज़ नहीं।
+
+3
+00:00:20,000 --> 00:00:32,000
+Controlled attention goal-relevant information रखती है
+और distraction हटाने में मदद कर सकती है।
+
+4
+00:00:32,000 --> 00:00:43,000
+Storage और processing साथ demand करें,
+तो task-dependent trade-off हो सकता है।
+
+5
+00:00:43,000 --> 00:00:53,000
+Useful boundary goal स्पष्ट करे,
+irrelevant options कम करे, feedback छोड़े।
+
+6
+00:00:53,000 --> 00:01:00,000
+क्या यह सीमा इस task में मदद कर रही है?
+और इसका unintended cost क्या है?

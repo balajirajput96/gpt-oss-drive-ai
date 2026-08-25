@@ -1,0 +1,8 @@
+{
+  "reelId":"0017","canonicalTuple":"MND-L01-Q17","batch":"Batch_001","title":"कौन-सी सीमा उपयोगी हो सकती है?","question":"कौन-सी सीमा उपयोगी है?","status":"complete_drive_verified","driveFolderId":"1Bvt7KE2479K3f38DbHKvAesB6Kyu2Vml",
+  "driveArtifactIds":{"video":"1jC-9KSsIlrO_ppuMhYOMyebA3nif36yS","narration":"1FqHVwTNmrUrCZV1OzFSW7VCxrkJrbRdf","visualProvenance":"1zpFX4UZe20lcu9tV-ndu1b2MpNjhtXdY","qc":"1Gw7W-naMttZYfBOyy1tEfRqha5YPmjnu","script":"1qaUsRKRGTvwvKwj0MZVWBiqAN0SDZ0mK","captions":"1Rq0pFicm0ARqG5qG35bCmq8ZoD8RcXdk","claimLedger":"1PyFe6tw9S4M1UlJQJ0eTIu_brFR6gm12","storyboard":"109T1A2BsC1R_QvXk7BlQ8hxXX1zhQT1S","research":"1qQBjgFQ7nhc2una8512PBP3XacpprIb0","reconciliation":"1tVroGzaeXBtTjqinDaWNAoOi5_LcdEBv"},
+  "checksums":{"videoSha256":"49a1d1760ebd927e23f7efb9ddbb89363dd740142e6f8cd60479b75098b04152","videoMd5":"405282cdfc7aa51a10b8142df6aa32dd"},
+  "technical":{"width":720,"height":1280,"aspectRatio":"9:16","durationSeconds":59.985,"videoCodec":"h264","audioCodec":"aac","captionCueCount":6},
+  "provenance":{"visualRoute":"original_deterministic_svg_motion_graphics","embeddedText":false,"imageGenerationUsed":false,"quotaOrAccessControlBypass":false},
+  "safety":{"noDiagnosisOrTreatment":true,"noIndividualPrediction":true,"noUniversalAgeClaim":true,"noUniversalCultureClaim":true,"measuredResultSeparatedFromInterpretation":true,"uncertaintyStated":true}
+}
