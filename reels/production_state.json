@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0004",
+  "nextReelId": "0005",
   "completedReelIds": [
     "0001",
     "0002",
-    "0003"
+    "0003",
+    "0004"
   ],
   "verifiedReels": [
     {
@@ -42,6 +43,18 @@
       "manifestFileId": "11zTFQFdtYXmyN4IpIW7vk5IFtTptknaY",
       "verifiedAt": "2026-08-23T03:06:52.809Z",
       "sha256": "33c1d54a15fa40e8697f141091f109f4438d20e1daf46a775faac34a7404e7d9"
+    },
+    {
+      "reelId": "0004",
+      "driveFolderId": "19rBfxAij_JShvkT6iEWLYIDrcFYAZ0Pt",
+      "videoFileId": "1d9TDpuVYXUfUMHx4qQpGV6Dy0TGHC1tx",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "19o_hQ61SK0FjvrG_ei0f2weqmqf025qW",
+      "verifiedAt": "2026-08-25T09:12:56.420Z",
+      "sha256": "dc4c2b48713eef9eb8975cf6c236872184eefe3c915c17f7919811ed5079e8f7"
     }
   ],
   "canonicalMappings": {
@@ -74,7 +87,7 @@
     "0004": {
       "driveFolderId": "19rBfxAij_JShvkT6iEWLYIDrcFYAZ0Pt",
       "topic": "Proposed mechanisms behind selective attention and missed unexpected details",
-      "status": "canonical_research_in_progress",
+      "status": "drive_verified",
       "legacyNonCanonicalFolderIds": [
         "1pCBkFgBOQSWkd-dosEqsuYlBZcQYoROO",
         "1uYBw--o8pSZi_7ni8tlaVJTaZk6X0JXW"
@@ -97,6 +110,15 @@
       "errorCategory": "canonical_id_conflict",
       "message": "Drive contains multiple historical Reel 0003 folders on different topics; preserve all drafts and establish a deterministic canonical mapping before archiving the active everyday-attention research.",
       "occurredAt": "2026-08-23T02:31:53.793Z",
+      "retryCount": 1,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    },
+    {
+      "reelId": "0004",
+      "stage": "assets_ready",
+      "errorCategory": "image_generation_failed_placeholders",
+      "message": "Initial scenes 2 through 6 resolved to image-generation-failed placeholders during visual QC. Scene 1 is valid; a single reference-conditioned recovery batch has been requested. Do not render placeholders or advance Reel 0004.",
+      "occurredAt": "2026-08-25T09:08:57.638Z",
       "retryCount": 1,
       "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
     }
@@ -138,8 +160,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T09:04:04Z",
+  "lastCheckpointAt": "2026-08-25T09:12:56.420Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "media_production",
-  "activeReelId": "0004"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

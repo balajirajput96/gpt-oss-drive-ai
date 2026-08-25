@@ -3,7 +3,7 @@
   "reelId": "0004",
   "titleHi": "ध्यान की चूक के पीछे क्या काम कर सकता है?",
   "canonicalDriveFolderId": "19rBfxAij_JShvkT6iEWLYIDrcFYAZ0Pt",
-  "status": "visual_generation_pending",
+  "status": "qc_passed_pending_drive_verification",
   "contentClassification": "research-grounded explanatory content",
   "evidenceBoundary": "This reel describes context-dependent accounts studied in controlled visual-attention research. It does not diagnose a person, prescribe a safety action, or establish one final mechanism for everyday missed details.",
   "sourceBasis": [
@@ -31,6 +31,15 @@
     "audioProvenance": "1gnBpzpYEITriNzi_-WHmaO6Xgyo5Ehrc"
   },
   "media": {
+    "canonicalUploadFilename": "REEL-0004_final.mp4",
+    "localReviewedCandidate": "REEL-0004_final.mp4",
+    "sha256": "dc4c2b48713eef9eb8975cf6c236872184eefe3c915c17f7919811ed5079e8f7",
+    "durationSeconds": 55.368,
+    "width": 720,
+    "height": 1280,
+    "frameRate": 30,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
     "narrationFile": "REEL-0004_voice_final.wav",
     "narrationSha256": "408d522d9975556266cca8edd9f9d9dd8c29bdd16b4e4a54743700938be99f56",
     "narrationDurationSeconds": 55.367458,
@@ -39,6 +48,8 @@
     "targetFrameRate": 30,
     "captionFile": "REEL-0004_captions.srt"
   },
+  "provenanceFile": "REEL-0004_visual_provenance.json",
+  "qualityControlFile": "REEL-0004_qc.md",
   "renderer": "reels/scripts/render-reel.mjs",
   "requiresCanonicalDriveVerification": true,
   "completionGuard": "Do not set status to complete or call production-runner verify until original visual provenance, rendered MP4, technical QC, visual QC, canonical Drive upload, and re-fetch verification are all present."

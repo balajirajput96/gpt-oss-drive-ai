@@ -1,0 +1,55 @@
+{
+  "reelId": "0004",
+  "purpose": "Six original text-free visual scenes for a research-grounded Hindi explanation of proposed attention mechanisms.",
+  "sourcePolicy": "All approved scenes were generated as original AI visuals. Captions were composited separately at render time; no scene contains embedded text, logos, watermarks, brands, medical claims, or real-person imitation.",
+  "recoveryDisclosure": "The first multi-scene generation for scenes 2–6 returned literal failure placeholders. Those placeholders were rejected, preserved outside the approved input set, and recorded in REEL-0004_qc.md. Scenes 2–6 below are the successful single recovery batch generated with approved scene 1 as a style reference.",
+  "approvedScenes": [
+    {
+      "scene": 1,
+      "filename": "reel0004_scene01.png",
+      "sha256": "93bd41980caec1796559fee597ee2bbe767138d127d3e89b80a75dd05453d90b",
+      "dimensions": "1440x2560",
+      "generation": "Original direct generation; quiet desk and colored-card attention-task metaphor."
+    },
+    {
+      "scene": 2,
+      "filename": "reel0004_scene02.png",
+      "sha256": "0686e98a2c6de8e4cd95807019fec90d21bd4d0b421437ba0a25dc5330ce4bb1",
+      "dimensions": "1080x1920",
+      "generation": "Original recovery generation; floating-shape multiple-accounts metaphor conditioned on scene 1 style."
+    },
+    {
+      "scene": 3,
+      "filename": "reel0004_scene03.png",
+      "sha256": "ef07a488ff38b5cdf0671b1c32798e272d5510682118d5d8f3901229292709b7",
+      "dimensions": "1080x1920",
+      "generation": "Original recovery generation; abstract tracking and attention-set metaphor conditioned on scene 1 style."
+    },
+    {
+      "scene": 4,
+      "filename": "reel0004_scene04.png",
+      "sha256": "dbd891cd32b6e8978039f9dbf5b9fd237c09ce4a99ab891f87d99f66e07da804",
+      "dimensions": "1080x1920",
+      "generation": "Original recovery generation; visually demanding search-task metaphor conditioned on scene 1 style."
+    },
+    {
+      "scene": 5,
+      "filename": "reel0004_scene05.png",
+      "sha256": "4aec95563156c971cdbdabd0600409eb1afa8635d356b764d4609c538914f65d",
+      "dimensions": "1080x1920",
+      "generation": "Original recovery generation; location-and-context comparison metaphor conditioned on scene 1 style."
+    },
+    {
+      "scene": 6,
+      "filename": "reel0004_scene06.png",
+      "sha256": "dcd9f2451b423929189c88776a7492782647116369fc43905e32db3344e2101b",
+      "dimensions": "1080x1920",
+      "generation": "Original recovery generation; calm non-judgmental takeaway conditioned on scene 1 style."
+    }
+  ],
+  "render": {
+    "renderer": "reels/scripts/render-reel.mjs",
+    "motionTreatment": "Subtle deterministic zoompan per still, then concat; captions composited in filter_complex.",
+    "captionStyle": "Noto Sans Devanagari, 14 px at 720x1280, lower-third alignment, 36 px bottom margin."
+  }
+}
