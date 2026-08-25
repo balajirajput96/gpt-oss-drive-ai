@@ -1,0 +1,61 @@
+{
+  "reelId": "0011",
+  "canonicalTuple": "MND-L01-Q11",
+  "batchId": "Batch_001",
+  "titleHi": "भाषा इसे कैसे प्रभावित करती है?",
+  "topicFamily": "attention_mind_consciousness",
+  "coreTopic": "language labels and task-guided attention",
+  "status": "complete_drive_verified",
+  "canonicalFolderId": "11abkm3_w7J0x60xBXDZEfVMatTBJbK8k",
+  "artifacts": {
+    "video": "1Ehh9nbkjh77kZFno7WkZs-xuJi17JUuT",
+    "narration": "1L-D3q8bsFsrziz7iLvYpbKz1GUUxExME",
+    "visualProvenance": "1sUJVgk9dGP89TFW6uXwaLF8JoD3HBbDI",
+    "qcReport": "1jyuNzKCKFfupt5sRDYQScrNu5KrL1Pqf",
+    "captions": "1smaNUa6RXeMet_PzQjSDMRA2DYyg_XU6",
+    "script": "1imnaMMbbYphovCqDuHlSaHK_0caCz8jf",
+    "claimLedger": "1frjPXmr3E5IOiVei9B9Sa8FTeZTUN1-w",
+    "storyboard": "1chnC_AcmKVDWJzLZWFq5vzDcn_sxyRXw",
+    "research": "1agMYsK9yskq-FejKkeblXl4h20xudCFz",
+    "researchReconciliation": "1JzleXzmzPaIh9I3SZOI9RB9uGRpaU7rR"
+  },
+  "integrity": {
+    "videoSha256": "4c100c189918068f5362735a3c39543d937f4c4fbfd7a4394aae9fb6cab66324",
+    "videoDriveMd5": "68bbf4f68e78345666792b1561bab635",
+    "videoSizeBytes": 2941177
+  },
+  "technical": {
+    "width": 720,
+    "height": 1280,
+    "aspectRatio": "9:16",
+    "durationSeconds": 59.792,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "captionCueCount": 8,
+    "decodeCheck": true
+  },
+  "evidence": {
+    "directFinding": "In a specific artificial-category eye-tracking task, shared labels were associated with increased attention to category-relevant features over learning.",
+    "alternativeMechanism": "Language-related speed advantages in visual search can reflect working-memory or response-selection demands rather than altered raw perception.",
+    "theoryLabel": "The label-feedback hypothesis is a flexible explanatory framework, not direct proof for every perceptual task.",
+    "sources": [
+      "Barnhart, Rivera & Robinson (2018), doi:10.3389/fpsyg.2018.00358",
+      "Klemfuss, Prinzmetal & Ivry (2012), doi:10.3389/fpsyg.2012.00078",
+      "Lupyan (2012), doi:10.3389/fpsyg.2012.00054"
+    ]
+  },
+  "safety": {
+    "noMedicalOrDiagnosticClaim": true,
+    "noUniversalCausalClaim": true,
+    "rawPerceptionCaveatIncluded": true,
+    "alternativeExplanationsIncluded": true,
+    "theorySeparatedFromDirectEvidence": true
+  },
+  "visualProvenance": {
+    "route": "original_deterministic_svg_to_raster_motion_graphics",
+    "imageGenerationUsed": false,
+    "quotaOrAccessControlBypass": false,
+    "embeddedSourceText": false,
+    "logosWatermarksOrRealPeople": false
+  }
+}
