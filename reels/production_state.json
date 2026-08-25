@@ -340,7 +340,9 @@
     "0015": {
       "driveFolderId": "1NHCs71oO2ZdCXZR0HytXwcDhfxasRk2n",
       "topic": "कौन-सी वैकल्पिक व्याख्या संभव है?",
-      "status": "researching",
+      "status": "research_archived",
+      "researchFileId": "1ICiY9-N-NYbwno9J1703Lg6um1pa1R48",
+      "reconciliationFileId": "1Iuvw3nnDzOqAHa_zgLTcboq3hWZUfJnp",
       "legacyNonCanonicalFolderIds": [
         "1sTgWFUYpz8wOF09-QE3Vzs9fGLrvCjfV",
         "13oQD3fq-8d4O_ts7UDYT-HHZzLwvV67u",
