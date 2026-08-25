@@ -386,6 +386,16 @@
         "107L52S_1v0oj8OIH-as0f-jm5YX3DcER",
         "1GHDWdBvdtvOjWGn-wDxtqBN_FSsaBz1W"
       ]
+    },
+    "0017": {
+      "driveFolderId": "1Bvt7KE2479K3f38DbHKvAesB6Kyu2Vml",
+      "topic": "कौन-सी सीमा उपयोगी है?",
+      "status": "researching",
+      "legacyNonCanonicalFolderIds": [
+        "1jlo5T--LxaOiZuqu1LCh3636D3ze5KmY",
+        "1Yx6LUX89UrUU4lCBfHeFnQyXFnIK0JvO",
+        "1XxGwGBhIxBHbvplXR9E893vCoCp1rKQN"
+      ]
     }
   },
   "failedReels": [
@@ -454,8 +464,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T10:52:03.170Z",
+  "lastCheckpointAt": "2026-08-25T10:53:47.286Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0017"
 }
