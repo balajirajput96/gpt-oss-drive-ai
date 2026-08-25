@@ -10,7 +10,7 @@
 | Runtime | Local authenticated dashboard was visually checked after restart. | Dashboard renders; current server/network activity showed no new runtime rendering failure. |
 | Gemini | The server's catalogue health endpoint was exercised directly without exposing a key. | Google Gemini returned HTTP 200 with 50 available models. |
 | Production dependencies | `pnpm audit --prod --audit-level=moderate` was run. | No known production vulnerabilities were found. |
-| First-party CI | No repository workflow file existed. | A least-privilege workflow now runs formatting, typecheck, tests, and the bounded build. Remote run remains pending until push. |
+| First-party CI | No repository workflow file existed. | A least-privilege workflow now runs formatting, typecheck, tests, and the bounded build. After two configuration-only failures were corrected, run `32872419997` completed successfully for commit `979ac93`. |
 | Dependabot API | Authenticated repository access works, but listing Dependabot alerts returned HTTP 403. | Alert state was not changed. The documented dev-only moderate transitive alert remains unresolved; required security-alert permission is unavailable to this session. |
 | External CLIs | GitHub and Google Workspace CLIs are reachable; Gemini, gcloud, Antigravity, and Datadog CLIs are unavailable. | Unavailable CLIs are not project runtime dependencies and were not force-installed or impersonated. |
 
