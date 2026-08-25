@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0008",
+  "nextReelId": "0009",
   "completedReelIds": [
     "0001",
     "0002",
@@ -9,7 +9,8 @@
     "0004",
     "0005",
     "0006",
-    "0007"
+    "0007",
+    "0008"
   ],
   "verifiedReels": [
     {
@@ -94,6 +95,18 @@
       "manifestFileId": "11AVFzGLAPf1QnxMCSuDRdm9u1GekXtxf",
       "verifiedAt": "2026-08-25T09:42:01.947Z",
       "sha256": "6b02e5f8068fc4ec3f256ab9fe453288e5f19367ccac7effd27db7f932a51460"
+    },
+    {
+      "reelId": "0008",
+      "driveFolderId": "1PYSJWP897LH2chbSjHacV2aNKOUOAeHM",
+      "videoFileId": "1gscHJrbt4q-bPzeCc3Lolb8cF9LuqxL2",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1Fo6Cu-b-ukcIs-cE219j99HZNs9jI7FM",
+      "verifiedAt": "2026-08-25T09:46:33.491Z",
+      "sha256": "793a01d3d674bb9455d4c3a52998044724129508ca557bf1bbd2bcb7753fd2bb"
     }
   ],
   "canonicalMappings": {
@@ -165,6 +178,18 @@
         "17CGmSIxBaZJocPQTHT3GSEBzl5WHhYQG",
         "1CnpGJ4rR1c6j0vY4r-sR0jRa8LaOMMmt"
       ]
+    },
+    "0008": {
+      "driveFolderId": "1PYSJWP897LH2chbSjHacV2aNKOUOAeHM",
+      "topic": "यह आदत क्यों कठिन लगती है?",
+      "status": "drive_verified",
+      "legacyNonCanonicalFolderIds": [
+        "1hTHUL-ASp7pBXcJBaP99QbAf7OHxHuZP",
+        "1S94P7Oo4jCdaOqd_r3jR3fa8RV39CWBT"
+      ],
+      "legacyNonCanonicalArtifactIds": [
+        "1_Q5Uk1Kt8pPkH2VgJ48qry_c7i1f1b6y"
+      ]
     }
   },
   "failedReels": [
@@ -233,7 +258,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T09:42:01.947Z",
+  "lastCheckpointAt": "2026-08-25T09:46:33.491Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "ready_for_next",
   "activeReelId": null
