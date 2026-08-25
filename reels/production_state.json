@@ -474,6 +474,15 @@
       "occurredAt": "2026-08-25T12:38:11.022Z",
       "retryCount": 1,
       "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    },
+    {
+      "reelId": "0019",
+      "stage": "researching",
+      "errorCategory": "canonical_mapping_candidate_invalid",
+      "message": "Drive candidate 1DnbHa5PaQC8nQR9l0QaQUjfr4JcMQoKT matches the registry technology-attention topic and re-fetches with video 11RRsgWYtTDF4YOs6JlAskcXB-A3ZxEdX, manifest 1H0X2udycUnXamjBHmSXKLir19Yd23YSp, and SHA-256 7e04474429657bd97b9cc17f953584887f77a162ffcda01149d3146fc0af4347; independent caption QC found overlap between cue 6 (ends 62.320s) and cue 7 (starts 58.000s), so the package cannot be adopted or marked Drive-verified. Preserve candidate and conflicting folder 1jo0b5IpSKnHx9DRA96dzH31r_awlx5FP; do not advance.",
+      "occurredAt": "2026-08-25T13:41:30.374Z",
+      "retryCount": 2,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
     }
   ],
   "driveArchiveArtifacts": [
@@ -513,7 +522,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T12:38:11.022Z",
+  "lastCheckpointAt": "2026-08-25T13:41:30.374Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "blocked",
   "activeReelId": "0019"

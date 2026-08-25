@@ -55,3 +55,27 @@ No new research, script, claim ledger, narration, captions, visuals, render, or 
 - **Next safe action:** reconcile the canonical mapping against the authoritative Drive checkpoint/ledger before producing or adopting any Reel 0019 research or media; preserve all existing folders and do not advance the registry.
 
 The run stopped safely after one bounded barrier-handling stage. No social-platform publication was attempted.
+
+
+## Reconciliation recheck — 2026-08-25T13:41:30.374Z
+
+A read-only re-fetch was performed for the preserved candidate package `R0019_technology-attention-canonical` (`1DnbHa5PaQC8nQR9l0QaQUjfr4JcMQoKT`). The re-fetched manifest identifies the registry-aligned technology-mediated-attention topic, candidate video `11RRsgWYtTDF4YOs6JlAskcXB-A3ZxEdX`, manifest `1H0X2udycUnXamjBHmSXKLir19Yd23YSp`, and SHA-256 `7e04474429657bd97b9cc17f953584887f77a162ffcda01149d3146fc0af4347`. The candidate’s stored Drive status is `verified`, but this does not replace the local lifecycle gate or establish a canonical mapping.
+
+Independent technical checks passed for the re-fetched video: H.264 video, AAC audio, 720×1280 upright 9:16 geometry, 62.333333-second duration, and a clean decoder probe. Hindi caption text is present. However, deterministic SRT validation found one timing overlap: cue 6 ends at 62.320 seconds while cue 7 begins at 58.000 seconds. The stored QC JSON reports `QC_PASSED`, but the independent overlap failure means the candidate is not adoptable as a canonical package without a corrected caption artifact and a complete post-correction re-fetch/QC cycle.
+
+### Evidence-label boundary retained
+
+| Class | Reconciliation treatment |
+|---|---|
+| Peer-reviewed review | The 2021 review is retained as a context-dependent review source about technology, content, person, and environment; it is not a universal causal claim. |
+| Peer-reviewed experiment | The 2022 smartphone-notification experiment is retained as a task-specific experimental result; its observed response slowing is not generalized to all notifications or all screen use. |
+| Mechanistic theory or preliminary interpretation | N2/EEG interpretation remains an author interpretation or preliminary mechanistic hypothesis, not a settled neural law. |
+| Expert opinion | No expert opinion was transferred as scientific proof. |
+| Philosophy | No philosophical proposition was transferred as empirical evidence. |
+| Spiritual belief | No spiritual belief was transferred, implied, or relabeled as research evidence. |
+
+No Drive folder was renamed, moved, merged, overwritten, deleted, or re-uploaded. The candidate package and conflicting folder `1jo0b5IpSKnHx9DRA96dzH31r_awlx5FP` remain preserved. No `canonicalMappings["0019"]` entry was created, no lifecycle was advanced, and no social-platform publication was attempted.
+
+## Current barrier
+
+The production runner recorded a second failure for Reel 0019 with category `canonical_mapping_candidate_invalid` and retry count `2`. The next safe action is to correct the candidate caption timing and then repeat the full deterministic QC, manifest/SHA-256 verification, and canonical mapping review; until then, keep Reel 0019 active and blocked and do not adopt the candidate or advance the registry.
