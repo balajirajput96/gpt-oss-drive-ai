@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0014",
+  "nextReelId": "0015",
   "completedReelIds": [
     "0001",
     "0002",
@@ -15,7 +15,8 @@
     "0010",
     "0011",
     "0012",
-    "0013"
+    "0013",
+    "0014"
   ],
   "verifiedReels": [
     {
@@ -172,6 +173,18 @@
       "manifestFileId": "1GIsyOqyqSEAQcYHKmEf4f8azVEYP_MHt",
       "verifiedAt": "2026-08-25T10:19:51.250Z",
       "sha256": "38410ad33c286150448e2911914cdffe99e440067b1eaa5fe564bbdef06195d5"
+    },
+    {
+      "reelId": "0014",
+      "driveFolderId": "1rjZ3crsqBT3iAAgL11S2O4RMjue_jgxd",
+      "videoFileId": "1_iwOHIdY13Yh6xYYouB99SHLMW04D_U_",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "19vBXBM0g7vZaTwUtXabsdxHSNqtklomd",
+      "verifiedAt": "2026-08-25T10:31:22.382Z",
+      "sha256": "917761a535449c0c2e27f06a9ac6325b601d5378264cbffaf9e9ca0e056ec989"
     }
   ],
   "canonicalMappings": {
@@ -315,7 +328,7 @@
     "0014": {
       "driveFolderId": "1rjZ3crsqBT3iAAgL11S2O4RMjue_jgxd",
       "topic": "ध्यान/अनुभव को नापने में कठिनाई क्या है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1nlBMtcTbSTj5t5x_8Ngq_OglMbTa4GyI",
       "reconciliationFileId": "1Z6T0RcLEsF784ewcVGPzQG3fbwbPD-2Q",
       "legacyNonCanonicalFolderIds": [
@@ -391,8 +404,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T10:22:04.720Z",
+  "lastCheckpointAt": "2026-08-25T10:31:22.383Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0014"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

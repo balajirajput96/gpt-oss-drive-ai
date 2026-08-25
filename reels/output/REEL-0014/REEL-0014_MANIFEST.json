@@ -1,0 +1,48 @@
+{
+  "reelId": "0014",
+  "canonicalTuple": "MND-L01-Q14",
+  "batch": "Batch_001",
+  "title": "ध्यान को नापना इतना कठिन क्यों है?",
+  "question": "नापने में कठिनाई क्या है?",
+  "status": "complete_drive_verified",
+  "driveFolderId": "1rjZ3crsqBT3iAAgL11S2O4RMjue_jgxd",
+  "driveArtifactIds": {
+    "video": "1_iwOHIdY13Yh6xYYouB99SHLMW04D_U_",
+    "narration": "1TpeZ0NNTbrakq-EQwIb3IuRR_uLy2A7i",
+    "visualProvenance": "1nae-PQb0EtvcFjru0GK2z4ICSpdUv9Tx",
+    "qc": "11ZaAUU6BAX28MOwaTpYakmMuGdqomI21",
+    "script": "1LVL1Wu4t-TQnOlNPXMJ4k470y6cp8nsx",
+    "captions": "1vW_qEb77SdpSCD2Fh5x2zkbjse_3CuCD",
+    "claimLedger": "1IMuaVSJ0HodI7ur-cl4rmc1lV1b575HQ",
+    "storyboard": "1bwq-T2wI9MBpVBEdkH8V_8q9CLR6yVR6",
+    "research": "1nlBMtcTbSTj5t5x_8Ngq_OglMbTa4GyI",
+    "reconciliation": "1Z6T0RcLEsF784ewcVGPzQG3fbwbPD-2Q"
+  },
+  "checksums": {
+    "videoSha256": "917761a535449c0c2e27f06a9ac6325b601d5378264cbffaf9e9ca0e056ec989",
+    "videoMd5": "5acac9a8cab4b522e10f8110771ce965"
+  },
+  "technical": {
+    "width": 720,
+    "height": 1280,
+    "aspectRatio": "9:16",
+    "durationSeconds": 60.069,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "captionCueCount": 6
+  },
+  "provenance": {
+    "visualRoute": "original_deterministic_svg_motion_graphics",
+    "embeddedText": false,
+    "imageGenerationUsed": false,
+    "quotaOrAccessControlBypass": false
+  },
+  "safety": {
+    "noDiagnosisOrTreatment": true,
+    "noIndividualPrediction": true,
+    "noUniversalAgeClaim": true,
+    "noUniversalCultureClaim": true,
+    "measuredResultSeparatedFromInterpretation": true,
+    "uncertaintyStated": true
+  }
+}
