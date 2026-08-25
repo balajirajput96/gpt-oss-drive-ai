@@ -1,0 +1,51 @@
+{
+  "reelId": "0004",
+  "title": "ध्यान की चूक के पीछे क्या काम कर सकता है?",
+  "claimBoundary": "This reel describes context-dependent accounts studied in visual-attention research. It does not diagnose a person, prescribe a safety action, or present a single final mechanism for everyday missed details.",
+  "claims": [
+    {
+      "id": "C1",
+      "statementHi": "शोधकर्ता unexpected detail को miss होने के लिए कई संभावित तंत्रों को अलग-अलग प्रयोगों में जाँचते हैं।",
+      "evidenceLabel": "Scientific synthesis / scope statement",
+      "sources": [
+        "https://online.ucpress.edu/collabra/article/3/1/19/112381/Selective-Attention-in-Inattentional-Blindness",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3965161/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4530948/"
+      ]
+    },
+    {
+      "id": "C2",
+      "statementHi": "Attention set एक proposed account है: वर्तमान goal से मेल रखने वाली categories noticing को प्रभावित कर सकती हैं।",
+      "evidenceLabel": "Primary experimental evidence in a specific visual tracking task",
+      "sources": [
+        "https://online.ucpress.edu/collabra/article/3/1/19/112381/Selective-Attention-in-Inattentional-Blindness"
+      ],
+      "limit": "Do not generalize from a controlled display to every everyday situation."
+    },
+    {
+      "id": "C3",
+      "statementHi": "Perceptual load theory प्रस्तावित करती है कि demanding visual processing task-irrelevant information की processing बदल सकती है।",
+      "evidenceLabel": "Theory/review with supporting experiments",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3965161/"
+      ],
+      "limit": "This is not a literal fixed brain-battery model or an unqualified universal law."
+    },
+    {
+      "id": "C4",
+      "statementHi": "Unexpected object की location, properties और primary-task demands noticing को प्रभावित कर सकते हैं।",
+      "evidenceLabel": "Primary evidence plus scope limits",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4530948/"
+      ]
+    },
+    {
+      "id": "C5",
+      "statementHi": "एक everyday missed detail से intelligence, personality या diagnosis का निष्कर्ष नहीं निकलता।",
+      "evidenceLabel": "Safety and inference boundary",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4530948/"
+      ]
+    }
+  ]
+}

@@ -51,3 +51,4 @@
 - [x] Generate original Reel 0003 visuals, render captioned Hindi video, perform QC, upload the complete provenance package to the canonical Drive folder, and verify the lifecycle transition.
 - [x] Keep canonical Drive-mapping status synchronized when a reel is marked Drive-verified, with regression coverage for the state transition.
 - [x] Begin evidence retrieval and a distinct, registry-guided preproduction package for the next eligible item, Reel 0004.
+- [ ] Produce canonical Reel 0004 from its evidence-safe research package through Hindi narration, original visuals, captioned render, QC, canonical Drive verification, and deterministic lifecycle advancement.
