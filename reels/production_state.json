@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0016",
+  "nextReelId": "0017",
   "completedReelIds": [
     "0001",
     "0002",
@@ -17,7 +17,8 @@
     "0012",
     "0013",
     "0014",
-    "0015"
+    "0015",
+    "0016"
   ],
   "verifiedReels": [
     {
@@ -198,6 +199,18 @@
       "manifestFileId": "1NuinLF_MNhLC_i5_mcjVi4Dg5pwxcDTn",
       "verifiedAt": "2026-08-25T10:42:08.595Z",
       "sha256": "0e95d6d30aada479fab34dc0199ddb11bf5b37c6abeb7db965ee33dab92e9330"
+    },
+    {
+      "reelId": "0016",
+      "driveFolderId": "1BWgh0NqSSzqoCnTBfHlghKkPbpa9Qnf-",
+      "videoFileId": "1mbe_iisg1bUvW-m6eAtBzVW-ORHAKaJJ",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1NwmuNJqa9cF-MuNSyh4O1IkFfSXaf7RL",
+      "verifiedAt": "2026-08-25T10:52:03.170Z",
+      "sha256": "12bf7c0cd598391613b668a5ffe4879f7279231acc3869cf40dda0ffa17ce732"
     }
   ],
   "canonicalMappings": {
@@ -365,7 +378,7 @@
     "0016": {
       "driveFolderId": "1BWgh0NqSSzqoCnTBfHlghKkPbpa9Qnf-",
       "topic": "छोटी सफलता क्यों मायने रखती है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1JZU0fC4Z9mUosY9giVoMuZ2M4Kk-QT6y",
       "reconciliationFileId": "1KnlwsmoEupe7cZA4MD9ouohxm0w1dbK7",
       "legacyNonCanonicalFolderIds": [
@@ -441,8 +454,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T10:44:09.519Z",
+  "lastCheckpointAt": "2026-08-25T10:52:03.170Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0016"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

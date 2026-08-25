@@ -1,0 +1,8 @@
+{
+  "reelId":"0016","canonicalTuple":"MND-L01-Q16","batch":"Batch_001","title":"छोटी सफलता क्यों मायने रख सकती है?","question":"छोटी सफलता क्यों मायने रखती है?","status":"complete_drive_verified","driveFolderId":"1BWgh0NqSSzqoCnTBfHlghKkPbpa9Qnf-",
+  "driveArtifactIds":{"video":"1mbe_iisg1bUvW-m6eAtBzVW-ORHAKaJJ","narration":"1MzHASZoN62vRjUqCqoCtJBw7DV_24J0v","visualProvenance":"1dK0urQyKT5JnctTn9TYiqsDEd3D8LvLn","qc":"1Q2JLMMwQS92Zgb_Fr97qPnzl_SatgWDA","script":"1z4V1mI3005hP0WRjPpms0zDduyQneZzt","captions":"16M_DeZ2OCTgnMwoEeDgjaVoaqd3Vl1rP","claimLedger":"1WZunbz5CG7jMJKWaNEJqKw_Sc7Y6lfO0","storyboard":"1aR0HdiPE7HgUjdLpff9Dd-4zPQn_Gkyo","research":"1JZU0fC4Z9mUosY9giVoMuZ2M4Kk-QT6y","reconciliation":"1KnlwsmoEupe7cZA4MD9ouohxm0w1dbK7"},
+  "checksums":{"videoSha256":"12bf7c0cd598391613b668a5ffe4879f7279231acc3869cf40dda0ffa17ce732","videoMd5":"e90e9827788e74719ee87e59089f49b3"},
+  "technical":{"width":720,"height":1280,"aspectRatio":"9:16","durationSeconds":60.029,"videoCodec":"h264","audioCodec":"aac","captionCueCount":6},
+  "provenance":{"visualRoute":"original_deterministic_svg_motion_graphics","embeddedText":false,"imageGenerationUsed":false,"quotaOrAccessControlBypass":false},
+  "safety":{"noDiagnosisOrTreatment":true,"noIndividualPrediction":true,"noUniversalAgeClaim":true,"noUniversalCultureClaim":true,"measuredResultSeparatedFromInterpretation":true,"uncertaintyStated":true}
+}
