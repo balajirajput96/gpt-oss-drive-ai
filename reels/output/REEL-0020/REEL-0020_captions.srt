@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:10,000
+क्या आपने notice किया है कि कम नींद, तनाव, या शोर वाले माहौल में simple काम भी भारी लग सकता है? लेकिन क्या ये factors हर बार attention को एक ही तरह बदलते हैं? जवाब है—context matters।
+
+2
+00:00:10,000 --> 00:00:20,000
+Attention कोई single dial नहीं है। नींद alertness और learning readiness से जुड़ सकती है। Acute stress executive functions को प्रभावित कर सकता है, और environment distraction या sleep disruption जोड़ सकता है।
+
+3
+00:00:20,000 --> 00:00:31,000
+एक 2021 meta-analysis ने कम-से-कम एक पूरी रात की total sleep deprivation पर research को देखा। नई जानकारी सीखने और याद रखने पर असर दिखा, लेकिन इसे हर तरह की partial या chronic sleep loss पर सीधे लागू नहीं किया जा सकता।
+
+4
+00:00:31,000 --> 00:00:45,000
+एक 2016 meta-analysis में acute stress ने working memory और cognitive flexibility को कमजोर किया, जबकि inhibition पर असर nuanced था। Timing, task और participant differences से नतीजे बदल सकते हैं।
+
+5
+00:00:45,000 --> 00:00:55,000
+Environmental noise पर reviews भी context और population की भूमिका बताते हैं। इसलिए कोई एक decibel level हर व्यक्ति का attention बिगाड़ देगा—यह कहना evidence-safe नहीं है।
+
+6
+00:00:55,000 --> 00:01:02,500
+Practical takeaway: focus मुश्किल लगे तो पहले context note करें—नींद, तनाव और surroundings। छोटा low-risk observation करें; इसे diagnosis या guaranteed fix न समझें। Condition और task दोनों देखें।
