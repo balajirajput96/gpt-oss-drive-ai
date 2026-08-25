@@ -532,6 +532,15 @@
       "occurredAt": "2026-08-25T19:43:52.605Z",
       "retryCount": 3,
       "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    },
+    {
+      "reelId": "0020",
+      "stage": "assets_ready",
+      "errorCategory": "image_generation_quota_exhausted",
+      "message": "Original Scene 01 reference generation was rejected by the image-generation service at today's free-plan daily limit (20/20); no replacement visual was created, no legacy asset was reused, and no render, upload, re-fetch verification, lifecycle advance, or publication was attempted.",
+      "occurredAt": "2026-08-25T20:44:50.217Z",
+      "retryCount": 4,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
     }
   ],
   "driveArchiveArtifacts": [
@@ -571,7 +580,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T19:43:52.605Z",
+  "lastCheckpointAt": "2026-08-25T20:44:50.217Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "blocked",
   "activeReelId": "0020"
