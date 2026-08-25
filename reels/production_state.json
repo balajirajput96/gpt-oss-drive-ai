@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0009",
+  "nextReelId": "0010",
   "completedReelIds": [
     "0001",
     "0002",
@@ -10,7 +10,8 @@
     "0005",
     "0006",
     "0007",
-    "0008"
+    "0008",
+    "0009"
   ],
   "verifiedReels": [
     {
@@ -107,6 +108,18 @@
       "manifestFileId": "1Fo6Cu-b-ukcIs-cE219j99HZNs9jI7FM",
       "verifiedAt": "2026-08-25T09:46:33.491Z",
       "sha256": "793a01d3d674bb9455d4c3a52998044724129508ca557bf1bbd2bcb7753fd2bb"
+    },
+    {
+      "reelId": "0009",
+      "driveFolderId": "1Rt5Lu5DuuMn8U91o20eXluJJZYIaAjhn",
+      "videoFileId": "1qXQqwBZXx29K4g5wSm578Jw37leQZqap",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1Rcv7tGVSyjicY42MkZPFrPsFT8PGaUjr",
+      "verifiedAt": "2026-08-25T09:51:28.054Z",
+      "sha256": "322e4ebd5d1b576abea44a6599b30e505e83208156defc73812829710f2a1153"
     }
   ],
   "canonicalMappings": {
@@ -190,6 +203,16 @@
       "legacyNonCanonicalArtifactIds": [
         "1_Q5Uk1Kt8pPkH2VgJ48qry_c7i1f1b6y"
       ]
+    },
+    "0009": {
+      "driveFolderId": "1Rt5Lu5DuuMn8U91o20eXluJJZYIaAjhn",
+      "topic": "Context predictive processing को कैसे बदलता है?",
+      "status": "drive_verified",
+      "legacyNonCanonicalFolderIds": [
+        "16idHZN4qxly3My_eDpZB3kJSIYvY4niZ",
+        "1pPOeS7gzF9_5KxNUmad7hswD-MZ7Ty9v",
+        "1L4t6Tfl_j9mFVc9meZuMVZBEQypQu2So"
+      ]
     }
   },
   "failedReels": [
@@ -258,7 +281,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T09:46:33.491Z",
+  "lastCheckpointAt": "2026-08-25T09:51:28.054Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "ready_for_next",
   "activeReelId": null
