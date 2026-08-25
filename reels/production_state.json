@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0005",
+  "nextReelId": "0006",
   "completedReelIds": [
     "0001",
     "0002",
     "0003",
-    "0004"
+    "0004",
+    "0005"
   ],
   "verifiedReels": [
     {
@@ -55,6 +56,18 @@
       "manifestFileId": "19o_hQ61SK0FjvrG_ei0f2weqmqf025qW",
       "verifiedAt": "2026-08-25T09:12:56.420Z",
       "sha256": "dc4c2b48713eef9eb8975cf6c236872184eefe3c915c17f7919811ed5079e8f7"
+    },
+    {
+      "reelId": "0005",
+      "driveFolderId": "13AE69kPGYZ4xBieoBFGNfbQYzqn4GwTt",
+      "videoFileId": "1EMdG2eCjSDy1JZGlRC6MK2kdBLL06uaQ",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1IyA-VoreHdIbPB9ynAsgfxMoWjrsm9CH",
+      "verifiedAt": "2026-08-25T09:32:49.587Z",
+      "sha256": "6f5d6395252616cad8d0a99696f80e144af31c2a726cd6812157464e6a9da192"
     }
   ],
   "canonicalMappings": {
@@ -96,7 +109,7 @@
     "0005": {
       "driveFolderId": "13AE69kPGYZ4xBieoBFGNfbQYzqn4GwTt",
       "topic": "Evidence hierarchy for inattentional blindness and selective attention",
-      "status": "canonical_research_in_progress",
+      "status": "drive_verified",
       "legacyNonCanonicalFolderIds": [
         "1Hw3j4xEH4xHcuie6gv_TY39EsPYt-HVl",
         "1W3X_PyL-fYb3FJ27E-iy3NfxGpk60MoN",
@@ -170,8 +183,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T09:15:47.845Z",
+  "lastCheckpointAt": "2026-08-25T09:32:49.587Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0005"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

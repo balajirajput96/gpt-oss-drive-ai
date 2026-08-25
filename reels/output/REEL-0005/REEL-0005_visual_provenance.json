@@ -1,0 +1,55 @@
+{
+  "reelId": "0005",
+  "purpose": "Six text-free vertical scenes illustrating evidence strength, task specificity, and method variation in inattentional-blindness research.",
+  "sourcePolicy": "Scene captions are composited separately at render time. No approved scene contains embedded words, fake data, logos, brands, watermarks, medical claims, or real-person imitation.",
+  "quotaRecoveryDisclosure": "Scene 1 was generated as an original AI visual. The requested reference-conditioned AI batch for scenes 2–6 was rejected because the free-plan image-generation quota had been reached (20/20). The quota was not bypassed. Instead, five original deterministic SVG motion-graphics scenes were authored locally from the approved storyboard and rasterized with Chromium. This preserves a distinct original visual sequence while accurately disclosing the mixed production route.",
+  "approvedScenes": [
+    {
+      "scene": 1,
+      "filename": "reel0005_scene01.png",
+      "sha256": "b7bba96dabb7c4de34851db480fdaf4b2cd0cae8da4590e082991ba16beff802",
+      "dimensions": "1440x2560",
+      "productionRoute": "Original AI-generated cinematic research-table visual."
+    },
+    {
+      "scene": 2,
+      "filename": "reel0005_scene02.png",
+      "sha256": "51a06e1d77425b27abd6359a2464f5ea662c6a9690f4dfba9f5570135c3ab299",
+      "dimensions": "1080x1920",
+      "productionRoute": "Original deterministic SVG motion graphic, rasterized locally; dynamic-attention task metaphor."
+    },
+    {
+      "scene": 3,
+      "filename": "reel0005_scene03.png",
+      "sha256": "55d06db4a432005ada42800a5167881c9ea47f2a3aaae5fa581521627934ddee",
+      "dimensions": "1080x1920",
+      "productionRoute": "Original deterministic SVG motion graphic, rasterized locally; tracking and attention-set metaphor."
+    },
+    {
+      "scene": 4,
+      "filename": "reel0005_scene04.png",
+      "sha256": "f94836fc2e785ab7f30cb302f27cb384c3166d64d3c099f548ab2e1f03de3af6",
+      "dimensions": "1080x1920",
+      "productionRoute": "Original deterministic SVG motion graphic, rasterized locally; varied-paradigm method-review metaphor."
+    },
+    {
+      "scene": 5,
+      "filename": "reel0005_scene05.png",
+      "sha256": "7667996c7aa50f28aa157488965f791ca589b48cd35fbf2d62436913e151e99f",
+      "dimensions": "1080x1920",
+      "productionRoute": "Original deterministic SVG motion graphic, rasterized locally; transfer-limit/context metaphor."
+    },
+    {
+      "scene": 6,
+      "filename": "reel0005_scene06.png",
+      "sha256": "feadb05df9baf29a8e4f0efe3872d80672c24f3a3a154cd0b52705e639a473ec",
+      "dimensions": "1080x1920",
+      "productionRoute": "Original deterministic SVG motion graphic, rasterized locally; non-diagnostic evidence takeaway."
+    }
+  ],
+  "render": {
+    "renderer": "reels/scripts/render-reel.mjs",
+    "motionTreatment": "Subtle deterministic zoompan per still, then concat; subtitles are composited in filter_complex.",
+    "captionStyle": "Noto Sans Devanagari, 14 px at 720x1280, lower-third alignment, 36 px bottom margin."
+  }
+}

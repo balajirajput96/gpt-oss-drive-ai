@@ -1,0 +1,20 @@
+{
+  "reelId": "0005",
+  "generatedNarration": {
+    "filename": "REEL-0005_voice.wav",
+    "pathClass": "external production workspace; not source-controlled",
+    "voice": "Sadaltager",
+    "languageCode": "hi-IN",
+    "generationMethod": "Built-in speech generation from the canonical evidence-safe Hindi script.",
+    "durationSeconds": 60.72,
+    "codec": "pcm_s16le",
+    "sampleRateHz": 24000,
+    "channels": 1,
+    "sha256": "6a4849d6d9b43442ee3588702407cadbd26ac2a9c84efcddd3fbe4c0725b630f"
+  },
+  "renderInput": {
+    "filename": "REEL-0005_voice.wav",
+    "normalization": "None required; measured narration duration is within the 55–65 second reel target."
+  },
+  "claimBoundary": "The voiceover describes experimental evidence and methodological synthesis only; it does not state a universal attention rule or infer personal traits, diagnosis, safety risk, or spirituality."
+}

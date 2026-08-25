@@ -1,0 +1,52 @@
+{
+  "reelId": "0005",
+  "title": "ध्यान पर कौन-सा प्रमाण सबसे मजबूत है?",
+  "claimBoundary": "This reel compares the scope of controlled experimental findings and systematic methodological synthesis in inattentional-blindness research. It does not use a clinical evidence hierarchy, give medical or safety advice, or infer traits from an individual missed detail.",
+  "claims": [
+    {
+      "id": "C1",
+      "statementHi": "एक controlled experiment अपने exact tested task और conditions के बारे में सबसे सीधा उत्तर देता है।",
+      "evidenceLabel": "Scientific-method interpretation",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10694957/",
+        "https://online.ucpress.edu/collabra/article/3/1/19/112381/Selective-Attention-in-Inattentional-Blindness"
+      ],
+      "limit": "Do not represent this as a universal rule for every situation."
+    },
+    {
+      "id": "C2",
+      "statementHi": "एक dynamic divided-attention experiment में noticing unexpected object की similarity और primary monitoring task की difficulty के साथ बदल सकती थी।",
+      "evidenceLabel": "Primary controlled experiment",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/10694957/"
+      ],
+      "limit": "This finding is scoped to the study's dynamic display and task."
+    },
+    {
+      "id": "C3",
+      "statementHi": "Tracking experiments ने attention set के category- और feature-based accounts को test किया; Wood और Simons के tested displays में filtering category-based थी।",
+      "evidenceLabel": "Preregistered primary experimental programme",
+      "sources": [
+        "https://online.ucpress.edu/collabra/article/3/1/19/112381/Selective-Attention-in-Inattentional-Blindness"
+      ],
+      "limit": "Do not call this a final mechanism for all inattentional blindness."
+    },
+    {
+      "id": "C4",
+      "statementHi": "A methodological review of 129 articles and 219 experiments found varied paradigms and argued that inattentional blindness may include subtypes with different mechanisms.",
+      "evidenceLabel": "Systematic methodological synthesis",
+      "sources": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/acp.3746"
+      ],
+      "limit": "It is not a pooled causal effect estimate or a guarantee of real-world transfer."
+    },
+    {
+      "id": "C5",
+      "statementHi": "एक missed detail intelligence, personality या diagnosis का proof नहीं है।",
+      "evidenceLabel": "Inference and safety boundary",
+      "sources": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/acp.3746"
+      ]
+    }
+  ]
+}
