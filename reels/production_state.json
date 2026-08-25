@@ -1,14 +1,15 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0007",
+  "nextReelId": "0008",
   "completedReelIds": [
     "0001",
     "0002",
     "0003",
     "0004",
     "0005",
-    "0006"
+    "0006",
+    "0007"
   ],
   "verifiedReels": [
     {
@@ -81,6 +82,18 @@
       "manifestFileId": "1bT1JfzoqKBpXJtq0Z2PCuZLHoFC_zrwW",
       "verifiedAt": "2026-08-25T09:37:44.023Z",
       "sha256": "7a1bb16ef0e6fd3f0f2e420581f99c413a79cb48a776db7fbc97361482c353ba"
+    },
+    {
+      "reelId": "0007",
+      "driveFolderId": "13bOWEU_mbqVlaJVVRLO-Ht1gHV46onHN",
+      "videoFileId": "1HoVDTR5QZLmVsGZwrxjUb7RArK9sgxgT",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "11AVFzGLAPf1QnxMCSuDRdm9u1GekXtxf",
+      "verifiedAt": "2026-08-25T09:42:01.947Z",
+      "sha256": "6b02e5f8068fc4ec3f256ab9fe453288e5f19367ccac7effd27db7f932a51460"
     }
   ],
   "canonicalMappings": {
@@ -137,6 +150,20 @@
         "1rjeTbIVEf7x69hxBVxTySLyoizIi7qtR",
         "1PcGOOA496MKyJ76JKQzvmRdE3SMP4WBf",
         "1oBnNR7BChgP3pishGQiNCPLy48Us2NfZ"
+      ]
+    },
+    "0007": {
+      "driveFolderId": "13bOWEU_mbqVlaJVVRLO-Ht1gHV46onHN",
+      "topic": "क्या context हमारी perception को थोड़ा मोड़ सकता है?",
+      "status": "drive_verified",
+      "legacyNonCanonicalFolderIds": [
+        "1TBwrxkUR1Oxp6_-QGQKFQfNbr244k4J7",
+        "1OD00swazBKl04aDJVkawUvUklP9jHIu3",
+        "1J0w8g5BBS_7TaBeCd5sbxUxU6xZMPS_1"
+      ],
+      "legacyNonCanonicalArtifactIds": [
+        "17CGmSIxBaZJocPQTHT3GSEBzl5WHhYQG",
+        "1CnpGJ4rR1c6j0vY4r-sR0jRa8LaOMMmt"
       ]
     }
   },
@@ -206,7 +233,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-25T09:37:44.023Z",
+  "lastCheckpointAt": "2026-08-25T09:42:01.947Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "ready_for_next",
   "activeReelId": null
