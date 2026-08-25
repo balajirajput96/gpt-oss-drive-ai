@@ -1,17 +1,42 @@
 import { describe, expect, it } from "vitest";
+import { getGeminiCatalogueStatus } from "./geminiHealth";
 
-describe("Gemini server secret", () => {
-  it("authenticates to the Gemini model catalogue without exposing the key", async () => {
-    const apiKey = process.env.GEMINI_API_KEY;
-    expect(apiKey).toBeTruthy();
+describe("Gemini server configuration", () => {
+  it("reports missing configuration without making a network request", async () => {
+    const request = async () => {
+      throw new Error("network request should not be made");
+    };
+    await expect(
+      getGeminiCatalogueStatus("", request as typeof fetch)
+    ).resolves.toEqual({ configured: false });
+  });
 
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models?key=${encodeURIComponent(apiKey ?? "")}`,
-      { signal: AbortSignal.timeout(12_000) }
-    );
+  it("uses a server-side key only to request the model catalogue", async () => {
+    const calls: string[] = [];
+    const request = async (input: RequestInfo | URL) => {
+      calls.push(String(input));
+      return new Response(
+        JSON.stringify({
+          models: [{ name: "models/a" }, { name: "models/b" }],
+        }),
+        { status: 200 }
+      );
+    };
+    await expect(
+      getGeminiCatalogueStatus("server-only-key", request as typeof fetch)
+    ).resolves.toEqual({
+      configured: true,
+      connected: true,
+      modelCount: 2,
+      provider: "Google Gemini",
+    });
+    expect(calls).toEqual([expect.stringContaining("key=server-only-key")]);
+  });
 
-    expect(response.ok).toBe(true);
-    const payload = (await response.json()) as { models?: unknown[] };
-    expect(Array.isArray(payload.models)).toBe(true);
-  }, 20_000);
+  it("rejects a failed provider response", async () => {
+    const request = async () => new Response("unavailable", { status: 503 });
+    await expect(
+      getGeminiCatalogueStatus("server-only-key", request as typeof fetch)
+    ).rejects.toThrow("Provider status 503");
+  });
 });

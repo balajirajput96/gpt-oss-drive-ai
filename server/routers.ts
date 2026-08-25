@@ -14,6 +14,7 @@ import { invokeLLM, listLLMModels } from "./_core/llm";
 import { systemRouter } from "./_core/systemRouter";
 import { protectedProcedure, publicProcedure, router } from "./_core/trpc";
 import { buildLLMMessages, createSessionTitle } from "./chatUtils";
+import { getGeminiCatalogueStatus } from "./geminiHealth";
 
 const chatInput = z.object({
   sessionId: z.number().int().positive().optional(),
@@ -128,26 +129,18 @@ export const appRouter = router({
   }),
   integrations: router({
     geminiStatus: protectedProcedure.query(async () => {
-      const apiKey = process.env.GEMINI_API_KEY;
-      if (!apiKey) {
+      const status = await getGeminiCatalogueStatus();
+      if (!status.configured) {
         throw new TRPCError({
           code: "PRECONDITION_FAILED",
           message: "Gemini API is not configured",
         });
       }
       try {
-        const response = await fetch(
-          `https://generativelanguage.googleapis.com/v1beta/models?key=${encodeURIComponent(apiKey)}`,
-          { signal: AbortSignal.timeout(12_000) }
-        );
-        if (!response.ok) throw new Error(`Provider status ${response.status}`);
-        const payload = (await response.json()) as {
-          models?: Array<{ name?: string }>;
-        };
         return {
-          connected: true,
-          modelCount: payload.models?.length ?? 0,
-          provider: "Google Gemini",
+          connected: status.connected,
+          modelCount: status.modelCount,
+          provider: status.provider,
         };
       } catch (error) {
         console.error(
