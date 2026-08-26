@@ -613,6 +613,15 @@
       "occurredAt": "2026-08-26T11:43:42.881Z",
       "retryCount": 12,
       "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    },
+    {
+      "reelId": "0020",
+      "stage": "rendered",
+      "errorCategory": "render_input_artifacts_unavailable_after_checkout_recovery",
+      "message": "Fresh Git checkout recheck at 2026-08-26T12:42:17Z found corrected Hindi captions and six scene provenance JSON files but no six corresponding original 9:16 scene PNG binaries, no /home/ubuntu/webdev-static-assets directory, and no Hindi narration/audio in the accessible workspace; known Drive candidate 1JJh2gsSy_4CXKXUTLZUgcqPRV5p3ENpo remains read-only and non-adopted. Do not reuse legacy assets, render, upload, re-fetch-verify, mark Drive-verified, advance, or publish until original scene inputs and narration are restored or regenerated with verifiable provenance.",
+      "occurredAt": "2026-08-26T12:42:19.457Z",
+      "retryCount": 13,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
     }
   ],
   "driveArchiveArtifacts": [
@@ -652,7 +661,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-26T11:43:42.881Z",
+  "lastCheckpointAt": "2026-08-26T12:42:19.457Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "blocked",
   "activeReelId": "0020"
