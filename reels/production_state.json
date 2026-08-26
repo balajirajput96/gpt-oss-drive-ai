@@ -330,7 +330,9 @@
         "1hTHUL-ASp7pBXcJBaP99QbAf7OHxHuZP",
         "1S94P7Oo4jCdaOqd_r3jR3fa8RV39CWBT"
       ],
-      "legacyNonCanonicalArtifactIds": ["1_Q5Uk1Kt8pPkH2VgJ48qry_c7i1f1b6y"]
+      "legacyNonCanonicalArtifactIds": [
+        "1_Q5Uk1Kt8pPkH2VgJ48qry_c7i1f1b6y"
+      ]
     },
     "0009": {
       "driveFolderId": "1Rt5Lu5DuuMn8U91o20eXluJJZYIaAjhn",
@@ -346,8 +348,12 @@
       "driveFolderId": "1EKLMwTXS8PNVqPaEfBjVbeW0tfq5-HwN",
       "topic": "क्या यह कारण है या केवल संबंध?",
       "status": "drive_verified",
-      "legacyNonCanonicalFolderIds": ["1o_VOEOAF7NEA-RF8b-q1I0PN9fO1iJJ-"],
-      "legacyNonCanonicalArtifactIds": ["1BfVjLBL3eNWgrNGrKy6VTH7c6qC47q35"]
+      "legacyNonCanonicalFolderIds": [
+        "1o_VOEOAF7NEA-RF8b-q1I0PN9fO1iJJ-"
+      ],
+      "legacyNonCanonicalArtifactIds": [
+        "1BfVjLBL3eNWgrNGrKy6VTH7c6qC47q35"
+      ]
     },
     "0011": {
       "driveFolderId": "11abkm3_w7J0x60xBXDZEfVMatTBJbK8k",
@@ -361,7 +367,9 @@
         "1LbecuDUWTZNGs77gPVrNQJaUm-zGvlJN",
         "1EIMusEIx7Nd3BEKwlGJn9G9_fimzTPcJ"
       ],
-      "legacyNonCanonicalArtifactIds": ["1mkpQhIQZw2hoEIiavABkT3qdJULHxUhy"]
+      "legacyNonCanonicalArtifactIds": [
+        "1mkpQhIQZw2hoEIiavABkT3qdJULHxUhy"
+      ]
     },
     "0012": {
       "driveFolderId": "1V5XhL6RpyIV7JcXnCIivmktH9-uG4xF8",
@@ -447,7 +455,9 @@
       "topic": "प्रौद्योगिकी इसे कैसे बदलती है?",
       "status": "drive_verified",
       "reconciliationFileId": "1r7oVrFjVFwT_w4mjD9Uq9xx0JItCtXxX",
-      "legacyNonCanonicalFolderIds": ["1jo0b5IpSKnHx9DRA96dzH31r_awlx5FP"]
+      "legacyNonCanonicalFolderIds": [
+        "1jo0b5IpSKnHx9DRA96dzH31r_awlx5FP"
+      ]
     }
   },
   "failedReels": [
@@ -612,6 +622,15 @@
       "occurredAt": "2026-08-26T12:42:19.457Z",
       "retryCount": 13,
       "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    },
+    {
+      "reelId": "0020",
+      "stage": "assets_ready",
+      "errorCategory": "image_generation_quota_exhausted",
+      "message": "Retry of the reference-conditioned original visual recovery for Reel 0020 was rejected by the image-generation service at today's free-plan limit (20/20); no new scene was created in this retry. Scene 01 remains the only restored original visual and has valid 9:16 provenance. Scenes 02-06 and Hindi narration/audio remain absent. No legacy asset was reused; render, upload, re-fetch verification, lifecycle advance, and publication were not attempted.",
+      "occurredAt": "2026-08-26T13:12:29.936Z",
+      "retryCount": 14,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
     }
   ],
   "driveArchiveArtifacts": [
@@ -651,7 +670,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-26T12:42:19.457Z",
+  "lastCheckpointAt": "2026-08-26T13:12:29.936Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "blocked",
   "activeReelId": "0020"
