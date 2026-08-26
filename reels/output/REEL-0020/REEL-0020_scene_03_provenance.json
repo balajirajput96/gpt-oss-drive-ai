@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0020",
+  "sceneId": "03",
+  "stage": "original_visual_recovery",
+  "provenanceType": "original_generated_visual",
+  "source": "newly generated for this reel; no legacy Drive or local asset reused",
+  "references": [],
+  "artifact": {
+    "path": "reels/output/REEL-0020/REEL-0020_scene_03.png",
+    "format": "PNG",
+    "width": 1440,
+    "height": 2560,
+    "aspectRatio": "9:16",
+    "sha256": "2fb9428a4efc69e3d0a3755658289d77d60b988883ec514330a0f4fef71a5779",
+    "bytes": 4305812
+  },
+  "createdAt": "2026-08-26T02:37:36.631Z",
+  "visualBrief": "Original vertical editorial documentary scene: a learner at a library table in late afternoon, calmly reading while a softly blurred hallway adds mild ordinary environmental distraction; the visual is illustrative only.",
+  "contentBoundary": {
+    "peerReviewedExperiment": "Not depicted as proof of a specific study result or experimental manipulation.",
+    "peerReviewedReviewOrMetaAnalysis": "Not depicted as proof of a specific review or meta-analysis result.",
+    "mechanisticTheoryOrPreliminaryInterpretation": "The visual is illustrative only and does not establish a mechanism or causal guarantee.",
+    "expertOpinion": "Not represented as scientific proof or expert testimony.",
+    "philosophy": "Not used as empirical evidence or a philosophical conclusion.",
+    "spiritualBelief": "Not transferred, implied, or relabeled as research evidence."
+  },
+  "qc": {
+    "technical": "PASS: PNG, RGB, non-interlaced, 1440x2560, exact 9:16 pixel ratio; SHA-256 recorded.",
+    "visual": "PASS for bounded stage: coherent original scene, no visible text, logo, watermark, chart, medical symbol, or obvious fatal defect.",
+    "packageStatus": "INCOMPLETE: three additional original 9:16 scene inputs are still required before rendering."
+  }
+}
