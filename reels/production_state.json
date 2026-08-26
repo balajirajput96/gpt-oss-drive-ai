@@ -604,6 +604,15 @@
       "occurredAt": "2026-08-26T11:31:17.624Z",
       "retryCount": 11,
       "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    },
+    {
+      "reelId": "0020",
+      "stage": "assets_ready",
+      "errorCategory": "image_generation_quota_exhausted",
+      "message": "Fresh retry of Reel 0020 original visual recovery was rejected by the image-generation service at today's free-plan limit (20/20); no Scene 01 replacement was created, no legacy Drive or local asset was reused, and Scenes 02-06, Hindi narration/audio, render, upload, re-fetch verification, lifecycle advance, and publication remain blocked.",
+      "occurredAt": "2026-08-26T11:43:42.881Z",
+      "retryCount": 12,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
     }
   ],
   "driveArchiveArtifacts": [
@@ -643,7 +652,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-26T11:31:17.624Z",
+  "lastCheckpointAt": "2026-08-26T11:43:42.881Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "blocked",
   "activeReelId": "0020"
