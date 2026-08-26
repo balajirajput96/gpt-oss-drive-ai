@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0020",
+  "stage": "rendered_deterministic_qc",
+  "checkedAt": "2026-08-26T13:21:24.282091Z",
+  "artifacts": {
+    "video": {
+      "path": "reels/output/REEL-0020/REEL-0020.mp4",
+      "sha256": "04008d80a216913cf6e0321c7014910c35064badfd364f720a62547c9caa3d90",
+      "bytes": 3187570
+    },
+    "audio": {
+      "path": "reels/output/REEL-0020/REEL-0020_narration.wav",
+      "sha256": "1ea0a3f7c5629ff2faae8350a87cd2afdde6a9f6a99142dbdb103ed155fa4aab",
+      "bytes": 2999410
+    },
+    "captions": {
+      "path": "reels/output/REEL-0020/REEL-0020_captions.srt",
+      "sha256": "6fbcadf52efeda3603f7175feda2dc77538e81a94f1a592a881b694549964e2b",
+      "bytes": 2272
+    }
+  },
+  "technical": {
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 720,
+    "height": 1280,
+    "pixelFormat": "yuv420p",
+    "videoDurationSeconds": 62.486,
+    "audioDurationSeconds": 62.486083,
+    "aspectRatio": "720:1280",
+    "pass": true
+  },
+  "captions": {
+    "cueCount": 6,
+    "firstCueStartSeconds": 0.0,
+    "lastCueEndSeconds": 62.5,
+    "nonOverlapping": true,
+    "durationAlignmentDeltaSeconds": 0.014000000000002899,
+    "pass": true
+  },
+  "visual": {
+    "status": "PASS_LIGHTWEIGHT_VISUAL_REVIEW",
+    "boundary": "Scenes are original procedural illustrations and illustrative only; they do not depict experiments, reviews, mechanisms, expert opinion, philosophy, or spiritual belief as evidence."
+  },
+  "overall": "PASS"
+}

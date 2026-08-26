@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0020",
+  "nextReelId": "0021",
   "completedReelIds": [
     "0001",
     "0002",
@@ -21,7 +21,8 @@
     "0016",
     "0017",
     "0018",
-    "0019"
+    "0019",
+    "0020"
   ],
   "verifiedReels": [
     {
@@ -250,6 +251,18 @@
       "manifestFileId": "1FUcNqOpkoP8-d4AdmiPJRUWwrROGmhQV",
       "verifiedAt": "2026-08-25T16:10:56.576Z",
       "sha256": "f60e8423af00388a1743008cb5f08d57ed06bf9526140bb27eb72a8c69e72882"
+    },
+    {
+      "reelId": "0020",
+      "driveFolderId": "1RTlgGnMkFo26nJ6HMAwviBUC9Sdo7jqd",
+      "videoFileId": "1itVqG2kL2Ow04ZyNT4w9n3l5988FsVDg",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1AnF0TNS-oUbh1c7aErveEzuasQRzQT7w",
+      "verifiedAt": "2026-08-26T13:30:06.633Z",
+      "sha256": "04008d80a216913cf6e0321c7014910c35064badfd364f720a62547c9caa3d90"
     }
   ],
   "canonicalMappings": {
@@ -457,6 +470,15 @@
       "reconciliationFileId": "1r7oVrFjVFwT_w4mjD9Uq9xx0JItCtXxX",
       "legacyNonCanonicalFolderIds": [
         "1jo0b5IpSKnHx9DRA96dzH31r_awlx5FP"
+      ]
+    },
+    "0020": {
+      "driveFolderId": "1RTlgGnMkFo26nJ6HMAwviBUC9Sdo7jqd",
+      "topic": "नींद, तनाव, या पर्यावरण की भूमिका क्या है?",
+      "status": "drive_verified",
+      "legacyNonCanonicalFolderIds": [
+        "1sq84dgyHi91Shx9rlupJcNOyBL_5mmrE",
+        "1JJh2gsSy_4CXKXUTLZUgcqPRV5p3ENpo"
       ]
     }
   },
@@ -670,8 +692,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-26T13:12:29.936Z",
+  "lastCheckpointAt": "2026-08-26T13:30:06.634Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "blocked",
-  "activeReelId": "0020"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

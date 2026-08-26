@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0020",
+  "artifact": "REEL-0020_narration.wav",
+  "createdAt": "2026-08-26T13:28:19.049724Z",
+  "generation": {
+    "method": "Hindi TTS generation using voice Charon, locale hi-IN, followed by deterministic pitch-preserving atempo normalization to the corrected caption duration.",
+    "rawDurationSeconds": 77.96,
+    "finalDurationSeconds": 62.486083,
+    "sampleRate": 24000,
+    "channels": 1,
+    "codec": "pcm_s16le",
+    "sourceText": "Exact Hindi voiceover script in REEL-0020_script_hi.md; no extra claims were added."
+  },
+  "artifactSha256": "1ea0a3f7c5629ff2faae8350a87cd2afdde6a9f6a99142dbdb103ed155fa4aab",
+  "evidenceBoundaries": {
+    "experiment": "Narration describes cited studies only within their stated manipulations and outcomes.",
+    "review": "Meta-analysis and systematic-review labels are explicit.",
+    "theory": "No mechanistic theory is presented as settled or causal proof.",
+    "expertOpinion": "No expert opinion is presented as scientific proof.",
+    "philosophy": "No philosophical conclusion is made.",
+    "spiritualBelief": "No spiritual belief is presented or relabeled as research evidence."
+  },
+  "qc": "PASS: audio is mono 24 kHz PCM WAV, final duration aligns with six non-overlapping captions ending at 62.500 seconds within 0.1 seconds."
+}

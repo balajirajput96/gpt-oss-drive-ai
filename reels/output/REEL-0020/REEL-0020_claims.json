@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0020",
+  "topic": "नींद, तनाव, या पर्यावरण की भूमिका क्या है?",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Sleep, acute stress, and environment can act as context factors rather than universal attention switches.",
+      "evidenceLabel": "synthesis",
+      "support": "Cross-source synthesis; wording is bounded and does not claim a single mechanism or universal effect.",
+      "allowedWording": "context matters; effects can differ by task, timing, population, and measurement.",
+      "prohibitedOverclaim": "These factors always change attention in the same way."
+    },
+    {
+      "id": "C2",
+      "claim": "A 2021 meta-analysis examined at least one full night of total sleep deprivation and found effects on learning and memory for newly learned material.",
+      "evidenceLabel": "peer-reviewed meta-analysis",
+      "source": "Newbury, Crowley, Rastle, and Tamminen (2021), Psychological Bulletin, https://doi.org/10.1037/bul0000348",
+      "allowedWording": "bounded to the studied acute total-deprivation manipulation and outcomes.",
+      "prohibitedOverclaim": "The finding applies directly to every partial or chronic sleep-loss pattern."
+    },
+    {
+      "id": "C3",
+      "claim": "A 2016 meta-analysis reported acute-stress effects on working memory and cognitive flexibility, while inhibition effects were nuanced.",
+      "evidenceLabel": "peer-reviewed meta-analysis",
+      "source": "Shields, Sazma, and Yonelinas (2016), Neuroscience & Biobehavioral Reviews, https://doi.org/10.1016/j.neubiorev.2016.06.038",
+      "allowedWording": "timing, task, and participant differences can moderate results.",
+      "prohibitedOverclaim": "Every stressful moment harms attention or executive function in the same way."
+    },
+    {
+      "id": "C4",
+      "claim": "Environmental-noise cognition findings depend on setting, population, and exposure pattern.",
+      "evidenceLabel": "systematic-review framing",
+      "source": "Thompson et al. (2022), Environment International, https://europepmc.org/article/MED/34649047",
+      "allowedWording": "context and population matter; no single decibel threshold is universal.",
+      "prohibitedOverclaim": "One decibel level predicts every person's performance."
+    },
+    {
+      "id": "C5",
+      "claim": "The practical takeaway is a low-risk observation of context, not a diagnosis or guaranteed fix.",
+      "evidenceLabel": "practical context",
+      "support": "Self-observation framing only; not a treatment recommendation or clinical assessment.",
+      "allowedWording": "note sleep, stress, surroundings, condition, and task.",
+      "prohibitedOverclaim": "Changing one factor guarantees restored attention."
+    }
+  ],
+  "evidenceBoundaries": {
+    "experiment": "No visual or narration element is presented as proof of a specific experiment beyond the cited research descriptions.",
+    "review": "Meta-analysis and systematic-review labels remain explicit and are not generalized beyond their populations and outcomes.",
+    "theory": "No mechanistic theory is presented as settled or causal proof.",
+    "expertOpinion": "No expert opinion is used as scientific proof.",
+    "philosophy": "No philosophical conclusion is made.",
+    "spiritualBelief": "No spiritual belief is presented or relabeled as research evidence."
+  }
+}

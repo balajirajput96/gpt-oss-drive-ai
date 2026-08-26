@@ -3,31 +3,36 @@
   "reelId": "0020",
   "sceneId": "01",
   "stage": "original_visual_recovery",
-  "provenanceType": "original_generated_visual",
-  "source": "newly generated in this bounded run as the Reel 0020 visual reference; no legacy Drive or local asset reused",
+  "provenanceType": "original_procedural_visual",
+  "source": "Created locally by the source-controlled Pillow generator reels/scripts/generate-reel0020-procedural-visuals.py after AI image generation was unavailable; no legacy Drive or local media asset reused.",
   "references": [],
+  "generator": {
+    "kind": "deterministic_procedural_illustration",
+    "sourceScript": "reels/scripts/generate-reel0020-procedural-visuals.py",
+    "seedPolicy": "fixed scene ID seed for subtle texture only"
+  },
   "artifact": {
     "path": "reels/output/REEL-0020/REEL-0020_scene_01.png",
     "format": "PNG",
     "width": 1440,
     "height": 2560,
     "aspectRatio": "9:16",
-    "sha256": "56b5ed8213994a570018bb2f6c61d929a8cf69b10bfa9aec3ebfee434c919a57",
-    "bytes": 4684053
+    "sha256": "1e8e4eb2717158b99a2a395a7a6cce0c1f798388b92ff9c7f5c85461cba50e07",
+    "bytes": 122863
   },
-  "createdAt": "2026-08-26T11:31:02.459Z",
-  "visualBrief": "Original vertical editorial documentary scene: a tired but calm person at a desk in early morning light, with cool blue ambient light, a warm focus pool on the notebook, and a softly blurred city outside the window.",
+  "createdAt": "2026-08-26T13:17:28.165568Z",
+  "visualBrief": "Original vertical procedural editorial illustration: a calm adult learner at a desk in early morning light, with a subtle sleep cue and a warm focus pool on a blank notebook.",
   "contentBoundary": {
-    "peerReviewedExperiment": "Not depicted as proof of a specific study result.",
-    "peerReviewedReviewOrMetaAnalysis": "Not depicted as proof of a specific review result.",
-    "mechanisticTheoryOrPreliminaryInterpretation": "The visual is illustrative only and does not establish a mechanism or causal guarantee.",
-    "expertOpinion": "Not represented as scientific proof.",
-    "philosophy": "Not used as empirical evidence.",
+    "peerReviewedExperiment": "Not depicted as proof of a specific experiment or experimental manipulation.",
+    "peerReviewedReviewOrMetaAnalysis": "Not depicted as proof of a peer-reviewed review or meta-analysis result.",
+    "mechanisticTheoryOrPreliminaryInterpretation": "Illustrative only; does not establish a mechanism, diagnosis, treatment, causal guarantee, or universal claim.",
+    "expertOpinion": "Not represented as expert testimony or scientific proof.",
+    "philosophy": "Not used as empirical evidence or a philosophical conclusion.",
     "spiritualBelief": "Not transferred, implied, or relabeled as research evidence."
   },
   "qc": {
-    "technical": "PASS: deterministic file/ffprobe QC reports PNG, 8-bit RGB, non-interlaced, 1440x2560, codec png, pix_fmt rgb24, exact 9:16 pixel ratio, and recorded SHA-256.",
-    "visual": "PASS: lightweight visual review found a coherent original editorial scene with natural anatomy and no visible readable text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
-    "packageStatus": "PARTIAL: Scene 01 is present and validated; Scenes 02–06 and Hindi narration/audio remain unavailable, so rendering is still blocked."
+    "technical": "PASS: deterministic Pillow inspection reports PNG, 8-bit RGB, non-interlaced, 1440x2560, exact 9:16 pixel ratio, and recorded SHA-256; ffprobe/file checks are required before render.",
+    "visual": "PASS: lightweight contact-sheet review found a coherent original editorial illustration with no readable text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
+    "packageStatus": "COMPLETE for six original procedural 9:16 visual inputs; Hindi narration and render remain separate gated stages."
   }
 }
