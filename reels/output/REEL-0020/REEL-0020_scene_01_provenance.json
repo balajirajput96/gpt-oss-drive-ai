@@ -12,10 +12,10 @@
     "width": 1440,
     "height": 2560,
     "aspectRatio": "9:16",
-    "sha256": "3507638f8972bc4e0ade6b2183882ec846d5591e0ef0ea1295acaed4e22f70a8",
-    "bytes": 4021787
+    "sha256": "56b5ed8213994a570018bb2f6c61d929a8cf69b10bfa9aec3ebfee434c919a57",
+    "bytes": 4684053
   },
-  "createdAt": "2026-08-26T06:42:50.766Z",
+  "createdAt": "2026-08-26T11:31:02.459Z",
   "visualBrief": "Original vertical editorial documentary scene: a tired but calm person at a desk in early morning light, with cool blue ambient light, a warm focus pool on the notebook, and a softly blurred city outside the window.",
   "contentBoundary": {
     "peerReviewedExperiment": "Not depicted as proof of a specific study result.",
@@ -28,6 +28,6 @@
   "qc": {
     "technical": "PASS: deterministic file/ffprobe QC reports PNG, 8-bit RGB, non-interlaced, 1440x2560, codec png, pix_fmt rgb24, exact 9:16 pixel ratio, and recorded SHA-256.",
     "visual": "PASS: lightweight visual review found a coherent original editorial scene with natural anatomy and no visible readable text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
-    "packageStatus": "COMPLETE for original visual inputs: six original 9:16 scene inputs are present locally; rendering remains a separate gated stage."
+    "packageStatus": "PARTIAL: Scene 01 is present and validated; Scenes 02–06 and Hindi narration/audio remain unavailable, so rendering is still blocked."
   }
 }
