@@ -550,6 +550,15 @@
       "occurredAt": "2026-08-25T22:42:21.280Z",
       "retryCount": 5,
       "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    },
+    {
+      "reelId": "0020",
+      "stage": "assets_ready",
+      "errorCategory": "missing_original_visual_inputs",
+      "message": "Scene 01-04 provenance metadata exists but their local PNG inputs are absent after repository recovery; Scene 05 was generated and passed deterministic checks, but Scene 06 is still absent. No legacy Drive or local asset may be reused; do not render, upload, verify, advance, or publish.",
+      "occurredAt": "2026-08-26T04:36:49.952Z",
+      "retryCount": 6,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
     }
   ],
   "driveArchiveArtifacts": [
@@ -589,7 +598,7 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-26T03:40:13.996Z",
+  "lastCheckpointAt": "2026-08-26T04:36:49.952Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
   "runStatus": "blocked",
   "activeReelId": "0020"

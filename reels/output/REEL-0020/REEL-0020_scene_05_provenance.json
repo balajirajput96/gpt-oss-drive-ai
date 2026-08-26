@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0020",
+  "sceneId": "05",
+  "stage": "original_visual_recovery",
+  "provenanceType": "original_generated_visual",
+  "source": "newly generated for this reel; no legacy Drive or local asset reused",
+  "references": [],
+  "artifact": {
+    "path": "reels/output/REEL-0020/REEL-0020_scene_05.png",
+    "format": "PNG",
+    "width": 1440,
+    "height": 2560,
+    "aspectRatio": "9:16",
+    "sha256": "3c400c61f4f8a8d553862ba7a4ed3bc58b42208073dfc6e36dde07cbf4f180e2",
+    "bytes": 4260669
+  },
+  "createdAt": "2026-08-26T04:35:24.853Z",
+  "visualBrief": "Original vertical editorial documentary scene: a calm adult learner at a simple desk in a quiet public library or study room, with a softly blurred hallway and distant ordinary activity suggesting mild environmental noise; illustrative only.",
+  "contentBoundary": {
+    "peerReviewedExperiment": "Not depicted as proof of a specific experiment or experimental manipulation.",
+    "peerReviewedReviewOrMetaAnalysis": "Not depicted as proof of an environmental-noise review or meta-analysis result.",
+    "mechanisticTheoryOrPreliminaryInterpretation": "The visual is illustrative only and does not establish a mechanism or causal guarantee.",
+    "expertOpinion": "Not represented as scientific proof or expert testimony.",
+    "philosophy": "Not used as empirical evidence or a philosophical conclusion.",
+    "spiritualBelief": "Not transferred, implied, or relabeled as research evidence."
+  },
+  "qc": {
+    "technical": "PASS: file reports PNG, 8-bit RGB, non-interlaced, 1440x2560; ffprobe reports codec png, width 1440, height 2560, pix_fmt rgb24; exact 9:16 pixel ratio; SHA-256 recorded.",
+    "visual": "PASS for bounded stage: coherent original editorial scene, no visible text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
+    "packageStatus": "INCOMPLETE: one additional original 9:16 scene input is still required before rendering."
+  }
+}
