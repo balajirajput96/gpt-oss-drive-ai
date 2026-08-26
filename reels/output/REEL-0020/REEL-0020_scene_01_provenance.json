@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0020",
+  "sceneId": "01",
+  "stage": "original_visual_recovery",
+  "provenanceType": "original_generated_visual",
+  "source": "newly generated for this reel; no legacy Drive or local asset reused",
+  "references": [],
+  "artifact": {
+    "path": "reels/output/REEL-0020/REEL-0020_scene_01.png",
+    "format": "PNG",
+    "width": 1440,
+    "height": 2560,
+    "aspectRatio": "9:16",
+    "sha256": "378e2914c32c31a6690ffbe53f08845739aea52c2754c8bab12e39b0ffc4190b",
+    "bytes": 4243739
+  },
+  "createdAt": "2026-08-26T00:43:23.126Z",
+  "visualBrief": "Original vertical editorial documentary scene: a tired but calm person at a desk in early morning light, with cool blue ambient light, a warm focus pool on the notebook, and a softly blurred city outside the window.",
+  "contentBoundary": {
+    "peerReviewedExperiment": "Not depicted as proof of a specific study result.",
+    "peerReviewedReviewOrMetaAnalysis": "Not depicted as proof of a specific review result.",
+    "mechanisticTheoryOrPreliminaryInterpretation": "The visual is illustrative only and does not establish a mechanism or causal guarantee.",
+    "expertOpinion": "Not represented as scientific proof.",
+    "philosophy": "Not used as empirical evidence.",
+    "spiritualBelief": "Not transferred, implied, or relabeled as research evidence."
+  },
+  "qc": {
+    "technical": "PASS: PNG, RGB, non-interlaced, 1440x2560, exact 9:16 pixel ratio.",
+    "visual": "PASS for bounded stage: coherent original scene, no visible text, logo, watermark, or obvious fatal defect.",
+    "packageStatus": "INCOMPLETE: five additional original 9:16 scene inputs are still required before rendering."
+  }
+}
