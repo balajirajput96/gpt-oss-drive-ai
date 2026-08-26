@@ -653,6 +653,15 @@
       "occurredAt": "2026-08-26T13:12:29.936Z",
       "retryCount": 14,
       "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
+    },
+    {
+      "reelId": "0021",
+      "stage": "researching",
+      "errorCategory": "canonical_id_conflict",
+      "message": "Drive root already contains an unapproved Reel_0021 folder 1zI7uISUl1rjxxX0JORfAFgL6VGocShrK with an existing interleaving-practice package, but production_state.json has no canonicalMappings entry for Reel 0021. The package includes video 1Xj4AY34TPXV23L9YfJH18lWNtoHIe0RV, narration 1wwOcKf9FD7roEM2-AT8nakDTqrfx_RIL, six keyframes, and captions 15G_d83j-jB4-UkrpQr7mAe-w2r_FPFY1; its SRT has an invalid overlap where cue 6 ends at 63.000s and cue 7 starts at 59.000s. Preserve this folder and artifacts as non-canonical; do not adopt, rerender, upload, verify, advance, or publish until the canonical mapping and caption provenance are reconciled.",
+      "occurredAt": "2026-08-26T15:35:18.140Z",
+      "retryCount": 1,
+      "nextSafeAction": "Retry the same reel ID after correcting the recorded failure; do not advance the registry."
     }
   ],
   "driveArchiveArtifacts": [
@@ -692,8 +701,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-26T13:30:06.634Z",
+  "lastCheckpointAt": "2026-08-26T15:35:18.140Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "blocked",
+  "activeReelId": "0021"
 }
