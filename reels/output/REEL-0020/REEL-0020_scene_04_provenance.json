@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0020",
+  "sceneId": "04",
+  "stage": "original_visual_recovery",
+  "provenanceType": "original_generated_visual",
+  "source": "newly generated for this reel; no legacy Drive or local asset reused",
+  "references": [],
+  "artifact": {
+    "path": "reels/output/REEL-0020/REEL-0020_scene_04.png",
+    "format": "PNG",
+    "width": 1440,
+    "height": 2560,
+    "aspectRatio": "9:16",
+    "sha256": "d21c41a07677a108cfe75ad29ddefd96927b6a5410f91e1d7e513d275238830e",
+    "bytes": 4473880
+  },
+  "createdAt": "2026-08-26T03:40:13.996Z",
+  "visualBrief": "Original vertical editorial documentary scene: an adult learner at a simple desk during an ordinary timed task, mildly pressured but calm, with a softly blurred analog clock and books in the background; the visual is illustrative only.",
+  "contentBoundary": {
+    "peerReviewedExperiment": "Not depicted as proof of a specific study result or experimental manipulation.",
+    "peerReviewedReviewOrMetaAnalysis": "Not depicted as proof of the 2016 acute-stress meta-analysis or any other review result.",
+    "mechanisticTheoryOrPreliminaryInterpretation": "The visual is illustrative only and does not establish a mechanism or causal guarantee.",
+    "expertOpinion": "Not represented as scientific proof or expert testimony.",
+    "philosophy": "Not used as empirical evidence or a philosophical conclusion.",
+    "spiritualBelief": "Not transferred, implied, or relabeled as research evidence."
+  },
+  "qc": {
+    "technical": "PASS: file reports PNG, RGB, non-interlaced, 1440x2560; ffprobe reports codec png, width 1440, height 2560, pix_fmt rgb24; exact 9:16 pixel ratio; SHA-256 recorded.",
+    "visual": "PASS for bounded stage: coherent original editorial scene, no visible text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
+    "packageStatus": "INCOMPLETE: two additional original 9:16 scene inputs are still required before rendering."
+  }
+}
