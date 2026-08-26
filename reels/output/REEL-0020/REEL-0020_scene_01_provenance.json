@@ -12,8 +12,8 @@
     "width": 1440,
     "height": 2560,
     "aspectRatio": "9:16",
-    "sha256": "378e2914c32c31a6690ffbe53f08845739aea52c2754c8bab12e39b0ffc4190b",
-    "bytes": 4243739
+    "sha256": "67c4205146158a5c3deead559f5c64862070c0ce08f61ddba30354e732339d29",
+    "bytes": 4401636
   },
   "createdAt": "2026-08-26T00:43:23.126Z",
   "visualBrief": "Original vertical editorial documentary scene: a tired but calm person at a desk in early morning light, with cool blue ambient light, a warm focus pool on the notebook, and a softly blurred city outside the window.",
@@ -28,6 +28,6 @@
   "qc": {
     "technical": "PASS: PNG, RGB, non-interlaced, 1440x2560, exact 9:16 pixel ratio.",
     "visual": "PASS for bounded stage: coherent original scene, no visible text, logo, watermark, or obvious fatal defect.",
-    "packageStatus": "INCOMPLETE: five additional original 9:16 scene inputs are still required before rendering."
+    "packageStatus": "COMPLETE for original visual inputs: six original 9:16 scene inputs are present locally; rendering remains a separate gated stage."
   }
 }

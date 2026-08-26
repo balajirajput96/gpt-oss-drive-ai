@@ -4,16 +4,18 @@
   "sceneId": "03",
   "stage": "original_visual_recovery",
   "provenanceType": "original_generated_visual",
-  "source": "newly generated for this reel; no legacy Drive or local asset reused",
-  "references": [],
+  "source": "newly generated for this reel; conditioned only on the new Scene 01 reference; no legacy Drive or local asset reused",
+  "references": [
+    "reels/output/REEL-0020/REEL-0020_scene_01.png"
+  ],
   "artifact": {
     "path": "reels/output/REEL-0020/REEL-0020_scene_03.png",
     "format": "PNG",
     "width": 1440,
     "height": 2560,
     "aspectRatio": "9:16",
-    "sha256": "2fb9428a4efc69e3d0a3755658289d77d60b988883ec514330a0f4fef71a5779",
-    "bytes": 4305812
+    "sha256": "c134f73f14c0abfe395ffd41c66e06dedbc5bf9de56d0490b598a2b05f2e437f",
+    "bytes": 4476591
   },
   "createdAt": "2026-08-26T02:37:36.631Z",
   "visualBrief": "Original vertical editorial documentary scene: a learner at a library table in late afternoon, calmly reading while a softly blurred hallway adds mild ordinary environmental distraction; the visual is illustrative only.",
@@ -28,6 +30,6 @@
   "qc": {
     "technical": "PASS: PNG, RGB, non-interlaced, 1440x2560, exact 9:16 pixel ratio; SHA-256 recorded.",
     "visual": "PASS for bounded stage: coherent original scene, no visible text, logo, watermark, chart, medical symbol, or obvious fatal defect.",
-    "packageStatus": "INCOMPLETE: three additional original 9:16 scene inputs are still required before rendering."
+    "packageStatus": "COMPLETE for original visual inputs: six original 9:16 scene inputs are present locally; rendering remains a separate gated stage."
   }
 }

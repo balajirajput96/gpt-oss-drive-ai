@@ -598,8 +598,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-26T04:36:49.952Z",
+  "lastCheckpointAt": "2026-08-26T05:38:14Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "blocked",
+  "runStatus": "researching",
   "activeReelId": "0020"
 }

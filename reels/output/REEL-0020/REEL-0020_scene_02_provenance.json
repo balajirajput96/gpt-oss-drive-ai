@@ -4,16 +4,18 @@
   "sceneId": "02",
   "stage": "original_visual_recovery",
   "provenanceType": "original_generated_visual",
-  "source": "newly generated for this reel; no legacy Drive or local asset reused",
-  "references": [],
+  "source": "newly generated for this reel; conditioned only on the new Scene 01 reference; no legacy Drive or local asset reused",
+  "references": [
+    "reels/output/REEL-0020/REEL-0020_scene_01.png"
+  ],
   "artifact": {
     "path": "reels/output/REEL-0020/REEL-0020_scene_02.png",
     "format": "PNG",
     "width": 1440,
     "height": 2560,
     "aspectRatio": "9:16",
-    "sha256": "86b9680464a50b4971950ca9ac093e1146f85bb334a4cf95493d1f1977336e97",
-    "bytes": 4223318
+    "sha256": "80ca89628d8003fdddb703bf8c40f6b50b95dcb56c77b43ca7cfce37392b0bed",
+    "bytes": 4634859
   },
   "createdAt": "2026-08-26T01:33:42.476Z",
   "visualBrief": "Original vertical editorial documentary scene: a calm, tired adult at a desk in early morning light, pausing between a notebook and a softly glowing laptop, with cool blue ambient light and a warm focus pool on the notebook.",
@@ -28,6 +30,6 @@
   "qc": {
     "technical": "PASS: PNG, RGB, non-interlaced, 1440x2560, exact 9:16 pixel ratio.",
     "visual": "PASS for bounded stage: coherent original scene, no visible text, logo, watermark, or obvious fatal defect.",
-    "packageStatus": "INCOMPLETE: four additional original 9:16 scene inputs are still required before rendering."
+    "packageStatus": "COMPLETE for original visual inputs: six original 9:16 scene inputs are present locally; rendering remains a separate gated stage."
   }
 }

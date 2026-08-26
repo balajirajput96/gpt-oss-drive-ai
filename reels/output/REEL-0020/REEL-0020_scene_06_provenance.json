@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "reelId": "0020",
-  "sceneId": "05",
+  "sceneId": "06",
   "stage": "original_visual_recovery",
   "provenanceType": "original_generated_visual",
   "source": "newly generated for this reel; conditioned only on the new Scene 01 reference; no legacy Drive or local asset reused",
@@ -9,27 +9,27 @@
     "reels/output/REEL-0020/REEL-0020_scene_01.png"
   ],
   "artifact": {
-    "path": "reels/output/REEL-0020/REEL-0020_scene_05.png",
+    "path": "reels/output/REEL-0020/REEL-0020_scene_06.png",
     "format": "PNG",
     "width": 1440,
     "height": 2560,
     "aspectRatio": "9:16",
-    "sha256": "233de2db0ee87722b4e320a22c28016b58441702e772824b910c6f1d8db53fd5",
-    "bytes": 4373711
+    "sha256": "3dc9a6486af5911f07ca79bc80220bd45bde97423cc5baa3ae0c67f049243fc8",
+    "bytes": 4606133
   },
-  "createdAt": "2026-08-26T04:35:24.853Z",
-  "visualBrief": "Original vertical editorial documentary scene: a calm adult learner at a simple desk in a quiet public library or study room, with a softly blurred hallway and distant ordinary activity suggesting mild environmental noise; illustrative only.",
+  "createdAt": "2026-08-26T05:33:58Z",
+  "visualBrief": "Original vertical editorial documentary scene: the same kind of adult learner taking a calm, low-risk observation pause at a desk, gently noting surroundings in a blank notebook while the room becomes visually quieter and more organized, with soft neutral morning light and a subtle sense of regained focus.",
   "contentBoundary": {
     "peerReviewedExperiment": "Not depicted as proof of a specific experiment or experimental manipulation.",
-    "peerReviewedReviewOrMetaAnalysis": "Not depicted as proof of an environmental-noise review or meta-analysis result.",
-    "mechanisticTheoryOrPreliminaryInterpretation": "The visual is illustrative only and does not establish a mechanism or causal guarantee.",
+    "peerReviewedReviewOrMetaAnalysis": "Not depicted as proof of a review or meta-analysis result.",
+    "mechanisticTheoryOrPreliminaryInterpretation": "The visual is illustrative only and does not establish a mechanism, guaranteed fix, diagnosis, or treatment.",
     "expertOpinion": "Not represented as scientific proof or expert testimony.",
     "philosophy": "Not used as empirical evidence or a philosophical conclusion.",
     "spiritualBelief": "Not transferred, implied, or relabeled as research evidence."
   },
   "qc": {
     "technical": "PASS: file reports PNG, 8-bit RGB, non-interlaced, 1440x2560; ffprobe reports codec png, width 1440, height 2560, pix_fmt rgb24; exact 9:16 pixel ratio; SHA-256 recorded.",
-    "visual": "PASS for bounded stage: coherent original editorial scene, no visible text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
+    "visual": "PASS for bounded stage: coherent original editorial scene, no readable text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
     "packageStatus": "COMPLETE for original visual inputs: six original 9:16 scene inputs are present locally; rendering remains a separate gated stage."
   }
 }
