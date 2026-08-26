@@ -4,7 +4,7 @@
   "sceneId": "04",
   "stage": "original_visual_recovery",
   "provenanceType": "original_generated_visual",
-  "source": "newly generated for this reel; conditioned only on the new Scene 01 reference; no legacy Drive or local asset reused",
+  "source": "newly generated in this bounded run; conditioned only on the new Reel 0020 Scene 01 reference; no legacy Drive or local asset reused",
   "references": [
     "reels/output/REEL-0020/REEL-0020_scene_01.png"
   ],
@@ -14,10 +14,10 @@
     "width": 1440,
     "height": 2560,
     "aspectRatio": "9:16",
-    "sha256": "9794bfea3c6188532706c2dc8ddd0d2b7ec3276c21253351b80d7552ed622a6b",
-    "bytes": 4490497
+    "sha256": "c1292f47b723b2d50d8591c615d9f38a805e9d84ce3be760fb6d9cd4a8fe1a3a",
+    "bytes": 4505427
   },
-  "createdAt": "2026-08-26T03:40:13.996Z",
+  "createdAt": "2026-08-26T06:42:50.766Z",
   "visualBrief": "Original vertical editorial documentary scene: an adult learner at a simple desk during an ordinary timed task, mildly pressured but calm, with a softly blurred analog clock and books in the background; the visual is illustrative only.",
   "contentBoundary": {
     "peerReviewedExperiment": "Not depicted as proof of a specific study result or experimental manipulation.",
@@ -28,8 +28,8 @@
     "spiritualBelief": "Not transferred, implied, or relabeled as research evidence."
   },
   "qc": {
-    "technical": "PASS: file reports PNG, RGB, non-interlaced, 1440x2560; ffprobe reports codec png, width 1440, height 2560, pix_fmt rgb24; exact 9:16 pixel ratio; SHA-256 recorded.",
-    "visual": "PASS for bounded stage: coherent original editorial scene, no visible text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
+    "technical": "PASS: deterministic file/ffprobe QC reports PNG, 8-bit RGB, non-interlaced, 1440x2560, codec png, pix_fmt rgb24, exact 9:16 pixel ratio, and recorded SHA-256.",
+    "visual": "PASS: lightweight visual review found a coherent original editorial scene with natural anatomy and no visible readable text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
     "packageStatus": "COMPLETE for original visual inputs: six original 9:16 scene inputs are present locally; rendering remains a separate gated stage."
   }
 }

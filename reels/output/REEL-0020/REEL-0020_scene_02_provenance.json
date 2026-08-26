@@ -4,7 +4,7 @@
   "sceneId": "02",
   "stage": "original_visual_recovery",
   "provenanceType": "original_generated_visual",
-  "source": "newly generated for this reel; conditioned only on the new Scene 01 reference; no legacy Drive or local asset reused",
+  "source": "newly generated in this bounded run; conditioned only on the new Reel 0020 Scene 01 reference; no legacy Drive or local asset reused",
   "references": [
     "reels/output/REEL-0020/REEL-0020_scene_01.png"
   ],
@@ -14,10 +14,10 @@
     "width": 1440,
     "height": 2560,
     "aspectRatio": "9:16",
-    "sha256": "80ca89628d8003fdddb703bf8c40f6b50b95dcb56c77b43ca7cfce37392b0bed",
-    "bytes": 4634859
+    "sha256": "cd127adffb7abbcc5c975f19ea2bbbebb195e007307de2789a21a1573fcee254",
+    "bytes": 4366252
   },
-  "createdAt": "2026-08-26T01:33:42.476Z",
+  "createdAt": "2026-08-26T06:42:50.766Z",
   "visualBrief": "Original vertical editorial documentary scene: a calm, tired adult at a desk in early morning light, pausing between a notebook and a softly glowing laptop, with cool blue ambient light and a warm focus pool on the notebook.",
   "contentBoundary": {
     "peerReviewedExperiment": "Not depicted as proof of a specific study result.",
@@ -28,8 +28,8 @@
     "spiritualBelief": "Not transferred, implied, or relabeled as research evidence."
   },
   "qc": {
-    "technical": "PASS: PNG, RGB, non-interlaced, 1440x2560, exact 9:16 pixel ratio.",
-    "visual": "PASS for bounded stage: coherent original scene, no visible text, logo, watermark, or obvious fatal defect.",
+    "technical": "PASS: deterministic file/ffprobe QC reports PNG, 8-bit RGB, non-interlaced, 1440x2560, codec png, pix_fmt rgb24, exact 9:16 pixel ratio, and recorded SHA-256.",
+    "visual": "PASS: lightweight visual review found a coherent original editorial scene with natural anatomy and no visible readable text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
     "packageStatus": "COMPLETE for original visual inputs: six original 9:16 scene inputs are present locally; rendering remains a separate gated stage."
   }
 }

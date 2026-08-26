@@ -4,7 +4,7 @@
   "sceneId": "06",
   "stage": "original_visual_recovery",
   "provenanceType": "original_generated_visual",
-  "source": "newly generated for this reel; conditioned only on the new Scene 01 reference; no legacy Drive or local asset reused",
+  "source": "newly generated in this bounded run; conditioned only on the new Reel 0020 Scene 01 reference; no legacy Drive or local asset reused",
   "references": [
     "reels/output/REEL-0020/REEL-0020_scene_01.png"
   ],
@@ -14,10 +14,10 @@
     "width": 1440,
     "height": 2560,
     "aspectRatio": "9:16",
-    "sha256": "3dc9a6486af5911f07ca79bc80220bd45bde97423cc5baa3ae0c67f049243fc8",
-    "bytes": 4606133
+    "sha256": "2d2950b622763b615cc2f2116d1efd25a018e06ffdb1f64cbd4d2f750ef6d878",
+    "bytes": 4630979
   },
-  "createdAt": "2026-08-26T05:33:58Z",
+  "createdAt": "2026-08-26T06:42:50.766Z",
   "visualBrief": "Original vertical editorial documentary scene: the same kind of adult learner taking a calm, low-risk observation pause at a desk, gently noting surroundings in a blank notebook while the room becomes visually quieter and more organized, with soft neutral morning light and a subtle sense of regained focus.",
   "contentBoundary": {
     "peerReviewedExperiment": "Not depicted as proof of a specific experiment or experimental manipulation.",
@@ -28,8 +28,8 @@
     "spiritualBelief": "Not transferred, implied, or relabeled as research evidence."
   },
   "qc": {
-    "technical": "PASS: file reports PNG, 8-bit RGB, non-interlaced, 1440x2560; ffprobe reports codec png, width 1440, height 2560, pix_fmt rgb24; exact 9:16 pixel ratio; SHA-256 recorded.",
-    "visual": "PASS for bounded stage: coherent original editorial scene, no readable text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
+    "technical": "PASS: deterministic file/ffprobe QC reports PNG, 8-bit RGB, non-interlaced, 1440x2560, codec png, pix_fmt rgb24, exact 9:16 pixel ratio, and recorded SHA-256.",
+    "visual": "PASS: lightweight visual review found a coherent original editorial scene with natural anatomy and no visible readable text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
     "packageStatus": "COMPLETE for original visual inputs: six original 9:16 scene inputs are present locally; rendering remains a separate gated stage."
   }
 }

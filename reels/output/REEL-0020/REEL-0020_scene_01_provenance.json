@@ -4,7 +4,7 @@
   "sceneId": "01",
   "stage": "original_visual_recovery",
   "provenanceType": "original_generated_visual",
-  "source": "newly generated for this reel; no legacy Drive or local asset reused",
+  "source": "newly generated in this bounded run as the Reel 0020 visual reference; no legacy Drive or local asset reused",
   "references": [],
   "artifact": {
     "path": "reels/output/REEL-0020/REEL-0020_scene_01.png",
@@ -12,10 +12,10 @@
     "width": 1440,
     "height": 2560,
     "aspectRatio": "9:16",
-    "sha256": "67c4205146158a5c3deead559f5c64862070c0ce08f61ddba30354e732339d29",
-    "bytes": 4401636
+    "sha256": "3507638f8972bc4e0ade6b2183882ec846d5591e0ef0ea1295acaed4e22f70a8",
+    "bytes": 4021787
   },
-  "createdAt": "2026-08-26T00:43:23.126Z",
+  "createdAt": "2026-08-26T06:42:50.766Z",
   "visualBrief": "Original vertical editorial documentary scene: a tired but calm person at a desk in early morning light, with cool blue ambient light, a warm focus pool on the notebook, and a softly blurred city outside the window.",
   "contentBoundary": {
     "peerReviewedExperiment": "Not depicted as proof of a specific study result.",
@@ -26,8 +26,8 @@
     "spiritualBelief": "Not transferred, implied, or relabeled as research evidence."
   },
   "qc": {
-    "technical": "PASS: PNG, RGB, non-interlaced, 1440x2560, exact 9:16 pixel ratio.",
-    "visual": "PASS for bounded stage: coherent original scene, no visible text, logo, watermark, or obvious fatal defect.",
+    "technical": "PASS: deterministic file/ffprobe QC reports PNG, 8-bit RGB, non-interlaced, 1440x2560, codec png, pix_fmt rgb24, exact 9:16 pixel ratio, and recorded SHA-256.",
+    "visual": "PASS: lightweight visual review found a coherent original editorial scene with natural anatomy and no visible readable text, logo, watermark, chart, graph, medical symbol, UI overlay, branded device, or obvious fatal defect.",
     "packageStatus": "COMPLETE for original visual inputs: six original 9:16 scene inputs are present locally; rendering remains a separate gated stage."
   }
 }
