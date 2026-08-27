@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0021",
+  "tuple": {
+    "batch": "Batch_001",
+    "pillarCode": "MND",
+    "lensCode": "L01",
+    "questionCode": "Q21"
+  },
+  "question": "हम अपने अनुमान कैसे जाँच सकते हैं?",
+  "canonicalDriveFolderId": "1whUYcihmhtLIPEv-aMtF40nSM0OlVWIp",
+  "legacyNonCanonicalFolderIds": [
+    "1zI7uISUl1rjxxX0JORfAFgL6VGocShrK",
+    "1QN7nvy_RdKVNTxFqVUbihE9xxLNmOIJ_",
+    "1XNSdkL4iXLI0sfPAZATJYtI0KJD1UUVx",
+    "1jJy_sk8RnGE8PMNCZS6OmXXMFB1hci8v"
+  ],
+  "video": {
+    "driveFileId": "1RgkkSDbgmHFlZ6KbuhXexfrKMHFDN5fd",
+    "name": "REEL-0021.mp4",
+    "mimeType": "video/mp4",
+    "parentId": "1whUYcihmhtLIPEv-aMtF40nSM0OlVWIp",
+    "sizeBytes": 2785085,
+    "driveMd5": "f6e8579164081e3c8c2aaed64d72d8aa",
+    "sha256": "3b2d7623a729544e25b1083f22b388258d556c30a7902ccfbe2dadf1c082bd5a",
+    "localTechnicalProbe": {
+      "durationSeconds": 51.76,
+      "width": 720,
+      "height": 1280,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "pixelFormat": "yuv420p"
+    },
+    "driveVideoMediaMetadata": "requested during re-fetch; Drive did not return this optional field. Parent, MIME type, size, and MD5 match the staged local render."
+  },
+  "artifacts": {
+    "research": "1B_EJ30B69tVeOFZkMKw8c7Ne-dU4nluT",
+    "reconciliation": "1O5HnTZNNt1M5fF3FoD8t71b0-gBr3IBP",
+    "narration": "1x2yWk0DgvOQt3OA-eUiHTxa3v0M5Ja1Q",
+    "captions": "1hbuYdIUB5BK98MAfVl3DqKO3AsBF80vl",
+    "script": "1PLqblLduJ2tsPVhIDlfgIagb7HQuEQFb",
+    "claimLedger": "1ZI_H21bfl1uv4EC9K8lrfbN-JcjjmNUW",
+    "storyboard": "1t6RjY0VFa_ARpHVr7HAs45U6qc5Humil",
+    "qc": "1uYHUttWFW01y0jhBg__kXN4JWD9teI2F",
+    "visualProvenance": "10AOmKedC6CG4qVv5YJEtdXr0vS7G95Mc"
+  },
+  "verification": {
+    "remoteParentAndMd5Verified": true,
+    "captionTestPassedLocally": true,
+    "productionRunnerVerified": true,
+    "verifiedAt": "2026-08-27T03:26:37.734Z",
+    "nextReelId": "0022",
+    "nextReelAdvanceAllowed": true
+  }
+}

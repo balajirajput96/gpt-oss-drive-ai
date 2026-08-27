@@ -11,7 +11,7 @@ for (const sceneId of sceneIds) {
   const imagePath = resolve(outputDir, `REEL-0020_scene_${sceneId}.png`);
   const provenancePath = resolve(
     outputDir,
-    `REEL-0020_scene_${sceneId}_provenance.json`,
+    `REEL-0020_scene_${sceneId}_provenance.json`
   );
   const bytes = statSync(imagePath).size;
   const sha256 = createHash("sha256")
@@ -49,10 +49,14 @@ for (const sceneId of sceneIds) {
 const statePath = resolve(root, "reels", "production_state.json");
 const state = JSON.parse(readFileSync(statePath, "utf8"));
 if (state.activeReelId !== "0020" || state.nextReelId !== "0020") {
-  throw new Error("Refusing to update Reel 0020 checkpoint: active/next reel mismatch.");
+  throw new Error(
+    "Refusing to update Reel 0020 checkpoint: active/next reel mismatch."
+  );
 }
 state.runStatus = "researching";
 state.lastCheckpointAt = now;
 writeFileSync(statePath, `${JSON.stringify(state, null, 2)}\n`);
 
-console.log(JSON.stringify({ reelId: "0020", sceneIds, checkpointAt: now }, null, 2));
+console.log(
+  JSON.stringify({ reelId: "0020", sceneIds, checkpointAt: now }, null, 2)
+);

@@ -81,3 +81,6 @@
 - [x] Normalize source and configuration formatting, while excluding immutable reel evidence archives from code-formatting checks so the formatter gate is meaningful and non-destructive.
 - [x] Add a least-privilege first-party GitHub Actions validation workflow because the repository has no workflow files, then verify its real run after push.
 - [x] Preserve and document the current Dependabot alert status: repository-level alert enumeration is blocked by GitHub API 403 despite authenticated GitHub access, so no alert may be changed without the required security-alert permission.
+- [x] Produce canonical Reel 0021 only from its verified research archive: evidence-bounded Hindi script and captions, original provenance-recorded visuals and narration, render/QC, canonical Drive verification, and mandatory lifecycle advance.
+- [ ] Preserve and document the unresolved Drive-root/global-state divergence without accepting its later completion assertions until a schema-compatible per-reel verification record is reconciled.
+- [ ] Normalize the confirmed formatter drift in Reel 0021 source, tests, and lifecycle state, then re-run the full validation gate before canonical Drive upload.
