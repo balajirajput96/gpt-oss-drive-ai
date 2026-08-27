@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0022",
+  "nextReelId": "0023",
   "completedReelIds": [
     "0001",
     "0002",
@@ -23,7 +23,8 @@
     "0018",
     "0019",
     "0020",
-    "0021"
+    "0021",
+    "0022"
   ],
   "verifiedReels": [
     {
@@ -276,6 +277,18 @@
       "manifestFileId": "1KJqUP4hL5GbpeMBuJdNu5PgLDH6400IY",
       "verifiedAt": "2026-08-27T03:26:37.734Z",
       "sha256": "3b2d7623a729544e25b1083f22b388258d556c30a7902ccfbe2dadf1c082bd5a"
+    },
+    {
+      "reelId": "0022",
+      "driveFolderId": "1F1NbhWGNY-_a-QfOUm50CE2rooBxlRWB",
+      "videoFileId": "1RxVd5XdzAxxekPnl48jFXAxawYpMHV4W",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "109DiF1kxi3XQDGqJNsbD1hzRLoER_Ov-",
+      "verifiedAt": "2026-08-27T03:54:39.928Z",
+      "sha256": "71cc114efa2f745b0a61a03a770e5c60d6e2043f64e54b0378475cab7148a6e7"
     }
   ],
   "canonicalMappings": {
@@ -500,7 +513,7 @@
     "0022": {
       "driveFolderId": "1F1NbhWGNY-_a-QfOUm50CE2rooBxlRWB",
       "topic": "इसे नैतिक रूप से कैसे समझें?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "15fA43uhmS6MDslb4zu7luEY6yK2yOG8W",
       "reconciliationFileId": "1Pbrm7S9Igv6iT1Ang5cJCzQ0FpyKQM5A",
       "legacyNonCanonicalFolderIds": [
@@ -730,8 +743,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T03:36:04.008Z",
+  "lastCheckpointAt": "2026-08-27T03:54:39.928Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0022"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

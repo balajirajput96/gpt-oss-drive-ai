@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "reelId": "0022",
+  "registryIdentity": {
+    "batch": "Batch_001",
+    "pillar": "MND",
+    "lens": "L01",
+    "questionNumber": "Q22",
+    "question": "इसे नैतिक रूप से कैसे समझें?"
+  },
+  "canonicalDriveFolderId": "1F1NbhWGNY-_a-QfOUm50CE2rooBxlRWB",
+  "lifecycleStatus": "completed_drive_verified",
+  "render": {
+    "filename": "REEL-0022_ATTENTION_ETHICS_HI.mp4",
+    "sha256": "71cc114efa2f745b0a61a03a770e5c60d6e2043f64e54b0378475cab7148a6e7",
+    "durationSeconds": 71.16,
+    "video": "h264 yuv420p 720x1280",
+    "audio": "aac mono 24000Hz"
+  },
+  "captionValidation": {
+    "filename": "REEL-0022_CAPTIONS_HI.srt",
+    "cueCount": 15,
+    "maxEndMilliseconds": 71160,
+    "transcriptAligned": true,
+    "overlapFree": true
+  },
+  "visualProvenance": {
+    "route": "original_deterministic_svg_motion_graphics",
+    "sceneCount": 6,
+    "imageGenerationUsed": false,
+    "quotaOrAccessControlBypass": false,
+    "reusedLegacyAsset": false,
+    "embeddedText": false
+  },
+  "evidenceBoundary": {
+    "sources": [
+      "https://doi.org/10.1111/bioe.12683",
+      "https://doi.org/10.2196/30838",
+      "https://doi.org/10.1145/3701571.3701572"
+    ],
+    "scope": "ethical-framework and systematic-review synthesis; not clinical, legal, or individual-causal advice"
+  },
+  "artifactDriveIds": {
+    "video": "1RxVd5XdzAxxekPnl48jFXAxawYpMHV4W",
+    "sha256": "18XosjtSi8w3HUI2FegJuSRms8UwXraFO",
+    "captions": "1YfnZA91ersXFZwp7uDx8kBWlPpxdFvfC",
+    "claimLedger": "1IkqqG4yesymMJbfPPOUHvffcnXz0aMyC",
+    "narration": "1StHwUty5rK1ndqdZc1EW_jTZP-nfN3_S",
+    "narrationTranscript": "1SF98vMbgHLntmZj6YVI-ZyQ-DOcaF2Fb",
+    "qualityControl": "1qxmw5mVwSEs7BlrDKySPfX9UAh8N6cfB",
+    "script": "1Ft7wMfqPwPB0uRgKTeaLF_BF6g-g-C1h",
+    "visualProvenance": "128n99vJRwD3A6XMzyEN1ywoJu5774mqf",
+    "visualStoryboard": "1nVWv9tX4crqgEuuKKSWBYWCqloioaCrE",
+    "visualSourceSvg": [
+      "1Xp_v54HJejltqemULMF10NmTJ-JR-ywx",
+      "1thZHJkdK8eEXz7duG-3IyFBtOS5mabrU",
+      "1-Heo9tfvv6wZHMyVEmsVJidz6kDIXVb9",
+      "1NryEzR8WneYEG8hHVvcE6riyRM34m7UK",
+      "1K8OvEKFhZ0feYEbams3k_Y_l7l414chs",
+      "1deuD5O1ZTDz0_FY65YVqh9EAcsKnA5gi"
+    ],
+    "researchArchive": "15fA43uhmS6MDslb4zu7luEY6yK2yOG8W",
+    "canonicalReconciliation": "1Pbrm7S9Igv6iT1Ang5cJCzQ0FpyKQM5A",
+    "preCompletionStateSnapshot": "1q-iEcP5GVfNBGP07OojrUmyPKmpUNDcJ",
+    "packageManifest": "109DiF1kxi3XQDGqJNsbD1hzRLoER_Ov-",
+    "postVerificationStateSnapshot": "1AORS80K7iJSDZ2gcQd2QoD--s0fEniBt"
+  },
+  "remoteVerification": {
+    "artifactCount": 21,
+    "newArtifactCount": 18,
+    "verificationMethod": "re-fetched id, name, parents, mimeType, size, md5Checksum, videoMediaMetadata, and trashed state",
+    "canonicalParentVerified": true,
+    "newArtifactMd5Matches": true,
+    "videoMetadata": {
+      "durationMillis": 71133,
+      "width": 720,
+      "height": 1280
+    },
+    "verifiedNotTrashed": true
+  },
+  "globalRootStateModified": false
+}
