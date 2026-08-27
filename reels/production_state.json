@@ -673,6 +673,18 @@
         "1QzY31UxAGPLRtKx8Do6ab0t5OH19LfKq",
         "1F7-JmykLDrQG1GK8vzifMjTSV1EEPk-K"
       ]
+    },
+    "0029": {
+      "driveFolderId": "1kojsK4DbIPKrb9AwGu5RJDSWMjZqyk2o",
+      "topic": "इससे जिज्ञासा कैसे बढ़ती है?",
+      "status": "research_archived",
+      "researchFileId": "11oxFFm31auDNbXe-KhsnJoOd5BW7TLqM",
+      "reconciliationFileId": "1CkrGTTT-bt6HWS_B8SAX1CBV9YNkHnSi",
+      "legacyNonCanonicalFolderIds": [
+        "1PRMDOdJ9OPHM2p5u8h1r6snBBUrU9ptJ",
+        "1Afps0xrS6De02gvdX4mLq73JTmGaBWer",
+        "1lR0HC4cMgoHhkLqaER14w5dh5o3_8gn8"
+      ]
     }
   },
   "failedReels": [
@@ -894,8 +906,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T06:38:36.375Z",
+  "lastCheckpointAt": "2026-08-27T06:47:07.584Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0029"
 }

@@ -1,0 +1,41 @@
+{
+  "snapshotType": "reel_research_archive_state",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T06:51:00Z",
+  "productionStateSha256": "a39349c6a927dd374919adf75b40b493a487ff7124501665bd4e70e4e768cc4b",
+  "reel": {
+    "reelId": "0029",
+    "batch": "Batch_001",
+    "pillarCode": "MND",
+    "lensCode": "L01",
+    "questionCode": "Q29",
+    "question": "इससे जिज्ञासा कैसे बढ़ती है?"
+  },
+  "canonicalResearchArchive": {
+    "folderId": "1kojsK4DbIPKrb9AwGu5RJDSWMjZqyk2o",
+    "research": {
+      "fileId": "11oxFFm31auDNbXe-KhsnJoOd5BW7TLqM",
+      "name": "REEL-0029_INFORMATION_GAP_CURIOSITY_RESEARCH.md",
+      "md5Checksum": "9c8ffa0ec34a4a7de0c2e573c8bf6e6a"
+    },
+    "reconciliation": {
+      "fileId": "1CkrGTTT-bt6HWS_B8SAX1CBV9YNkHnSi",
+      "name": "REEL-0029_CANONICAL_RECONCILIATION_20260827.md",
+      "md5Checksum": "438975833aacfef8b210bce7405502ec"
+    }
+  },
+  "lifecycle": {
+    "completedReelCount": 28,
+    "nextReelId": "0029",
+    "activeReelId": "0029",
+    "runStatus": "researching",
+    "completionAdvanced": false
+  },
+  "preservedNonCanonicalFolderIds": [
+    "1PRMDOdJ9OPHM2p5u8h1r6snBBUrU9ptJ",
+    "1Afps0xrS6De02gvdX4mLq73JTmGaBWer",
+    "1lR0HC4cMgoHhkLqaER14w5dh5o3_8gn8"
+  ],
+  "globalDriveRootStateTouched": false,
+  "archiveBoundary": "Research evidence only. No historical R0029 folder, reused-reference asset, final video, or aggregate Drive-root state was adopted or changed."
+}
