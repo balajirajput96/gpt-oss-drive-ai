@@ -1,0 +1,36 @@
+{
+  "snapshotType": "reel_post_verification_state",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T07:05:48Z",
+  "productionStateSha256": "9036e81d35c4ac70c1ae97f17cb05b6a51fd526939c6d0ce4b00130e5ae284ca",
+  "reel": {
+    "reelId": "0029",
+    "batch": "Batch_001",
+    "pillarCode": "MND",
+    "lensCode": "L01",
+    "questionCode": "Q29",
+    "question": "इससे जिज्ञासा कैसे बढ़ती है?"
+  },
+  "canonicalPackage": {
+    "folderId": "1kojsK4DbIPKrb9AwGu5RJDSWMjZqyk2o",
+    "videoFileId": "1-WAoXA6fh5IqZRcL4uEMIP6Q7fLFLbKy",
+    "manifestFileId": "1gCVOl3Au4jwywoUDLuTwqEofaE8V_mDm",
+    "finalVideoSha256": "19e8cd3bb85ad8e40a552f11cee04382e289cadace87c13fa9002c60a833b7a6",
+    "preVerificationArtifactCount": 28,
+    "manifestIncludedArtifactCount": 29
+  },
+  "guardedVerification": {
+    "verifiedAt": "2026-08-27T07:05:39.221Z",
+    "completedReelCount": 29,
+    "nextReelId": "0030",
+    "activeReelId": null,
+    "runStatus": "ready_for_next"
+  },
+  "preservedNonCanonicalFolderIds": [
+    "1PRMDOdJ9OPHM2p5u8h1r6snBBUrU9ptJ",
+    "1Afps0xrS6De02gvdX4mLq73JTmGaBWer",
+    "1lR0HC4cMgoHhkLqaER14w5dh5o3_8gn8"
+  ],
+  "globalDriveRootStateTouched": false,
+  "verificationBoundary": "Only the guarded runner verify operation completed R0029. No legacy folder or aggregate Drive-root completion state was adopted, modified, or used."
+}

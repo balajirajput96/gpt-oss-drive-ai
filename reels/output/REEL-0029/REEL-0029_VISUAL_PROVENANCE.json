@@ -1,0 +1,49 @@
+{
+  "reelId": "0029",
+  "visualRoute": "original_deterministic_svg_motion_graphics",
+  "generatorSource": "reels/scripts/generate-reel0029-visuals.mjs",
+  "imageGenerationUsed": false,
+  "quotaOrAccessControlBypass": false,
+  "reusedLegacyAsset": false,
+  "embeddedText": false,
+  "realPersonDepicted": false,
+  "format": "720x1280 PNG",
+  "scenes": [
+    {
+      "scene": "01",
+      "svgSha256": "5e172544ec0ced041966f6c1a9bb8df3a50e550e90be3289759a0092e0f1467e",
+      "pngSha256": "02469be39132361f5d011695fbdd16f9a2ddafb4bb58b77afb4de2a01883d5c4"
+    },
+    {
+      "scene": "02",
+      "svgSha256": "83b5b45592be0a52d8107497b05f7c85999b2ff617154402e558e9c14a5a48c9",
+      "pngSha256": "4e46a21578dc10c269bf6d9293eb7d7e43dad6fc47f211ab6a78087f58479726"
+    },
+    {
+      "scene": "03",
+      "svgSha256": "bef70821d8c3f807cc95fa6f8dcfe3413e600b14f21712fdc68f5ec80a932f7c",
+      "pngSha256": "f5547b69b3f1abf468d2f6cd1df52daf922b9c86f6e4fe77e6e2636905c89490"
+    },
+    {
+      "scene": "04",
+      "svgSha256": "c8e3af1bb106ba6286f9c490420c3d18dd77e9a0abe3677b28bfa0145e10198b",
+      "pngSha256": "0eb9ba108fe470bf385bfdf04c247a08c3b8ff5742cff3c589e2b0a983705a45"
+    },
+    {
+      "scene": "05",
+      "svgSha256": "a7d134d09d9e27857ccbf1433d53ee8254a2b2602b3e30caacc30d24b5884b62",
+      "pngSha256": "76c128f5c3e575da14c25ffad938ca1724565c35f92fad1f537097b83166f82e"
+    },
+    {
+      "scene": "06",
+      "svgSha256": "d3cbc88525762054853605a5aad83c9a079d035c2fce2f63cd1001a53fd68475",
+      "pngSha256": "8b7f77b2db4f04fafd43043ac9ad2a211a43ad82f0442b85e98b63e1fc52b68f"
+    }
+  ],
+  "visualQc": {
+    "sourceContactSheet": "/home/ubuntu/reel-production-assets/REEL-0029/R0029_visual_contact_sheet.png",
+    "captionedRenderContactSheet": "/home/ubuntu/reel-production-assets/REEL-0029/R0029_render_qc_contact_sheet.png",
+    "result": "pass"
+  },
+  "legacyBoundary": "No asset from Reel_0029, R0029_visual-search-case, or R0029_cocktail-party-selective-listening-case was copied, used, or adapted."
+}

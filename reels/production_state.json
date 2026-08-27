@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0029",
+  "nextReelId": "0030",
   "completedReelIds": [
     "0001",
     "0002",
@@ -30,7 +30,8 @@
     "0025",
     "0026",
     "0027",
-    "0028"
+    "0028",
+    "0029"
   ],
   "verifiedReels": [
     {
@@ -367,6 +368,18 @@
       "manifestFileId": "1zVVd_69T7eCDNt2_dMvTj5a7quxBUAqx",
       "verifiedAt": "2026-08-27T06:38:36.375Z",
       "sha256": "28652ce388a166ffae5943723b10d29d4f1b955f620bc96fe437b60e9f69d7d3"
+    },
+    {
+      "reelId": "0029",
+      "driveFolderId": "1kojsK4DbIPKrb9AwGu5RJDSWMjZqyk2o",
+      "videoFileId": "1-WAoXA6fh5IqZRcL4uEMIP6Q7fLFLbKy",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1gCVOl3Au4jwywoUDLuTwqEofaE8V_mDm",
+      "verifiedAt": "2026-08-27T07:05:39.221Z",
+      "sha256": "19e8cd3bb85ad8e40a552f11cee04382e289cadace87c13fa9002c60a833b7a6"
     }
   ],
   "canonicalMappings": {
@@ -677,7 +690,7 @@
     "0029": {
       "driveFolderId": "1kojsK4DbIPKrb9AwGu5RJDSWMjZqyk2o",
       "topic": "इससे जिज्ञासा कैसे बढ़ती है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "11oxFFm31auDNbXe-KhsnJoOd5BW7TLqM",
       "reconciliationFileId": "1CkrGTTT-bt6HWS_B8SAX1CBV9YNkHnSi",
       "legacyNonCanonicalFolderIds": [
@@ -906,8 +919,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T06:47:07.584Z",
+  "lastCheckpointAt": "2026-08-27T07:05:39.222Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0029"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

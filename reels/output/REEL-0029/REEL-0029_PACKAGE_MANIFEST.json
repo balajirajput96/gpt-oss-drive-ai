@@ -1,0 +1,92 @@
+{
+  "manifestVersion": 1,
+  "reelId": "0029",
+  "batch": "Batch_001",
+  "question": "इससे जिज्ञासा कैसे बढ़ती है?",
+  "canonicalFolder": {
+    "id": "1kojsK4DbIPKrb9AwGu5RJDSWMjZqyk2o",
+    "name": "R0029_information_gap_curiosity",
+    "parentId": "19uErd4g0xD0geAUi6SJbdPV3Ih4K3mHC"
+  },
+  "packageStatus": "drive_verified",
+  "artifactCountBeforeManifest": 28,
+  "artifactCountIncludingManifestAndSnapshot": 30,
+  "finalVideo": {
+    "id": "1-WAoXA6fh5IqZRcL4uEMIP6Q7fLFLbKy",
+    "name": "R0029_FINAL.mp4",
+    "md5Checksum": "5a0a542851dd9f88cb5f1dbbedf11b19",
+    "sha256": "19e8cd3bb85ad8e40a552f11cee04382e289cadace87c13fa9002c60a833b7a6",
+    "durationSeconds": 61.92,
+    "width": 720,
+    "height": 1280,
+    "videoCodec": "h264",
+    "audioCodec": "aac"
+  },
+  "captionValidation": {
+    "captionFileId": "10YN3xHt7SRJeSKX5HtbZKY0Yf8EW84Jw",
+    "cueCount": 13,
+    "maxEndMs": 61800,
+    "narrationDurationMs": 61920,
+    "regressionPassed": true
+  },
+  "visualProvenance": {
+    "route": "original_deterministic_svg_motion_graphics",
+    "imageGenerationUsed": false,
+    "quotaOrAccessControlBypass": false,
+    "reusedLegacyAsset": false,
+    "embeddedText": false,
+    "realPersonDepicted": false,
+    "generatorFileId": "1wVbh33e2zomyrbtmSdiQccEmuzhe9g28"
+  },
+  "legacyBoundary": {
+    "nonCanonicalFolderIds": [
+      "1PRMDOdJ9OPHM2p5u8h1r6snBBUrU9ptJ",
+      "1Afps0xrS6De02gvdX4mLq73JTmGaBWer",
+      "1lR0HC4cMgoHhkLqaER14w5dh5o3_8gn8"
+    ],
+    "legacyAssetsReused": false
+  },
+  "guardedLifecycleVerification": {
+    "status": "complete",
+    "verifiedAt": "2026-08-27T07:05:39.221Z",
+    "manifestFileId": "1gCVOl3Au4jwywoUDLuTwqEofaE8V_mDm",
+    "nextReelId": "0030",
+    "activeReelId": null,
+    "runStatus": "ready_for_next"
+  },
+  "postVerificationSnapshot": {
+    "fileId": "1mwEtSB9dtr3YTUhSjdT_cQcEfgGFDxUv",
+    "name": "REEL-0029_LOCAL_VERIFIED_STATE.json",
+    "md5Checksum": "87f6417cda96c57fa4b3b60ebc5279b3"
+  },
+  "artifacts": [
+    {"name":"R0029_FINAL.mp4","id":"1-WAoXA6fh5IqZRcL4uEMIP6Q7fLFLbKy","md5":"5a0a542851dd9f88cb5f1dbbedf11b19","mimeType":"video/mp4"},
+    {"name":"R0029_narration_hi-IN.wav","id":"1ezevUm_WrCro1Q8CH7QV2AOuFEBh9rHU","md5":"ecdd8f4583501de7a8141289c5483ba7","mimeType":"audio/wav"},
+    {"name":"R0029_render_qc_contact_sheet.png","id":"1Iuzu4Bv0jEEtJBJoL72Yd6Z0j8B2vccK","md5":"f52f5368998ab6053923933f29179469","mimeType":"image/png"},
+    {"name":"R0029_visual_contact_sheet.png","id":"1gpemQSkCLn6_DpJT02Q07QDUiIuFr5dC","md5":"265f1892da534324282cb71053a64bdf","mimeType":"image/png"},
+    {"name":"REEL-0029_CANONICAL_RECONCILIATION_20260827.md","id":"1CkrGTTT-bt6HWS_B8SAX1CBV9YNkHnSi","md5":"438975833aacfef8b210bce7405502ec","mimeType":"text/markdown"},
+    {"name":"REEL-0029_CAPTIONS_HI.srt","id":"10YN3xHt7SRJeSKX5HtbZKY0Yf8EW84Jw","md5":"1208720f0a1b454ddb9ebbcef919d686","mimeType":"application/x-subrip"},
+    {"name":"REEL-0029_CLAIM_LEDGER.md","id":"1SUN8nAFyn_JHXckXVmStxrizE7O5J9lc","md5":"31de47a5f8865d2e9115526589f5553f","mimeType":"text/markdown"},
+    {"name":"REEL-0029_FINAL.sha256","id":"1yZ3n8iSvctVH9N-a4yyT_bfvzGh1Otn_","md5":"a6e4e7180baf409571eaa079be69104b","mimeType":"application/octet-stream"},
+    {"name":"REEL-0029_INFORMATION_GAP_CURIOSITY_RESEARCH.md","id":"11oxFFm31auDNbXe-KhsnJoOd5BW7TLqM","md5":"9c8ffa0ec34a4a7de0c2e573c8bf6e6a","mimeType":"text/markdown"},
+    {"name":"REEL-0029_LOCAL_RESEARCH_STATE.json","id":"1QO60tZscMTcikY8stgGg7pTukovo3Vah","md5":"2d173028e39bc802fa8d329d77c8192c","mimeType":"application/json"},
+    {"name":"REEL-0029_NARRATION_HI_TRANSCRIPT.txt","id":"1tWXu-wEkYbp5QzxPpwPmY5bTcr_s_SNf","md5":"7fb75c106ee827ebe30a727181c33024","mimeType":"text/plain"},
+    {"name":"REEL-0029_QC_REPORT.md","id":"1CSk4tHJv2QwQc84UvbwvZ5YxuQmjL5d_","md5":"e116ff09b95eab7539daa9658b200e5c","mimeType":"text/markdown"},
+    {"name":"REEL-0029_SCRIPT_HI.md","id":"11Dr7lRqKQD8q38A3PkuKqh7kzlwWHcBP","md5":"923d7126ae0c323762862b4ebd8d36e6","mimeType":"text/markdown"},
+    {"name":"REEL-0029_VISUAL_PROVENANCE.json","id":"1dNIvfBUCr1acne0F_jvZdQDTXff63Mpb","md5":"27a3ef2a07972a2932514951d719703c","mimeType":"application/json"},
+    {"name":"REEL-0029_VISUAL_STORYBOARD.md","id":"1JOWtml84OvdmNUPxNA3CenYYHwc-05s5","md5":"e11f2f87a5b3868fc43b6415344608af","mimeType":"text/markdown"},
+    {"name":"generate-reel0029-visuals.mjs","id":"1wVbh33e2zomyrbtmSdiQccEmuzhe9g28","md5":"b214ba24c9b61b5bd25a21d253317878","mimeType":"application/javascript"},
+    {"name":"r0029-information-gap-01.png","id":"1wBURmkYb7_MovTxCGN94XHTHjpsQztJz","md5":"569f0beeb6e47099c493a9b2ed1fe65e","mimeType":"image/png"},
+    {"name":"r0029-information-gap-02.png","id":"1yjywQUV1b8am9u9b7Uf8kvKbZRdmYRrx","md5":"1663e35f9f5b67147f7429e4700a4cce","mimeType":"image/png"},
+    {"name":"r0029-information-gap-03.png","id":"1FTt_aqbD3-s8vkiOwD8mW0GmJN3Nnqio","md5":"ba15aa0dce584a94c08b8afe5e1b73a7","mimeType":"image/png"},
+    {"name":"r0029-information-gap-04.png","id":"1p3RG8a_xF0RBbWCPcPec48Sv4tUJ5Naq","md5":"f62c6036c627a3976fec3fe226597a73","mimeType":"image/png"},
+    {"name":"r0029-information-gap-05.png","id":"1zy-LawsmfwLSL3ZgUjBHPCfFjARKDceD","md5":"9f8f9a85b13267f8b2ecf98230aba9ed","mimeType":"image/png"},
+    {"name":"r0029-information-gap-06.png","id":"1cMdH94Q0FdNup_gWNaZvq3FZkaZMoXb0","md5":"92138f3f08cf834407e90b8a21a8a719","mimeType":"image/png"},
+    {"name":"r0029_information_gap_scene_01.svg","id":"1Xm56Y_BXHVvMSFSErlW64V7q7oeOoZv-","md5":"667b610ee2bd978765010f8149c56019","mimeType":"image/svg+xml"},
+    {"name":"r0029_information_gap_scene_02.svg","id":"1-dpaNSL74wGoTgc5bQl1UD2G9U2ggsT_","md5":"9c63b2b2badbdc14a114aac33bcecaff","mimeType":"image/svg+xml"},
+    {"name":"r0029_information_gap_scene_03.svg","id":"1YDhSx-cYmNUq4CrYpRNl4sxI-NCr5BO8","md5":"2a2ba3d7794d2a828b977c87d18a9641","mimeType":"image/svg+xml"},
+    {"name":"r0029_information_gap_scene_04.svg","id":"1UqMK_GX69vCYexmGu2RQ4QpopnNB7PJl","md5":"46159694363a2ae2fa4201aeaaad8800","mimeType":"image/svg+xml"},
+    {"name":"r0029_information_gap_scene_05.svg","id":"1gwMQBzmrFyte9f-ta0MB3v-notGlQe-g","md5":"1325496827b4125ac01793e0927b909b","mimeType":"image/svg+xml"},
+    {"name":"r0029_information_gap_scene_06.svg","id":"1FbV-pqq7ETMLAuQPRanpa9UeUpwj8dex","md5":"b688c358ace070e38c96e091955a88c5","mimeType":"image/svg+xml"}
+  ]
+}
