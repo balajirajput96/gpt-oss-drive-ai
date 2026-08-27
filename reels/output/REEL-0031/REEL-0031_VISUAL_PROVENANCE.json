@@ -1,0 +1,60 @@
+{
+  "reelId": "0031",
+  "visualRoute": "original_deterministic_svg_motion_graphics",
+  "imageGenerationUsed": false,
+  "quotaOrAccessControlBypass": false,
+  "reusedLegacyAsset": false,
+  "embeddedText": false,
+  "realPersonDepicted": false,
+  "format": "720x1280 PNG",
+  "visualQc": {
+    "checkedAt": "2026-08-27T07:48:00Z",
+    "method": "six-scene contact-sheet visual inspection",
+    "result": "pass",
+    "finding": "Six distinct legible text-free abstract portrait scenes match the selective-priority concept; no real person, embedded text, or legacy asset is visible."
+  },
+  "scenes": [
+    {
+      "scene": "01",
+      "svgFilename": "r0031_attention_selective_scene_01.svg",
+      "pngFilename": "r0031-attention-selective-01.png",
+      "svgSha256": "afdbb1f4bca4ed89050a1550c6712db1a095a5b0a191dea9de39b2c6c8167e2e",
+      "pngSha256": "97789c6bb4dae31313574b78fb8b38f75c02fecae7ab87b2d6a603521c50279d"
+    },
+    {
+      "scene": "02",
+      "svgFilename": "r0031_attention_selective_scene_02.svg",
+      "pngFilename": "r0031-attention-selective-02.png",
+      "svgSha256": "55158aa35149e3f8493e00070a60a709937acf9b2fb21f009131a11253a67d70",
+      "pngSha256": "341680605cffd283fe63314b548feba552a5e6f8c08afa460ba825eeff01f90f"
+    },
+    {
+      "scene": "03",
+      "svgFilename": "r0031_attention_selective_scene_03.svg",
+      "pngFilename": "r0031-attention-selective-03.png",
+      "svgSha256": "d780cb10cfadfca080d6843684d09e5b0b806b3014ac4e308a15b24be5d36598",
+      "pngSha256": "1383f2b9c83e558b800fa4beca973ef4bcb0eebc54a94f8d28ad75d31d04e07e"
+    },
+    {
+      "scene": "04",
+      "svgFilename": "r0031_attention_selective_scene_04.svg",
+      "pngFilename": "r0031-attention-selective-04.png",
+      "svgSha256": "5c51803fdf18f88088706a5f1fc5ba12653a781f14e267db89ffb487cc21aae3",
+      "pngSha256": "0f140314f8ac918d8c1ad57e2f1dbd05ee853db0539a7cd3de240e1e369f99e4"
+    },
+    {
+      "scene": "05",
+      "svgFilename": "r0031_attention_selective_scene_05.svg",
+      "pngFilename": "r0031-attention-selective-05.png",
+      "svgSha256": "ab4e5674c23c1bb83075f3a042f9274d994633fc3784b504cc16556ed622805e",
+      "pngSha256": "5af29ff46beb19d4c2cd57d7bc7b8247fd0218d92356a5f93e2d96b9125dcc31"
+    },
+    {
+      "scene": "06",
+      "svgFilename": "r0031_attention_selective_scene_06.svg",
+      "pngFilename": "r0031-attention-selective-06.png",
+      "svgSha256": "2ca0c888333d5819768396b0b3f9f3856e57cedecfea970b50bbfcd828cb1b56",
+      "pngSha256": "d3621835969210ac45e2f7e2a339d5288c2e048f0a2da1b53b50af5fbc9a0840"
+    }
+  ]
+}

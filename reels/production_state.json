@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0031",
+  "nextReelId": "0032",
   "completedReelIds": [
     "0001",
     "0002",
@@ -32,7 +32,8 @@
     "0027",
     "0028",
     "0029",
-    "0030"
+    "0030",
+    "0031"
   ],
   "verifiedReels": [
     {
@@ -393,6 +394,18 @@
       "manifestFileId": "1znt5jn4K2r03RmySgtS0GjJ7H9WAYkFH",
       "verifiedAt": "2026-08-27T07:31:05.669Z",
       "sha256": "2918d8b6fb87fd266883e41a04fc2acdb24e9b8259e34d8bd749f6e5ae33b58a"
+    },
+    {
+      "reelId": "0031",
+      "driveFolderId": "1_0HZe6E7dR-O5lU9jOks6YDIs_JzyAva",
+      "videoFileId": "1jZMtc598rXMEXmSCX62mP_e9v9ZxCzGi",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1E7bFD54lGK7yEGANJZcq7fGra0RrcQ2H",
+      "verifiedAt": "2026-08-27T07:58:45.021Z",
+      "sha256": "ca0de814a2639d6fcbba1695c39ad17a85ac988cfb6a33ff6e193478e8dab21d"
     }
   ],
   "canonicalMappings": {
@@ -728,7 +741,7 @@
     "0031": {
       "driveFolderId": "1_0HZe6E7dR-O5lU9jOks6YDIs_JzyAva",
       "topic": "Attention as selective processing",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1q3YL3El4QwpCAahk4FqHVJfgezA4W9F_",
       "reconciliationFileId": "1tCArdNBWEJQXV3_6etlTNDXpoA4a_F3M",
       "legacyNonCanonicalFolderIds": [
@@ -958,8 +971,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T07:35:52.877Z",
+  "lastCheckpointAt": "2026-08-27T07:58:45.021Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0031"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

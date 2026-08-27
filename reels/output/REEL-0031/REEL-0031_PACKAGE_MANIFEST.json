@@ -1,0 +1,104 @@
+{
+  "manifestVersion": 1,
+  "reelId": "0031",
+  "batch": "Batch_002",
+  "question": "यह वास्तव में क्या है?",
+  "topic": "Attention as selective processing",
+  "canonicalFolder": {
+    "id": "1_0HZe6E7dR-O5lU9jOks6YDIs_JzyAva",
+    "name": "R0031_attention_selective_processing",
+    "parentId": "1MCq0RKiLg8g1NiJYCTu50UzWJiQZLHDt"
+  },
+  "packageStatus": "drive_verified",
+  "artifactCountBeforeManifest": 28,
+  "artifactCountIncludingManifestAndSnapshot": 30,
+  "finalVideo": {
+    "id": "1jZMtc598rXMEXmSCX62mP_e9v9ZxCzGi",
+    "name": "REEL-0031_ATTENTION_SELECTIVE_PROCESSING_FINAL.mp4",
+    "md5Checksum": "505c3bec39dec89513f1631e850bc57a",
+    "sha256": "ca0de814a2639d6fcbba1695c39ad17a85ac988cfb6a33ff6e193478e8dab21d",
+    "durationSeconds": 62.2,
+    "width": 720,
+    "height": 1280,
+    "videoCodec": "h264",
+    "audioCodec": "aac"
+  },
+  "acceptedNarration": {
+    "id": "10Xai4V6EacDPQcOYqGZZogS4ZWLoWdcc",
+    "name": "REEL-0031_NARRATION_HI-IN_FINAL.wav",
+    "md5Checksum": "da8d1d399fa0a3a0ee6eece8ad795626",
+    "sha256": "703513ac88628a13df9d740bec6e2ee5f2810de752da7efbaed5df0481e82a74",
+    "durationSeconds": 62.2,
+    "languageCode": "hi-IN",
+    "voice": "Charon"
+  },
+  "captionValidation": {
+    "captionFileId": "1rnLCkGJoEhx09evdorWv78KmdEGtYm80",
+    "cueCount": 12,
+    "maxEndMs": 62000,
+    "narrationDurationMs": 62200,
+    "regressionPassed": true
+  },
+  "visualProvenance": {
+    "route": "original_deterministic_svg_motion_graphics",
+    "imageGenerationUsed": false,
+    "quotaOrAccessControlBypass": false,
+    "reusedLegacyAsset": false,
+    "embeddedText": false,
+    "realPersonDepicted": false,
+    "generatorFileId": "1L0n2i8jOnoT_CC8QgxCqw3Hg0pAuu66b"
+  },
+  "legacyBoundary": {
+    "nonCanonicalFolderIds": [
+      "1KbdPebKGpwn3BIPUxxhlkb39fhQvswL6",
+      "1dH0vEvp8BHD_fXx412QDLMJMoYVLIc_R",
+      "1WDXbL14IuQu0dYDd50P3JkEZlSW-f4iq",
+      "1PpJPMCkLPxfVQQck2S07ii0rLI-pAWmw"
+    ],
+    "legacyAssetsReused": false
+  },
+  "guardedLifecycleVerification": {
+    "status": "complete",
+    "verifiedAt": "2026-08-27T07:58:45.021Z",
+    "manifestFileId": "1E7bFD54lGK7yEGANJZcq7fGra0RrcQ2H",
+    "nextReelId": "0032",
+    "activeReelId": null,
+    "runStatus": "ready_for_next"
+  },
+  "postVerificationSnapshot": {
+    "status": "verified",
+    "fileId": "17dVMEiCPFspegmRB9WNy9n6dPgNRslN-",
+    "name": "REEL-0031_LOCAL_VERIFIED_STATE.json",
+    "md5Checksum": "01f5d8c551926631edfae8324955b838"
+  },
+  "artifacts": [
+    {"name":"REEL-0031_ATTENTION_SELECTIVE_PROCESSING_FINAL.mp4","id":"1jZMtc598rXMEXmSCX62mP_e9v9ZxCzGi","md5":"505c3bec39dec89513f1631e850bc57a","mimeType":"video/mp4"},
+    {"name":"REEL-0031_NARRATION_HI-IN_FINAL.wav","id":"10Xai4V6EacDPQcOYqGZZogS4ZWLoWdcc","md5":"da8d1d399fa0a3a0ee6eece8ad795626","mimeType":"audio/wav"},
+    {"name":"REEL-0031_ATTENTION_SELECTIVE_PROCESSING_RESEARCH.md","id":"1q3YL3El4QwpCAahk4FqHVJfgezA4W9F_","md5":"7e39454e900b23608e3a988eb9dd9521","mimeType":"text/markdown"},
+    {"name":"REEL-0031_CANONICAL_RECONCILIATION_20260827.md","id":"1tCArdNBWEJQXV3_6etlTNDXpoA4a_F3M","md5":"6b6fd21ce22a1044d1d7daa559813681","mimeType":"text/markdown"},
+    {"name":"REEL-0031_LOCAL_RESEARCH_STATE.json","id":"1243U7PL5S3pV59nvNNvChUSTcsvHhx7s","md5":"9ba657dca1fa5cd769dc56ae69a90f20","mimeType":"application/json"},
+    {"name":"REEL-0031_CAPTIONS_HI.srt","id":"1rnLCkGJoEhx09evdorWv78KmdEGtYm80","md5":"bd8937f571abe05489a9ca62622df0b6","mimeType":"application/x-subrip"},
+    {"name":"REEL-0031_CLAIM_LEDGER.md","id":"1KWVbiZBHkpcyVErmWBvGgeBm0uzR3SCs","md5":"c51625bbaefd93528166f087801a76b2","mimeType":"text/markdown"},
+    {"name":"REEL-0031_MEDIA_SHA256.txt","id":"1-cLUJCeDEf1Eoki6FKDXgCMPKLS0a1ny","md5":"802afe6d5a01f38a49ee82884420dd4c","mimeType":"text/plain"},
+    {"name":"REEL-0031_NARRATION_TAKES.md","id":"10IIsckNgIybpVtf-v54S2i5AUDewJUjd","md5":"43294555afff6a41b2a1aac768eca89a","mimeType":"text/markdown"},
+    {"name":"REEL-0031_NARRATION_TRANSCRIPT.md","id":"1yXPUXC8H8N-pGrCjp2VkEdqc88-lTXeZ","md5":"d0576f8af18cb5c093a858dcf7b93888","mimeType":"text/markdown"},
+    {"name":"REEL-0031_QC_REPORT.md","id":"11iQlWbc9-Qg4DubKQUgTtC6bmOOUqQHn","md5":"bdfd239594c92654fb3de84694caac3c","mimeType":"text/markdown"},
+    {"name":"REEL-0031_SCRIPT_HI-IN.md","id":"11xf0sOZVYS54bMqi9rstvcbSceCABQI3","md5":"34cd8c37c9e8ecc138b46139570b42c9","mimeType":"text/markdown"},
+    {"name":"REEL-0031_TRANSCRIPTION_MEASURED.json","id":"1WqogZ2MfsHYvXXBJ1HN1dOxEbEEi7gJI","md5":"32f1529a4ad263fca783c2397e505eaf","mimeType":"application/json"},
+    {"name":"REEL-0031_VISUAL_PROVENANCE.json","id":"10YedUJ2pmpBUp64r085AUpIXo552Oj0d","md5":"f3f0192b54deae2c0fbd914c0ba5b1d8","mimeType":"application/json"},
+    {"name":"REEL-0031_VISUAL_STORYBOARD.md","id":"1uYOJko8OdjWTy2n7_Nn50dd7ul4b5284","md5":"4df704cb16943774e6a70585bbd2b501","mimeType":"text/markdown"},
+    {"name":"generate-reel0031-visuals.mjs","id":"1L0n2i8jOnoT_CC8QgxCqw3Hg0pAuu66b","md5":"d3ed17e9a0bf1c954cc4ba0e841cdfc8","mimeType":"application/javascript"},
+    {"name":"r0031-attention-selective-01.png","id":"1iyIvU1L9MtcFpnT4m_2AmiaPD018PjEt","md5":"f6b436375d8be559c00299ffa5a81d32","mimeType":"image/png"},
+    {"name":"r0031-attention-selective-02.png","id":"1G62FYLoaYDit0s30WTexJ43l6Esfigh0","md5":"6e9f4a4268a9bf1afd612533eb05fa2f","mimeType":"image/png"},
+    {"name":"r0031-attention-selective-03.png","id":"1mkV1ZXCev5P4IyKbZ-9Y5E2wZO-2_r3R","md5":"bdc55e1b965425a3c39e1635b8b46831","mimeType":"image/png"},
+    {"name":"r0031-attention-selective-04.png","id":"10pCf8vfZInK4dUcskdCfLdJst5ONx9o9","md5":"49587314ad1fdb7142fa7c87793aab4d","mimeType":"image/png"},
+    {"name":"r0031-attention-selective-05.png","id":"1luCSApdaD6rOnGcuyezyWj7l6QRkcSis","md5":"7bc773dd18fd95ed8aa2d2703cc8c08a","mimeType":"image/png"},
+    {"name":"r0031-attention-selective-06.png","id":"1XxPvqWcoqIY6DjZN3-BxaKjT7pcdj6oJ","md5":"178ceac8bad41f53d6d3bcc60374fc56","mimeType":"image/png"},
+    {"name":"r0031_attention_selective_scene_01.svg","id":"1H8NT_QAVe7fCHMFstMiUhPGI5adt_GJ2","md5":"73458ad01ec35c61710e327b546abb4f","mimeType":"image/svg+xml"},
+    {"name":"r0031_attention_selective_scene_02.svg","id":"1Bo4TggQ8w03y5wIrm2vhuuCUIVgJZmey","md5":"9b45259daf9841956848c1eb1a1caf82","mimeType":"image/svg+xml"},
+    {"name":"r0031_attention_selective_scene_03.svg","id":"18lcOn5waPGhZ338Bk-E_RuAXqEqfOHOG","md5":"1450dd1413d15a269e5c43d9b098fdc6","mimeType":"image/svg+xml"},
+    {"name":"r0031_attention_selective_scene_04.svg","id":"12IrN0ValQABS60bA5oV3Ia27bAu64w4U","md5":"16b1daad99eaa1adc1fa38de5e6c95b5","mimeType":"image/svg+xml"},
+    {"name":"r0031_attention_selective_scene_05.svg","id":"1QjOmRzbyHatguZD9kYQwCC7F_1qRiB3V","md5":"190be79c3ea9d20a3fba5eedf3408122","mimeType":"image/svg+xml"},
+    {"name":"r0031_attention_selective_scene_06.svg","id":"1F8MDekQe3SVJ9PpWYYGqExnAqCEsmJ7I","md5":"3f8cc742f64af1aec5a4f60630d74c3e","mimeType":"image/svg+xml"}
+  ]
+}

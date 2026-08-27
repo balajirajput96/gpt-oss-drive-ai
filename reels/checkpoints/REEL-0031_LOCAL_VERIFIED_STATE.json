@@ -1,0 +1,48 @@
+{
+  "snapshotType": "reel_verified_state",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T07:59:42Z",
+  "productionStateSha256": "a87d78bac7fcae15409073afe387ca63bf371eb8f5cee3ff805275fb1ec2c85d",
+  "reel": {
+    "reelId": "0031",
+    "batch": "Batch_002",
+    "pillarCode": "MND",
+    "lensCode": "L02",
+    "questionCode": "Q01",
+    "question": "यह वास्तव में क्या है?"
+  },
+  "canonicalArchive": {
+    "folderId": "1_0HZe6E7dR-O5lU9jOks6YDIs_JzyAva",
+    "finalVideo": {
+      "fileId": "1jZMtc598rXMEXmSCX62mP_e9v9ZxCzGi",
+      "name": "REEL-0031_ATTENTION_SELECTIVE_PROCESSING_FINAL.mp4",
+      "sha256": "ca0de814a2639d6fcbba1695c39ad17a85ac988cfb6a33ff6e193478e8dab21d",
+      "durationSeconds": 62.2,
+      "width": 720,
+      "height": 1280,
+      "videoCodec": "h264",
+      "audioCodec": "aac"
+    },
+    "manifest": {
+      "fileId": "1E7bFD54lGK7yEGANJZcq7fGra0RrcQ2H",
+      "name": "REEL-0031_PACKAGE_MANIFEST.json",
+      "md5ChecksumAfterGuardedVerification": "22a10a59c6a2e141ab0b60056ae707d4"
+    }
+  },
+  "lifecycle": {
+    "completedReelCount": 31,
+    "nextReelId": "0032",
+    "activeReelId": null,
+    "runStatus": "ready_for_next",
+    "guardedVerificationComplete": true,
+    "verifiedAt": "2026-08-27T07:58:45.021Z"
+  },
+  "preservedNonCanonicalFolderIds": [
+    "1KbdPebKGpwn3BIPUxxhlkb39fhQvswL6",
+    "1dH0vEvp8BHD_fXx412QDLMJMoYVLIc_R",
+    "1WDXbL14IuQu0dYDd50P3JkEZlSW-f4iq",
+    "1PpJPMCkLPxfVQQck2S07ii0rLI-pAWmw"
+  ],
+  "globalDriveRootStateTouched": false,
+  "integrityBoundary": "This immutable snapshot is source-side evidence of guarded R0031 completion and canonical package identity. It does not adopt, overwrite, or validate historical R0031 packages or global Drive-root completion assertions."
+}

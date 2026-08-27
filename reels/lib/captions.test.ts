@@ -189,4 +189,18 @@ describe("caption validation", () => {
       maxEndMs: 57_100,
     });
   });
+
+  it("keeps active Reel 0031 captions ordered, non-overlapping, Hindi, and within its verified narration duration", () => {
+    const reel0031 = readFileSync(
+      resolve(
+        process.cwd(),
+        "reels/output/REEL-0031/REEL-0031_CAPTIONS_HI.srt"
+      ),
+      "utf8"
+    );
+    expect(validateSrt(reel0031, 62_200)).toEqual({
+      cueCount: 12,
+      maxEndMs: 62_000,
+    });
+  });
 });
