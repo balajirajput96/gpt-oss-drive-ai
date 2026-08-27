@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "reel-package-v1",
+  "reelId": "0024",
+  "registryIdentity": {
+    "batch": "Batch_001",
+    "pillarCode": "MND",
+    "lensCode": "L01",
+    "questionCode": "Q24",
+    "question": "कब सहायता लेना ठीक है?"
+  },
+  "canonicalDriveFolderId": "1Ypox8YV6-DKU6wVaWMrt-nrJ9GfSBi31",
+  "lifecycleStatusAtManifestDraft": "researching",
+  "lifecycleStatusAfterVerification": "completed",
+  "finalVideo": {
+    "name": "REEL-0024_FINAL.mp4",
+    "sha256": "dbeb686cb4881a186b4fcb5e4860ec8e826faf3cd712ac02748e95d4d082f8a0",
+    "format": "MP4 H.264/AAC, 720x1280 portrait",
+    "durationSeconds": 66.12,
+    "driveFileId": "1zf-NaqjIfJ9fygmvmkCKx7726ErAcqG9"
+  },
+  "narration": {
+    "name": "REEL-0024_NARRATION_HI.wav",
+    "language": "hi-IN",
+    "durationSeconds": 66.12,
+    "speedNormalization": null,
+    "driveFileId": "1voJo4wWYT6JtPMRmQnE9AGgbT0KKyhM3"
+  },
+  "existingResearchStageArtifacts": {
+    "researchFileId": "17TvvWwEPN6_IKgoKyhTWF8V8WNw-FHX5",
+    "reconciliationFileId": "1ahTqfhirdikxKcmMNj-XzO0vx209N0F-",
+    "researchStateSnapshotFileId": "1gIEM7LnzhW1cuFVearydX9Af4D7aN94i"
+  },
+  "plannedArtifactNames": [
+    "REEL-0024_FINAL.mp4",
+    "REEL-0024_NARRATION_HI.wav",
+    "REEL-0024_NARRATION_HI_TRANSCRIPT.txt",
+    "REEL-0024_SCRIPT_HI.md",
+    "REEL-0024_CAPTIONS_HI.srt",
+    "REEL-0024_CLAIM_LEDGER.md",
+    "REEL-0024_VISUAL_STORYBOARD.md",
+    "REEL-0024_QC_REPORT.md",
+    "REEL-0024_VISUAL_PROVENANCE.json",
+    "reel0024_scene01.svg",
+    "reel0024_scene02.svg",
+    "reel0024_scene03.svg",
+    "reel0024_scene04.svg",
+    "reel0024_scene05.svg",
+    "reel0024_scene06.svg",
+    "REEL-0024_PACKAGE_MANIFEST.json"
+  ],
+  "driveArtifactIds": {
+    "REEL-0024_CAPTIONS_HI.srt": "1rq3baFH7D9j3Byz4L1QuRKKO-kwjp2G3",
+    "REEL-0024_CLAIM_LEDGER.md": "165qs4XFFt7SWjh_OL-6m79RCmM8VAHJu",
+    "REEL-0024_FINAL.mp4": "1zf-NaqjIfJ9fygmvmkCKx7726ErAcqG9",
+    "REEL-0024_NARRATION_HI.wav": "1voJo4wWYT6JtPMRmQnE9AGgbT0KKyhM3",
+    "REEL-0024_NARRATION_HI_TRANSCRIPT.txt": "1lFuG3Utv_cifqz0QAAzC3dtAjofR6ECM",
+    "REEL-0024_QC_REPORT.md": "1bV7JDNmMnrndANQyx6Yq98J9hjVOm8Iq",
+    "REEL-0024_SCRIPT_HI.md": "1PQXb9RUlHOfA_lEOmt5d3xpWPQFJP3-9",
+    "REEL-0024_VISUAL_PROVENANCE.json": "1UIwKuztySGrrtm9N2VRru8TSeftUnn0D",
+    "REEL-0024_VISUAL_STORYBOARD.md": "1ocPdQoAubBOCaOx5nNdQnSxreNp24yYK",
+    "reel0024_scene01.svg": "1bTbT-zhZDNChsG0g0fygpXTMOPKIFzom",
+    "reel0024_scene02.svg": "1o_WbUVOJx86Z_092DCCdYOhvWEUcD2lk",
+    "reel0024_scene03.svg": "1DwSWBSOTLzKmExaUj4Lz0Rm1vfZm42KP",
+    "reel0024_scene04.svg": "1P8B3gSzx03zTkD05lmDYCYWkrDMjhjl-",
+    "reel0024_scene05.svg": "14tNdDKvHwsMCJ2spygCFmLx9cJvbmItI",
+    "reel0024_scene06.svg": "1EKHZSLvlxugJHg_NirYkMaaBzHqXcIqM"
+  },
+  "remoteVerification": {
+    "allPreLifecycleArtifactParentsAndChecksumsMatch": true,
+    "finalTranscriptContentMatch": true,
+    "verifiedArtifactCountBeforeManifest": 18,
+    "postVerificationStateSnapshotFileId": "1GXvNem0Pubfs72qzzuwAI2NadU0XUna8",
+    "postVerificationStateSnapshotSemanticMatch": true,
+    "finalCanonicalArtifactCount": 20
+  },
+  "preLifecycleArtifactCount": 18,
+  "globalDriveRootStateTouched": false,
+  "quotaOrAccessControlBypass": false,
+  "reusedLegacyAsset": false,
+  "manifestDriveFileId": "1Qkr9YXJWpisDha29pY7lEI4IMImlGjBY"
+}

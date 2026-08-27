@@ -91,3 +91,4 @@
 - [x] Activate deterministic Reel 0023, preserve any conflicting Drive drafts as noncanonical, and archive an evidence-bounded canonical research package before media production or lifecycle advancement.
 - [x] Produce canonical Reel 0023 from the verified identity-and-role research through evidence-labeled Hindi script/captions, original provenance-recorded narration and visuals, render/QC, canonical Drive verification, and mandatory lifecycle transition.
 - [x] Activate deterministic Reel 0024, preserve any conflicting Drive drafts as noncanonical, and archive an evidence-bounded canonical research package before media production or lifecycle advancement.
+- [x] Produce canonical Reel 0024 from verified support-seeking research through safety-bounded Hindi script/captions, original provenance-recorded narration and visuals, render/QC, canonical Drive verification, and mandatory lifecycle transition.

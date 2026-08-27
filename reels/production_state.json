@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0024",
+  "nextReelId": "0025",
   "completedReelIds": [
     "0001",
     "0002",
@@ -25,7 +25,8 @@
     "0020",
     "0021",
     "0022",
-    "0023"
+    "0023",
+    "0024"
   ],
   "verifiedReels": [
     {
@@ -302,6 +303,18 @@
       "manifestFileId": "18xquRGvoLIwn5nevJx6tnbzGxYKMSzYN",
       "verifiedAt": "2026-08-27T04:29:48.864Z",
       "sha256": "b04d65a7712a90dd87e48b30bc6b36a4a886efcd8125150f122bbcc889c2e614"
+    },
+    {
+      "reelId": "0024",
+      "driveFolderId": "1Ypox8YV6-DKU6wVaWMrt-nrJ9GfSBi31",
+      "videoFileId": "1zf-NaqjIfJ9fygmvmkCKx7726ErAcqG9",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1Qkr9YXJWpisDha29pY7lEI4IMImlGjBY",
+      "verifiedAt": "2026-08-27T04:52:54.786Z",
+      "sha256": "dbeb686cb4881a186b4fcb5e4860ec8e826faf3cd712ac02748e95d4d082f8a0"
     }
   ],
   "canonicalMappings": {
@@ -551,7 +564,7 @@
     "0024": {
       "driveFolderId": "1Ypox8YV6-DKU6wVaWMrt-nrJ9GfSBi31",
       "topic": "कब सहायता लेना ठीक है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "17TvvWwEPN6_IKgoKyhTWF8V8WNw-FHX5",
       "reconciliationFileId": "1ahTqfhirdikxKcmMNj-XzO0vx209N0F-",
       "legacyNonCanonicalFolderIds": [
@@ -780,8 +793,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T04:34:57.009Z",
+  "lastCheckpointAt": "2026-08-27T04:52:54.786Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0024"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

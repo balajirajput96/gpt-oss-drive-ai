@@ -1,0 +1,19 @@
+# Reel 0024 Narration Transcript
+
+**Audio file:** `REEL-0024_NARRATION_HI.wav`
+**Language:** Hindi (`hi-IN`) with documented mixed technical-English terms
+**Decoded duration:** `66.120000` seconds
+**Transcription tool result:** 2026-08-27 04:46 UTC
+
+| Start–end | Verified transcript segment |
+|---|---|
+| 00:00.4–00:03.3 | सहायता लेने से पहले क्या कोई बड़ा label चाहिए? |
+| 00:03.3–00:11.5 | जरूरी नहीं। बेहतर सवाल है क्या यह परेशानी काम, पढ़ाई, रिश्तों या self care पर असर डाल रही है? |
+| 00:11.5–00:21.5 | सार्वजनिक स्वास्थ्य guidelines के अनुसार, जब परेशानी बहुत तीव्र हो या बनी रहे, local qualified professional से बात करना एक उचित विकल्प हो सकता है। |
+| 00:21.5–00:31.6 | यह diagnosis नहीं है और कोई एक समय सीमा हर व्यक्ति या हर जगह पर लागू नहीं होती। support के स्तर अलग हैं। किसी भरोसेमंद सुरक्षित |
+| 00:31.6–00:41.9 | व्यक्ति से बात पहला कदम हो सकता है। Professional से मिलना assessment और विकल्प समझने का अलग कदम है। दोनों एक जैसे नहीं है। Young people पर हुई systematic |
+| 00:41.9–00:51.9 | review में शर्म, privacy या trust की चिंता और मुझे अकेले संभालना चाहिए जैसी बातें मदद मांगना कठिन बनाने वाले reported patterns थे। यह आपकी |
+| 00:51.9–01:01.9 | कहानी का फैसला नहीं है। एक छोटा कदम परेशानी को एक वाक्य में लिखिए और कहिए मुझे सही support तक पहुंचने में मदद चाहिए। अगर तुरंत सुरक्षा |
+| 01:01.9–01:05.9 | का जोखिम हो, local emergency या crisis support से अभी संपर्क करें। |
+
+The wording is a machine transcription record of the generated narration. The approved script remains the authoritative claim-boundary source; no diagnosis, individual risk assessment, country-specific emergency number, or treatment claim is added here.
