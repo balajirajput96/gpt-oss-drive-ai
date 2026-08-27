@@ -547,6 +547,18 @@
         "1Eo1gKNCuTI_lnYBc87fUKnnz3anyKUQz",
         "1TxImHJNUhWnbu_CjQ96ThCfLoLv7vtJ4"
       ]
+    },
+    "0024": {
+      "driveFolderId": "1Ypox8YV6-DKU6wVaWMrt-nrJ9GfSBi31",
+      "topic": "कब सहायता लेना ठीक है?",
+      "status": "research_archived",
+      "researchFileId": "17TvvWwEPN6_IKgoKyhTWF8V8WNw-FHX5",
+      "reconciliationFileId": "1ahTqfhirdikxKcmMNj-XzO0vx209N0F-",
+      "legacyNonCanonicalFolderIds": [
+        "1R5rmDsVi-PpKYpGp3IMhVJdkM2z4VCOZ",
+        "1vkPIPliJLvX8AaHV3poBFLgf8nk01GIe",
+        "1H80sAGta1TYR92-QF9hA2MRhDsqpLFR8"
+      ]
     }
   },
   "failedReels": [
@@ -768,8 +780,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T04:29:48.865Z",
+  "lastCheckpointAt": "2026-08-27T04:34:57.009Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0024"
 }
