@@ -1,0 +1,12 @@
+{
+  "snapshotType": "reel_post_verification_state",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T06:07:48.254Z",
+  "productionStateSha256": "6cedbc4dab8dd13b75b5ecf96ed6f4861444d3bb40d10dab8629216869b79c10",
+  "reelId": "0027",
+  "canonicalDriveFolderId": "1xJJewHABN5U8R7ecz9yngHzD2X5XyVlT",
+  "videoFileId": "1IcBabnP_s3i2lrUwKHmFkQcrlhkRKJ8h",
+  "manifestFileId": "1JEfmYhJzSSoy77rbk6evPFJjB-AvP3FP",
+  "videoSha256": "f735f3381a526cf498b34413b9f689771fb1794342fb463d4d64e8713b7e7405",
+  "lifecycle": {"nextReelId": "0028", "activeReelId": null, "runStatus": "ready_for_next", "completedCount": 27}
+}

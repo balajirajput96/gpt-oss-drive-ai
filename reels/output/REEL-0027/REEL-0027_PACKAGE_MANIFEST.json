@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "reel-package-v1",
+  "reelId": "0027",
+  "registryIdentity": {"batch": "Batch_001", "pillarCode": "MND", "lensCode": "L01", "questionCode": "Q27", "question": "क्या छोटा परिवर्तन व्यवहार्य है?"},
+  "canonicalDriveFolderId": "1xJJewHABN5U8R7ecz9yngHzD2X5XyVlT",
+  "lifecycleStatusAtManifestDraft": "researching",
+  "lifecycleStatusAfterVerification": "completed",
+  "finalVideo": {"name": "REEL-0027_FINAL.mp4", "driveFileId": "1IcBabnP_s3i2lrUwKHmFkQcrlhkRKJ8h", "sha256": "f735f3381a526cf498b34413b9f689771fb1794342fb463d4d64e8713b7e7405", "format": "MP4 H.264/AAC, 720x1280 portrait", "durationSeconds": 61.6},
+  "narration": {"name": "REEL-0027_NARRATION_HI.wav", "driveFileId": "1ReduVKSzOazivPpJKCCll8NlQFrcC-Cj", "language": "hi-IN", "voice": "Charon", "durationSeconds": 61.6, "speedNormalization": null},
+  "existingResearchStageArtifacts": {"researchFileId": "1Gj2_YkDdGXmS6MillS0FB5FbYu7O5DOB", "reconciliationFileId": "1bRd-c2P2pmKQJQwNd8kn-AGMYY8GvHfN", "researchStateSnapshotFileId": "1riQ4GTymYXyB9Cbp0X3HvpFjmhY0JaKO"},
+  "preLifecycleArtifactCount": 29,
+  "remoteVerification": {"allPreLifecycleArtifactParentsAndChecksumsMatch": true, "finalVideoMetadata": {"width": 720, "height": 1280, "durationMillis": 61599}, "postVerificationStateSnapshotFileId": "1temDAIOfz7f-qy2L8rT8KeK2MIxYqIMv", "postVerificationStateSnapshotSemanticMatch": true, "finalCanonicalArtifactCount": 31},
+  "provenance": {"imageGenerationUsed": false, "quotaOrAccessControlBypass": false, "reusedLegacyAsset": false, "embeddedText": false},
+  "globalDriveRootStateTouched": false,
+  "manifestDriveFileId": "1JEfmYhJzSSoy77rbk6evPFJjB-AvP3FP"
+}

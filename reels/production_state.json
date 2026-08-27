@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0027",
+  "nextReelId": "0028",
   "completedReelIds": [
     "0001",
     "0002",
@@ -28,7 +28,8 @@
     "0023",
     "0024",
     "0025",
-    "0026"
+    "0026",
+    "0027"
   ],
   "verifiedReels": [
     {
@@ -341,6 +342,18 @@
       "manifestFileId": "1uQNHwfLLYTy71BrcoQC4Ptwbo59kQabI",
       "verifiedAt": "2026-08-27T05:42:34.435Z",
       "sha256": "4cf926f58b30e6d6b97547fb22e21e0c3b84064c23266b556651aae18717bbe9"
+    },
+    {
+      "reelId": "0027",
+      "driveFolderId": "1xJJewHABN5U8R7ecz9yngHzD2X5XyVlT",
+      "videoFileId": "1IcBabnP_s3i2lrUwKHmFkQcrlhkRKJ8h",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1JEfmYhJzSSoy77rbk6evPFJjB-AvP3FP",
+      "verifiedAt": "2026-08-27T06:07:48.254Z",
+      "sha256": "f735f3381a526cf498b34413b9f689771fb1794342fb463d4d64e8713b7e7405"
     }
   ],
   "canonicalMappings": {
@@ -626,7 +639,7 @@
     "0027": {
       "driveFolderId": "1xJJewHABN5U8R7ecz9yngHzD2X5XyVlT",
       "topic": "क्या छोटा परिवर्तन व्यवहार्य है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1Gj2_YkDdGXmS6MillS0FB5FbYu7O5DOB",
       "reconciliationFileId": "1bRd-c2P2pmKQJQwNd8kn-AGMYY8GvHfN",
       "legacyNonCanonicalFolderIds": [
@@ -855,8 +868,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T05:48:36.435Z",
+  "lastCheckpointAt": "2026-08-27T06:07:48.254Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0027"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }
