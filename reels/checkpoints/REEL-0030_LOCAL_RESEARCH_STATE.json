@@ -1,0 +1,42 @@
+{
+  "snapshotType": "reel_research_archive_state",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T07:17:07Z",
+  "productionStateSha256": "d39364d22ea6561a8929927fdb2ec5bdd4d2ac7f39cb316c659df18cfa2f8583",
+  "reel": {
+    "reelId": "0030",
+    "batch": "Batch_001",
+    "pillarCode": "MND",
+    "lensCode": "L01",
+    "questionCode": "Q30",
+    "question": "मुख्य सीख क्या है?"
+  },
+  "canonicalResearchArchive": {
+    "folderId": "1iu4deIvDfSkBhzPQAzMliITycAFslcbO",
+    "research": {
+      "fileId": "1N-uW3Wg575JgN47silWDHjPh4oLqSFM-",
+      "name": "REEL-0030_CURIOSITY_LEARNING_TAKEAWAY_RESEARCH.md",
+      "md5Checksum": "3743487ed96e9029a3884ef324f9e540"
+    },
+    "reconciliation": {
+      "fileId": "1Qey7mX5f9-qfx0jbFik-Zt9HFuitlhHI",
+      "name": "REEL-0030_CANONICAL_RECONCILIATION_20260827.md",
+      "md5Checksum": "3aa4459f00b545aef69abcf6e3f00458"
+    }
+  },
+  "lifecycle": {
+    "completedReelCount": 29,
+    "nextReelId": "0030",
+    "activeReelId": "0030",
+    "runStatus": "researching",
+    "completionAdvanced": false
+  },
+  "preservedNonCanonicalFolderIds": [
+    "1W2hybbF15ox5P76_yIpj08Sj-qAUkx-5",
+    "1_UWHiJEzgmUCyKcKvFTjOJZ59sF3zVXz",
+    "1VOx0bmijYrm2FNzCMJ7AnYJn8adn_JPt",
+    "19LUI42hcNi7w04Q3wAk6AXuxgVIyZtCg"
+  ],
+  "globalDriveRootStateTouched": false,
+  "archiveBoundary": "The snapshot proves a research-only archival state. Media production, guarded verification, and selection of R0031 remain unavailable until later gates pass."
+}

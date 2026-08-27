@@ -698,6 +698,19 @@
         "1Afps0xrS6De02gvdX4mLq73JTmGaBWer",
         "1lR0HC4cMgoHhkLqaER14w5dh5o3_8gn8"
       ]
+    },
+    "0030": {
+      "driveFolderId": "1iu4deIvDfSkBhzPQAzMliITycAFslcbO",
+      "topic": "मुख्य सीख क्या है?",
+      "status": "research_archived",
+      "researchFileId": "1N-uW3Wg575JgN47silWDHjPh4oLqSFM-",
+      "reconciliationFileId": "1Qey7mX5f9-qfx0jbFik-Zt9HFuitlhHI",
+      "legacyNonCanonicalFolderIds": [
+        "1W2hybbF15ox5P76_yIpj08Sj-qAUkx-5",
+        "1_UWHiJEzgmUCyKcKvFTjOJZ59sF3zVXz",
+        "1VOx0bmijYrm2FNzCMJ7AnYJn8adn_JPt",
+        "19LUI42hcNi7w04Q3wAk6AXuxgVIyZtCg"
+      ]
     }
   },
   "failedReels": [
@@ -919,8 +932,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T07:05:39.222Z",
+  "lastCheckpointAt": "2026-08-27T07:11:23.599Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0030"
 }
