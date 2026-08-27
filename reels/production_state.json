@@ -522,6 +522,18 @@
         "1nzMSZZEnz8SSOI66y8dyzzkQuTLzRyXb",
         "1ydxUKb28TNnfAH5z7lATM27L1bIENHya"
       ]
+    },
+    "0023": {
+      "driveFolderId": "1h02qFM96T3DCmaXaoTKa4ZAUgwuS3evp",
+      "topic": "यह पहचान और भूमिका से कैसे जुड़ता है?",
+      "status": "research_archived",
+      "researchFileId": "1OFpfZrJohVKqZwAh2rJzZERlN1q9g1BU",
+      "reconciliationFileId": "1kmu_s7ooi53P48yTHBm8aNS-D5XxeTV-",
+      "legacyNonCanonicalFolderIds": [
+        "12F5mCptrBF1f1pT7roqsSGbAFJJEtgh2",
+        "1Eo1gKNCuTI_lnYBc87fUKnnz3anyKUQz",
+        "1TxImHJNUhWnbu_CjQ96ThCfLoLv7vtJ4"
+      ]
     }
   },
   "failedReels": [
@@ -743,8 +755,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T03:54:39.928Z",
+  "lastCheckpointAt": "2026-08-27T04:05:53.424Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0023"
 }
