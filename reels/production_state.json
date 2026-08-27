@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0028",
+  "nextReelId": "0029",
   "completedReelIds": [
     "0001",
     "0002",
@@ -29,7 +29,8 @@
     "0024",
     "0025",
     "0026",
-    "0027"
+    "0027",
+    "0028"
   ],
   "verifiedReels": [
     {
@@ -354,6 +355,18 @@
       "manifestFileId": "1JEfmYhJzSSoy77rbk6evPFJjB-AvP3FP",
       "verifiedAt": "2026-08-27T06:07:48.254Z",
       "sha256": "f735f3381a526cf498b34413b9f689771fb1794342fb463d4d64e8713b7e7405"
+    },
+    {
+      "reelId": "0028",
+      "driveFolderId": "18y1xe7JlObtqV19VebuwWo-tHzwbW4gb",
+      "videoFileId": "1OjJXO0okdurfBUYcO37CvfuDKaCuJvrp",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1zVVd_69T7eCDNt2_dMvTj5a7quxBUAqx",
+      "verifiedAt": "2026-08-27T06:38:36.375Z",
+      "sha256": "28652ce388a166ffae5943723b10d29d4f1b955f620bc96fe437b60e9f69d7d3"
     }
   ],
   "canonicalMappings": {
@@ -651,7 +664,7 @@
     "0028": {
       "driveFolderId": "18y1xe7JlObtqV19VebuwWo-tHzwbW4gb",
       "topic": "कौन-सा डेटा अभी गायब है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1gv1pvp04qaKLqRMIAv2D8WM88USVLkhp",
       "reconciliationFileId": "1obctlogNy_mQ7mbBFFcg-QqBYxMTEMXB",
       "legacyNonCanonicalFolderIds": [
@@ -881,8 +894,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T06:15:37.611Z",
+  "lastCheckpointAt": "2026-08-27T06:38:36.375Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0028"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

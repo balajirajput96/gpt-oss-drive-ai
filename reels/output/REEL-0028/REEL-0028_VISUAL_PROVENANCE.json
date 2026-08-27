@@ -1,0 +1,19 @@
+{
+  "reelId": "0028",
+  "visualRoute": "original_deterministic_svg_motion_graphics",
+  "imageGenerationUsed": false,
+  "quotaOrAccessControlBypass": false,
+  "reusedLegacyAsset": false,
+  "embeddedText": false,
+  "realPersonDepicted": false,
+  "format": "720x1280 PNG",
+  "generatorSource": "reels/scripts/generate-reel0028-visuals.mjs",
+  "scenes": [
+    {"scene":"01","svg":"r0028_missing_data_scene_01.svg","svgSha256":"7ab61541394eaad1aced4c630be593d9933e8271fd30cfec86f1922ae1aca72d","png":"r0028-missing-data-01.png","pngSha256":"7732d9b33036da22f6702e14ab1cd6c8a880081befd9480e79bbd786582940d9"},
+    {"scene":"02","svg":"r0028_missing_data_scene_02.svg","svgSha256":"8f28cf2b20a8e628201c3945b8855490a768350e1783a279a0570b9b87468f8a","png":"r0028-missing-data-02.png","pngSha256":"d2b109a3eb451c09825f9135fed8afbf358730b26066326f2dd29f74eca497c6"},
+    {"scene":"03","svg":"r0028_missing_data_scene_03.svg","svgSha256":"1235d53df2eeed8459216a3fc16c73c95594b0d62fb33616bfd83b4617538524","png":"r0028-missing-data-03.png","pngSha256":"f8660675a6e1f38246afbf9623ebebc7b48b46d3020e6d8396a57fc045af6b03"},
+    {"scene":"04","svg":"r0028_missing_data_scene_04.svg","svgSha256":"7c2d03552dd3550290a245d700897161bf0609a22307ad929221b9d6bae7e8c0","png":"r0028-missing-data-04.png","pngSha256":"2949d7c5907584c875e349862500e17c612fbaedb46dbf1b610adec6c2be4fce"},
+    {"scene":"05","svg":"r0028_missing_data_scene_05.svg","svgSha256":"281b2e9656474f981fd2533709e38fa241b3bb19077087159aa142f7163de967","png":"r0028-missing-data-05.png","pngSha256":"3c588345ec1d19e23a8d34bc17ca222c02f8cd8c1cdde7f29d01dca658b82cf4"},
+    {"scene":"06","svg":"r0028_missing_data_scene_06.svg","svgSha256":"dc84aca6c7494fb2ba375488027e221e7a4e3cd6cc075fd909210e536d6920f6","png":"r0028-missing-data-06.png","pngSha256":"ca5f145ccd3e2b4b025a048b4a6d19ca818a34db49d9bdcf56566b8b6de69d49"}
+  ]
+}

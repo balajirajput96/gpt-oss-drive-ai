@@ -1,0 +1,11 @@
+Audio source: R0028_narration_hi-IN.wav
+Measured duration: 64.280 seconds
+Transcription method: manus-speech-to-text
+
+[00:00.3 - 00:08.5] अगर आपके पास brain scan, व्यवहार और self report तीनों हों तो अनुभव को समझने के लिए कौन सा data अब भी missing है?
+[00:08.5 - 00:14.4] सबसे सीधा जवाब है उस व्यक्ति के अंदर चल रहे अनुभव का direct ground truth.
+[00:14.4 - 00:24.9] Report उपयोगी है क्योंकि व्यक्ति अपने अनुभव के बारे में कह सकता है, लेकिन शब्द चुनना, याद रखना और decision लेना report को प्रभावित कर सकते हैं।
+[00:24.9 - 00:34.9] व्यवहार भी सुराग देता है मगर सही जवाब या button press यह नहीं बताता कि अनुभव कैसा था। Brain signals patterns दिखाते हैं। फिर भी किसी pattern को अनुभव
+[00:34.9 - 00:45.1] से जोड़ने के लिए interpretation और कई studies चाहिए। इसीलिए research किसी एक magic meter को final answer नहीं मानती। वो report, व्यवहार और brain data
+[00:45.1 - 00:55.1] को साथ देखकर पूछती है, कहां ये signals मिलते हैं और कहां अलग कहानी बताते हैं। यही वो bridge है जो अभी बेहतर बनना बाकी है। Lived experience और बाहरी
+[00:55.1 - 01:04.1] measurements के बीच। निष्कर्ष कमी सिर्फ numbers की नहीं है। जरूरत है ज्यादा reliable bridge की, certainty की नहीं सावधान evidence की।

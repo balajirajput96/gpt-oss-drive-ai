@@ -1,0 +1,40 @@
+{
+  "snapshotType": "reel_post_verification_state",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T06:38:52Z",
+  "productionStateSha256": "c1580be7621cb47467e878e49fbcc66db65df0607b64ee9b4545962cbaf905f4",
+  "reel": {
+    "reelId": "0028",
+    "batch": "Batch_001",
+    "pillar": "MND",
+    "lens": "L01",
+    "question": "कौन-सा डेटा अभी गायब है?"
+  },
+  "guardedVerification": {
+    "verifiedAt": "2026-08-27T06:38:36.375Z",
+    "canonicalDriveFolderId": "18y1xe7JlObtqV19VebuwWo-tHzwbW4gb",
+    "videoFileId": "1OjJXO0okdurfBUYcO37CvfuDKaCuJvrp",
+    "manifestFileId": "1zVVd_69T7eCDNt2_dMvTj5a7quxBUAqx",
+    "finalVideoSha256": "28652ce388a166ffae5943723b10d29d4f1b955f620bc96fe437b60e9f69d7d3"
+  },
+  "lifecycle": {
+    "completedReelCount": 28,
+    "nextReelId": "0029",
+    "activeReelId": null,
+    "runStatus": "ready_for_next",
+    "completionAdvanced": true
+  },
+  "canonicalPackage": {
+    "preLifecycleArtifactCount": 28,
+    "prePostVerifySnapshotArtifactCount": 29,
+    "expectedFinalCanonicalArtifactCount": 30
+  },
+  "preservedNonCanonicalFolderIds": [
+    "1Y77XvSUO9ECXoh-4s2piG_BY7NnPnSuV",
+    "1xAqBGmsvjd6T0d5scv5FWcEcR-8xRjs-",
+    "1QzY31UxAGPLRtKx8Do6ab0t5OH19LfKq",
+    "1F7-JmykLDrQG1GK8vzifMjTSV1EEPk-K"
+  ],
+  "globalDriveRootStateTouched": false,
+  "archiveBoundary": "Immutable post-guarded-verification state. No legacy folder or global Drive-root state was adopted, moved, deleted, or overwritten."
+}
