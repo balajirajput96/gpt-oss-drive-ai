@@ -572,6 +572,18 @@
         "1vkPIPliJLvX8AaHV3poBFLgf8nk01GIe",
         "1H80sAGta1TYR92-QF9hA2MRhDsqpLFR8"
       ]
+    },
+    "0025": {
+      "driveFolderId": "13lsfcptaR3OxMIQxYFC0BhEfv0y-dbDE",
+      "topic": "इस परंपरा का दृष्टिकोण क्या है?",
+      "status": "research_archived",
+      "researchFileId": "1Xyh1zbrXOF4QABovTapfYmFus6bF4GmH",
+      "reconciliationFileId": "1ZT_FC8jdPxCJ8LL_ixSkUveGLTFG5dE3",
+      "legacyNonCanonicalFolderIds": [
+        "1lT9aqjBwh8_uKOuDk2gLVkXePQDUfVMI",
+        "1OowQVypee5snrdvL7unwI07KIWNMtgyr",
+        "1WRLtVNXOPehlc_wtHhmFvD5eIq2DsrBL"
+      ]
     }
   },
   "failedReels": [
@@ -793,8 +805,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T04:52:54.786Z",
+  "lastCheckpointAt": "2026-08-27T04:56:34.776Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0025"
 }

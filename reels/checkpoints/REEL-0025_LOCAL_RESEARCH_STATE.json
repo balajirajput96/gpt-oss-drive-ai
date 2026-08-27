@@ -1,0 +1,38 @@
+{
+  "snapshotType": "reel_research_archive_verification",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T05:02:01Z",
+  "reel": {
+    "reelId": "0025",
+    "batch": "Batch_001",
+    "pillar": "MND",
+    "lens": "L01",
+    "question": "इस परंपरा का दृष्टिकोण क्या है?"
+  },
+  "lifecycle": {
+    "nextReelId": "0025",
+    "activeReelId": "0025",
+    "runStatus": "researching",
+    "completionAdvanced": false
+  },
+  "canonicalDriveArchive": {
+    "folderId": "13lsfcptaR3OxMIQxYFC0BhEfv0y-dbDE",
+    "parentId": "19uErd4g0xD0geAUi6SJbdPV3Ih4K3mHC",
+    "research": {
+      "fileId": "1Xyh1zbrXOF4QABovTapfYmFus6bF4GmH",
+      "name": "REEL-0025_TRADITION_PERSPECTIVE_RESEARCH.md",
+      "md5Checksum": "6db424e87ceda342761f32b63c9bcf01"
+    },
+    "reconciliation": {
+      "fileId": "1ZT_FC8jdPxCJ8LL_ixSkUveGLTFG5dE3",
+      "name": "REEL-0025_CANONICAL_RECONCILIATION_20260827.md",
+      "md5Checksum": "295483565e7534cd090cf9fb40dcf76c"
+    }
+  },
+  "preservedNonCanonicalFolderIds": [
+    "1lT9aqjBwh8_uKOuDk2gLVkXePQDUfVMI",
+    "1OowQVypee5snrdvL7unwI07KIWNMtgyr",
+    "1WRLtVNXOPehlc_wtHhmFvD5eIq2DsrBL"
+  ],
+  "archiveBoundary": "Research and reconciliation evidence only. No narration, captions, visuals, render, manifest, final QC, or guarded lifecycle verification has occurred."
+}
