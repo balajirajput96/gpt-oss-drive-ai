@@ -1,0 +1,39 @@
+{
+  "snapshotType": "reel_research_archive_verification",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T05:52:12Z",
+  "productionStateSha256": "f725df36d84d1f560bae8fe72f2cd623abef34d2228a36fea38658e5c6baa236",
+  "reel": {
+    "reelId": "0027",
+    "batch": "Batch_001",
+    "pillar": "MND",
+    "lens": "L01",
+    "question": "क्या छोटा परिवर्तन व्यवहार्य है?"
+  },
+  "lifecycle": {
+    "nextReelId": "0027",
+    "activeReelId": "0027",
+    "runStatus": "researching",
+    "completionAdvanced": false
+  },
+  "canonicalDriveArchive": {
+    "folderId": "1xJJewHABN5U8R7ecz9yngHzD2X5XyVlT",
+    "parentId": "19uErd4g0xD0geAUi6SJbdPV3Ih4K3mHC",
+    "research": {
+      "fileId": "1Gj2_YkDdGXmS6MillS0FB5FbYu7O5DOB",
+      "name": "REEL-0027_SMALL_CHANGE_FEASIBILITY_RESEARCH.md",
+      "md5Checksum": "027c8350b8c31051f659caeaa1149955"
+    },
+    "reconciliation": {
+      "fileId": "1bRd-c2P2pmKQJQwNd8kn-AGMYY8GvHfN",
+      "name": "REEL-0027_CANONICAL_RECONCILIATION_20260827.md",
+      "md5Checksum": "f6cd227d7667fa0daf858827b0e7af17"
+    }
+  },
+  "preservedNonCanonicalFolderIds": [
+    "1rT7cwOzFEqkcKcNEJTdDi74OtwC6eIOa",
+    "1RnTjiG6an9qQ9agIQuSecmRJhHudhxoN",
+    "1XngD3YZWRZeMdioUR1cL8NRwBhUIWAkP"
+  ],
+  "archiveBoundary": "Research and collision-reconciliation evidence only. No narration, captions, visuals, render, QC, final manifest, or guarded lifecycle verification has occurred."
+}

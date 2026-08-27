@@ -622,6 +622,18 @@
         "1tkd1HlMF7IO_mtpo2ioaWiEsSCpsC0AN",
         "1WSFa1udBzQoHFxiURrTu6ysrtaGwfRE9"
       ]
+    },
+    "0027": {
+      "driveFolderId": "1xJJewHABN5U8R7ecz9yngHzD2X5XyVlT",
+      "topic": "क्या छोटा परिवर्तन व्यवहार्य है?",
+      "status": "research_archived",
+      "researchFileId": "1Gj2_YkDdGXmS6MillS0FB5FbYu7O5DOB",
+      "reconciliationFileId": "1bRd-c2P2pmKQJQwNd8kn-AGMYY8GvHfN",
+      "legacyNonCanonicalFolderIds": [
+        "1rT7cwOzFEqkcKcNEJTdDi74OtwC6eIOa",
+        "1RnTjiG6an9qQ9agIQuSecmRJhHudhxoN",
+        "1XngD3YZWRZeMdioUR1cL8NRwBhUIWAkP"
+      ]
     }
   },
   "failedReels": [
@@ -843,8 +855,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T05:42:34.436Z",
+  "lastCheckpointAt": "2026-08-27T05:48:36.435Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0027"
 }
