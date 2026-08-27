@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0025",
+  "nextReelId": "0026",
   "completedReelIds": [
     "0001",
     "0002",
@@ -26,7 +26,8 @@
     "0021",
     "0022",
     "0023",
-    "0024"
+    "0024",
+    "0025"
   ],
   "verifiedReels": [
     {
@@ -315,6 +316,18 @@
       "manifestFileId": "1Qkr9YXJWpisDha29pY7lEI4IMImlGjBY",
       "verifiedAt": "2026-08-27T04:52:54.786Z",
       "sha256": "dbeb686cb4881a186b4fcb5e4860ec8e826faf3cd712ac02748e95d4d082f8a0"
+    },
+    {
+      "reelId": "0025",
+      "driveFolderId": "13lsfcptaR3OxMIQxYFC0BhEfv0y-dbDE",
+      "videoFileId": "13j7tZiAP-EgUQ3z-yt5AGt2P-Pu2RcAS",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1rzKXenbCxMn-0squg6uxpFKNBxyVYi_q",
+      "verifiedAt": "2026-08-27T05:18:59.955Z",
+      "sha256": "fc1db925a7b52fa7efdf6674d45a350727ec825bc776604cecaa58bbf28b09ae"
     }
   ],
   "canonicalMappings": {
@@ -576,7 +589,7 @@
     "0025": {
       "driveFolderId": "13lsfcptaR3OxMIQxYFC0BhEfv0y-dbDE",
       "topic": "इस परंपरा का दृष्टिकोण क्या है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1Xyh1zbrXOF4QABovTapfYmFus6bF4GmH",
       "reconciliationFileId": "1ZT_FC8jdPxCJ8LL_ixSkUveGLTFG5dE3",
       "legacyNonCanonicalFolderIds": [
@@ -805,8 +818,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T04:56:34.776Z",
+  "lastCheckpointAt": "2026-08-27T05:18:59.955Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0025"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }

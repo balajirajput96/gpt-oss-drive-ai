@@ -1,0 +1,18 @@
+# Reel 0025 Narration Transcript
+
+**Audio file:** `REEL-0025_NARRATION_HI.wav`
+**Language:** Hindi (`hi-IN`) with documented technical-English terms
+**Decoded duration:** `62.000000` seconds
+**Transcription tool result:** 2026-08-27 05:11 UTC
+
+| Start–end | Machine transcription segment |
+|---|---|
+| 00:00.4–00:04.0 | क्या बौद्ध दृष्टि में ध्यान बस focus बढ़ाने की exercise है? |
+| 00:04.0–00:14.0 | नहीं। पर पहले एक सावधानी। बौद्ध परंपराएं एक जैसी नहीं हैं। एक scholarly review बताती है कि अलग परंपराएं मन और attention… |
+| 00:14.0–00:24.6 | …को अलग तरीकों से समझती हैं। कुछ थेरवाद वर्णनों में क्षमता को मन को स्थिर देखने की साधना कहा गया है। विपासना और mindfulness के भी अपने संदर्भ हैं। |
+| 00:24.6–00:34.7 | एक Indo-Tibetan बौद्ध दृष्टि mindfulness को सिर्फ productivity tool नहीं मानती। एक scholarly opinion paper इसे ethics, concentration और wisdom के व्यापक संदर्भ… |
+| 00:34.7–00:44.9 | …में रखती है। यहां wisdom कोई lab result नहीं बल्कि परंपरागत दार्शनिक शब्द है। इसलिए modern mindfulness और बौद्ध सती को अपने आप एक मान लेना सही… |
+| 00:44.9–00:55.6 | …नहीं। Overlap हो सकता है पर इतिहास और उद्देश्य अलग हो सकते हैं। तो सवाल सिर्फ कितना focus नहीं बल्कि किस इरादे और जीवन संदर्भ में ध्यान। |
+| 00:55.6–01:01.7 | यह कुछ बौद्ध धाराओं का दृष्टिकोण है। ना medical advice, ना neuroscience proof, ना सभी परंपराओं पर दावा। |
+
+The approved script remains the authoritative claim-boundary source. The transcription’s “क्षमता” is a recognition error for the approved Buddhist term `shamatha`; captions retain the approved term rather than inventing a changed claim. The transcript is a machine-recognition audit record and does not add empirical, health, religious-truth, or universal claims.

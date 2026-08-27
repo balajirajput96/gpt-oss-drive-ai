@@ -1,0 +1,36 @@
+{
+  "snapshotType": "reel_post_verify_lifecycle_evidence",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T05:18:59.955Z",
+  "productionStateSha256": "1fb90517dd6580173402dbe5e7acb3857cef610c5a2b6f5da0388822b387c425",
+  "reel": {
+    "reelId": "0025",
+    "batch": "Batch_001",
+    "pillar": "MND",
+    "lens": "L01",
+    "question": "इस परंपरा का दृष्टिकोण क्या है?"
+  },
+  "guardedLifecycleResult": {
+    "completedReelId": "0025",
+    "nextReelId": "0026",
+    "activeReelId": null,
+    "runStatus": "ready_for_next",
+    "completedReelCount": 25,
+    "verifiedAt": "2026-08-27T05:18:59.955Z"
+  },
+  "canonicalDriveVerification": {
+    "folderId": "13lsfcptaR3OxMIQxYFC0BhEfv0y-dbDE",
+    "videoFileId": "13j7tZiAP-EgUQ3z-yt5AGt2P-Pu2RcAS",
+    "manifestFileId": "1rzKXenbCxMn-0squg6uxpFKNBxyVYi_q",
+    "videoSha256": "fc1db925a7b52fa7efdf6674d45a350727ec825bc776604cecaa58bbf28b09ae",
+    "preLifecycleArtifactCount": 33,
+    "manifestSemanticMatch": true,
+    "globalDriveRootStateTouched": false
+  },
+  "policyAttestations": {
+    "quotaOrAccessControlBypass": false,
+    "reusedLegacyAsset": false,
+    "legacyFoldersMutated": false,
+    "researchScope": "Bounded Buddhist traditional/philosophical interpretation; not a universal doctrinal, medical, or empirical-neuroscience claim."
+  }
+}
