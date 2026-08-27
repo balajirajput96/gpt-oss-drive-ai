@@ -496,6 +496,19 @@
         "1XNSdkL4iXLI0sfPAZATJYtI0KJD1UUVx",
         "1jJy_sk8RnGE8PMNCZS6OmXXMFB1hci8v"
       ]
+    },
+    "0022": {
+      "driveFolderId": "1F1NbhWGNY-_a-QfOUm50CE2rooBxlRWB",
+      "topic": "इसे नैतिक रूप से कैसे समझें?",
+      "status": "research_archived",
+      "researchFileId": "15fA43uhmS6MDslb4zu7luEY6yK2yOG8W",
+      "reconciliationFileId": "1Pbrm7S9Igv6iT1Ang5cJCzQ0FpyKQM5A",
+      "legacyNonCanonicalFolderIds": [
+        "1rWJEFRQMmsWf4C_-xHLi0EBJ_zAy7kYt",
+        "16VFoz28qo24SM7G7JSJ7LZYvbYqHrTHF",
+        "1nzMSZZEnz8SSOI66y8dyzzkQuTLzRyXb",
+        "1ydxUKb28TNnfAH5z7lATM27L1bIENHya"
+      ]
     }
   },
   "failedReels": [
@@ -717,8 +730,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T03:26:37.735Z",
+  "lastCheckpointAt": "2026-08-27T03:36:04.008Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0022"
 }
