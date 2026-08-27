@@ -1,0 +1,28 @@
+{
+  "snapshotType": "reel_post_verification_lifecycle",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T05:42:34Z",
+  "productionStateSha256": "851e536530567ba21399fdc07d5215109573cbdc80aaa7e292b8c031fec0828f",
+  "reel": {
+    "reelId": "0026",
+    "batch": "Batch_001",
+    "pillar": "MND",
+    "lens": "L01",
+    "question": "विज्ञान इससे क्या अलग कहता है?"
+  },
+  "guardedVerification": {
+    "videoFileId": "1ei3p9zaIJb6ltj4ICdcobA8XP1SMkWso",
+    "manifestFileId": "1uQNHwfLLYTy71BrcoQC4Ptwbo59kQabI",
+    "sha256": "4cf926f58b30e6d6b97547fb22e21e0c3b84064c23266b556651aae18717bbe9",
+    "canonicalFolderId": "1qfmgQ_BKUroAEe8R6iNE9ZDE3YGqZVcZ",
+    "verifiedAt": "2026-08-27T05:42:34.435Z"
+  },
+  "lifecycleAfterGuardedVerification": {
+    "completedReelCount": 26,
+    "nextReelId": "0027",
+    "activeReelId": null,
+    "runStatus": "ready_for_next"
+  },
+  "globalDriveRootStateTouched": false,
+  "postVerificationRequirement": "This snapshot must be uploaded to the Reel 0026 canonical folder, re-fetched with parent/type/MD5 verification, and semantically compared before the final manifest attestation is refreshed."
+}

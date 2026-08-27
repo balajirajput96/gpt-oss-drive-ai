@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0026",
+  "nextReelId": "0027",
   "completedReelIds": [
     "0001",
     "0002",
@@ -27,7 +27,8 @@
     "0022",
     "0023",
     "0024",
-    "0025"
+    "0025",
+    "0026"
   ],
   "verifiedReels": [
     {
@@ -328,6 +329,18 @@
       "manifestFileId": "1rzKXenbCxMn-0squg6uxpFKNBxyVYi_q",
       "verifiedAt": "2026-08-27T05:18:59.955Z",
       "sha256": "fc1db925a7b52fa7efdf6674d45a350727ec825bc776604cecaa58bbf28b09ae"
+    },
+    {
+      "reelId": "0026",
+      "driveFolderId": "1qfmgQ_BKUroAEe8R6iNE9ZDE3YGqZVcZ",
+      "videoFileId": "1ei3p9zaIJb6ltj4ICdcobA8XP1SMkWso",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1uQNHwfLLYTy71BrcoQC4Ptwbo59kQabI",
+      "verifiedAt": "2026-08-27T05:42:34.435Z",
+      "sha256": "4cf926f58b30e6d6b97547fb22e21e0c3b84064c23266b556651aae18717bbe9"
     }
   ],
   "canonicalMappings": {
@@ -601,7 +614,7 @@
     "0026": {
       "driveFolderId": "1qfmgQ_BKUroAEe8R6iNE9ZDE3YGqZVcZ",
       "topic": "विज्ञान इससे क्या अलग कहता है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1yVCket_llwLRFAsZUz4GXpVfRyzb8f2W",
       "reconciliationFileId": "1d5lT4U0Vjv_GVSgtNwQ4F9aPr9ualmch",
       "legacyNonCanonicalFolderIds": [
@@ -830,8 +843,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T05:25:24.364Z",
+  "lastCheckpointAt": "2026-08-27T05:42:34.436Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0026"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }
