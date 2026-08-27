@@ -750,6 +750,14 @@
         "1WDXbL14IuQu0dYDd50P3JkEZlSW-f4iq",
         "1PpJPMCkLPxfVQQck2S07ii0rLI-pAWmw"
       ]
+    },
+    "0032": {
+      "driveFolderId": "1g4qkzDGEK4MLHZ1azv0ufdGC4we_vFTv",
+      "topic": "Multitasking misconception: task switching and competing task demands",
+      "status": "research_archived",
+      "researchFileId": "15_QDwhf0of3hwYHZTtuMNE1PqDAuWhfP",
+      "reconciliationFileId": "16yvYUp3D7_2RX3U3R6z3LBijXcWfO2G9",
+      "legacyNonCanonicalFolderIds": ["1OaALPwooiMQVQXjPtlZGPXQhrrHpUIpT"]
     }
   },
   "failedReels": [
@@ -971,8 +979,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T07:58:45.021Z",
+  "lastCheckpointAt": "2026-08-27T08:07:06.800Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0032"
 }

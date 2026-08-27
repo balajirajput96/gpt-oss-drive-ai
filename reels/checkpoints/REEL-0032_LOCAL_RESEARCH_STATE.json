@@ -1,0 +1,39 @@
+{
+  "snapshotType": "reel_research_state",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T08:12:20Z",
+  "productionStateSha256": "2932bba29f89938fd5690689f41d73edd325e66d7cbbf6a991136b264c80edf3",
+  "reel": {
+    "reelId": "0032",
+    "batch": "Batch_002",
+    "pillarCode": "MND",
+    "lensCode": "L02",
+    "questionCode": "Q02",
+    "question": "इसका सबसे आम भ्रम क्या है?"
+  },
+  "canonicalResearchArchive": {
+    "folderId": "1g4qkzDGEK4MLHZ1azv0ufdGC4we_vFTv",
+    "folderName": "R0032_attention_multitasking_misconception",
+    "parentId": "1MCq0RKiLg8g1NiJYCTu50UzWJiQZLHDt",
+    "research": {
+      "fileId": "15_QDwhf0of3hwYHZTtuMNE1PqDAuWhfP",
+      "name": "REEL-0032_ATTENTION_MULTITASKING_MISCONCEPTION_RESEARCH.md",
+      "md5Checksum": "589eb8751c30969b77b6b78f3b641bbd"
+    },
+    "reconciliation": {
+      "fileId": "16yvYUp3D7_2RX3U3R6z3LBijXcWfO2G9",
+      "name": "REEL-0032_CANONICAL_RECONCILIATION_20260827.md",
+      "md5Checksum": "6e9dc5c6d74ca60c12205c2317c021bd"
+    }
+  },
+  "lifecycle": {
+    "completedReelCount": 31,
+    "nextReelId": "0032",
+    "activeReelId": "0032",
+    "runStatus": "researching",
+    "guardedVerificationComplete": false
+  },
+  "preservedNonCanonicalFolderIds": ["1OaALPwooiMQVQXjPtlZGPXQhrrHpUIpT"],
+  "globalDriveRootStateTouched": false,
+  "integrityBoundary": "This immutable snapshot is source-side evidence of verified R0032 research archival only. It does not complete Reel 0032, advance the registry, adopt or overwrite the historical R0032 attention-span package, or validate global Drive-root completion assertions."
+}
