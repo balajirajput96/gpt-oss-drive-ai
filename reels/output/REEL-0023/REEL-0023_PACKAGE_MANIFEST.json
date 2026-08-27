@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "reel-package-v1",
+  "reelId": "0023",
+  "registryIdentity": {
+    "batch": "Batch_001",
+    "pillarCode": "MND",
+    "lensCode": "L01",
+    "questionCode": "Q23",
+    "question": "यह पहचान और भूमिका से कैसे जुड़ता है?"
+  },
+  "canonicalDriveFolderId": "1h02qFM96T3DCmaXaoTKa4ZAUgwuS3evp",
+  "lifecycleStatusAtManifestDraft": "researching",
+  "lifecycleStatusAfterVerification": "completed",
+  "finalVideo": {
+    "name": "REEL-0023_FINAL.mp4",
+    "sha256": "b04d65a7712a90dd87e48b30bc6b36a4a886efcd8125150f122bbcc889c2e614",
+    "format": "MP4 H.264/AAC, 720x1280 portrait",
+    "durationSeconds": 64.81,
+    "driveFileId": "1uyPb7n37CmXcwA-ujmCXd-CXZbFjXV3B"
+  },
+  "narration": {
+    "name": "REEL-0023_NARRATION_HI_FINAL.wav",
+    "language": "hi-IN",
+    "durationSeconds": 64.810292,
+    "speedNormalization": {
+      "inputName": "REEL-0023_NARRATION_HI.wav",
+      "filter": "atempo=1.264814",
+      "reason": "The single bounded regenerated narration was 81.96 seconds; deterministic tempo normalization retained the approved speech content while reaching the approximately 60-second format."
+    },
+    "driveFileId": "1p53ayn7BaNI_q5XibkoL_CJeO8qAGi3_"
+  },
+  "existingResearchStageArtifacts": {
+    "researchFileId": "1OFpfZrJohVKqZwAh2rJzZERlN1q9g1BU",
+    "reconciliationFileId": "1kmu_s7ooi53P48yTHBm8aNS-D5XxeTV-",
+    "researchStateSnapshotFileId": "1FJ2ZBkLBDnBcpL8HVA53d9VQ4rvYOp6c"
+  },
+  "plannedArtifactNames": [
+    "REEL-0023_FINAL.mp4",
+    "REEL-0023_NARRATION_HI_FINAL.wav",
+    "REEL-0023_NARRATION_HI_TRANSCRIPT.txt",
+    "REEL-0023_SCRIPT_HI.md",
+    "REEL-0023_CAPTIONS_HI.srt",
+    "REEL-0023_CLAIM_LEDGER.md",
+    "REEL-0023_VISUAL_STORYBOARD.md",
+    "REEL-0023_QC_REPORT.md",
+    "REEL-0023_VISUAL_PROVENANCE.json",
+    "reel0023_scene01.svg",
+    "reel0023_scene02.svg",
+    "reel0023_scene03.svg",
+    "reel0023_scene04.svg",
+    "reel0023_scene05.svg",
+    "reel0023_scene06.svg",
+    "REEL-0023_PACKAGE_MANIFEST.json"
+  ],
+  "driveArtifactIds": {
+    "REEL-0023_CAPTIONS_HI.srt": "1EQhiIyrIJcQvbeLZCL0XvhHDVYpeZpXq",
+    "REEL-0023_CLAIM_LEDGER.md": "1x2hvSWK5UrJKrk4QZz91N6BdkRcvDBQF",
+    "REEL-0023_FINAL.mp4": "1uyPb7n37CmXcwA-ujmCXd-CXZbFjXV3B",
+    "REEL-0023_NARRATION_HI_FINAL.wav": "1p53ayn7BaNI_q5XibkoL_CJeO8qAGi3_",
+    "REEL-0023_NARRATION_HI_TRANSCRIPT.txt": "1Z7lNmic8v92Ihv41ftNmDE_ZdUI81rPo",
+    "REEL-0023_QC_REPORT.md": "1ydjpVUgDn3SUJ2XsZ2OZOwqLC5HL9vEx",
+    "REEL-0023_SCRIPT_HI.md": "1qnPo8jbTA8YXIJMluu0wEHKjkbRlERmS",
+    "REEL-0023_VISUAL_PROVENANCE.json": "1Wzryxv--RgSns10wYqsGWRNG3vKxwvkH",
+    "REEL-0023_VISUAL_STORYBOARD.md": "1o5ZqMp37r_bzQyQVqI0i-Aa5L05U-yzn",
+    "reel0023_scene01.svg": "1r9EzznXi5fJnxpbm4ELquLtiyhmNV0C_",
+    "reel0023_scene02.svg": "1v84ohaZKksOMv-A7ar3akqqjdVDhnHRH",
+    "reel0023_scene03.svg": "1lEs1OqqXz2eF8u6NLttahPEET4N87y9L",
+    "reel0023_scene04.svg": "1tdcS_9-vxAYggIhs8g3_vtZKoeltb1bC",
+    "reel0023_scene05.svg": "1fNjOakMxbmG7085Ct0B6PAqtGV-HSElS",
+    "reel0023_scene06.svg": "1CVrvXvGsE7dPi5LEZzR86LhyAvMWPPXt"
+  },
+  "remoteVerification": {
+    "allPreLifecycleArtifactParentsAndChecksumsMatch": true,
+    "finalTranscriptContentMatch": true,
+    "verifiedArtifactCountBeforeManifest": 18,
+    "postVerificationStateSnapshotFileId": "1aPhCvtDzMSfRZaCA3IkQ3j-pDKQUIbwk",
+    "postVerificationStateSnapshotSemanticMatch": true,
+    "finalCanonicalArtifactCount": 20
+  },
+  "preLifecycleArtifactCount": 18,
+  "globalDriveRootStateTouched": false,
+  "quotaOrAccessControlBypass": false,
+  "reusedLegacyAsset": false,
+  "manifestDriveFileId": "18xquRGvoLIwn5nevJx6tnbzGxYKMSzYN"
+}

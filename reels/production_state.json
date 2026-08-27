@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0023",
+  "nextReelId": "0024",
   "completedReelIds": [
     "0001",
     "0002",
@@ -24,7 +24,8 @@
     "0019",
     "0020",
     "0021",
-    "0022"
+    "0022",
+    "0023"
   ],
   "verifiedReels": [
     {
@@ -289,6 +290,18 @@
       "manifestFileId": "109DiF1kxi3XQDGqJNsbD1hzRLoER_Ov-",
       "verifiedAt": "2026-08-27T03:54:39.928Z",
       "sha256": "71cc114efa2f745b0a61a03a770e5c60d6e2043f64e54b0378475cab7148a6e7"
+    },
+    {
+      "reelId": "0023",
+      "driveFolderId": "1h02qFM96T3DCmaXaoTKa4ZAUgwuS3evp",
+      "videoFileId": "1uyPb7n37CmXcwA-ujmCXd-CXZbFjXV3B",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "18xquRGvoLIwn5nevJx6tnbzGxYKMSzYN",
+      "verifiedAt": "2026-08-27T04:29:48.864Z",
+      "sha256": "b04d65a7712a90dd87e48b30bc6b36a4a886efcd8125150f122bbcc889c2e614"
     }
   ],
   "canonicalMappings": {
@@ -526,7 +539,7 @@
     "0023": {
       "driveFolderId": "1h02qFM96T3DCmaXaoTKa4ZAUgwuS3evp",
       "topic": "यह पहचान और भूमिका से कैसे जुड़ता है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1OFpfZrJohVKqZwAh2rJzZERlN1q9g1BU",
       "reconciliationFileId": "1kmu_s7ooi53P48yTHBm8aNS-D5XxeTV-",
       "legacyNonCanonicalFolderIds": [
@@ -755,8 +768,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T04:05:53.424Z",
+  "lastCheckpointAt": "2026-08-27T04:29:48.865Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0023"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }
