@@ -1,0 +1,39 @@
+{
+  "snapshotType": "reel_research_archive_verification",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T05:30:05Z",
+  "productionStateSha256": "ab54ba2485e8fa5ec187d274f9b9ac7ea9034d4a8d3ce7149009fdad2a443731",
+  "reel": {
+    "reelId": "0026",
+    "batch": "Batch_001",
+    "pillar": "MND",
+    "lens": "L01",
+    "question": "विज्ञान इससे क्या अलग कहता है?"
+  },
+  "lifecycle": {
+    "nextReelId": "0026",
+    "activeReelId": "0026",
+    "runStatus": "researching",
+    "completionAdvanced": false
+  },
+  "canonicalDriveArchive": {
+    "folderId": "1qfmgQ_BKUroAEe8R6iNE9ZDE3YGqZVcZ",
+    "parentId": "19uErd4g0xD0geAUi6SJbdPV3Ih4K3mHC",
+    "research": {
+      "fileId": "1yVCket_llwLRFAsZUz4GXpVfRyzb8f2W",
+      "name": "REEL-0026_SCIENCE_TRADITION_BOUNDARY_RESEARCH.md",
+      "md5Checksum": "6d8cf755a83fc605d242242afba27264"
+    },
+    "reconciliation": {
+      "fileId": "1d5lT4U0Vjv_GVSgtNwQ4F9aPr9ualmch",
+      "name": "REEL-0026_CANONICAL_RECONCILIATION_20260827.md",
+      "md5Checksum": "1f1aef8a932f36619efbef1e32cb8ef3"
+    }
+  },
+  "preservedNonCanonicalFolderIds": [
+    "127bXXhgY2Z5ys2LrGkoQpbrOu7TnAXci",
+    "1tkd1HlMF7IO_mtpo2ioaWiEsSCpsC0AN",
+    "1WSFa1udBzQoHFxiURrTu6ysrtaGwfRE9"
+  ],
+  "archiveBoundary": "Research and collision-reconciliation evidence only. No narration, captions, visuals, render, QC, final manifest, or guarded lifecycle verification has occurred."
+}

@@ -597,6 +597,18 @@
         "1OowQVypee5snrdvL7unwI07KIWNMtgyr",
         "1WRLtVNXOPehlc_wtHhmFvD5eIq2DsrBL"
       ]
+    },
+    "0026": {
+      "driveFolderId": "1qfmgQ_BKUroAEe8R6iNE9ZDE3YGqZVcZ",
+      "topic": "विज्ञान इससे क्या अलग कहता है?",
+      "status": "research_archived",
+      "researchFileId": "1yVCket_llwLRFAsZUz4GXpVfRyzb8f2W",
+      "reconciliationFileId": "1d5lT4U0Vjv_GVSgtNwQ4F9aPr9ualmch",
+      "legacyNonCanonicalFolderIds": [
+        "127bXXhgY2Z5ys2LrGkoQpbrOu7TnAXci",
+        "1tkd1HlMF7IO_mtpo2ioaWiEsSCpsC0AN",
+        "1WSFa1udBzQoHFxiURrTu6ysrtaGwfRE9"
+      ]
     }
   },
   "failedReels": [
@@ -818,8 +830,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T05:18:59.955Z",
+  "lastCheckpointAt": "2026-08-27T05:25:24.364Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0026"
 }
