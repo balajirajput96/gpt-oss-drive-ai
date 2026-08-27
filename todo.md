@@ -84,4 +84,4 @@
 - [x] Produce canonical Reel 0021 only from its verified research archive: evidence-bounded Hindi script and captions, original provenance-recorded visuals and narration, render/QC, canonical Drive verification, and mandatory lifecycle advance.
 - [ ] Preserve and document the unresolved Drive-root/global-state divergence without accepting its later completion assertions until a schema-compatible per-reel verification record is reconciled.
 - [ ] Restore GitHub Actions runner availability at the account level: the active Validate job is blocked before steps start by GitHub’s failed-payment or spending-limit annotation; after the owner resolves it, verify a new remote CI run without changing the workflow to bypass billing.
-- [ ] Normalize the confirmed formatter drift in Reel 0021 source, tests, and lifecycle state, then re-run the full validation gate before canonical Drive upload.
+- [x] Normalize the confirmed formatter drift in Reel 0021 source, tests, and lifecycle state, then re-run the full validation gate before canonical Drive upload.
