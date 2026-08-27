@@ -1,0 +1,65 @@
+{
+  "reelId": "0030",
+  "visualRoute": "original_deterministic_svg_motion_graphics",
+  "imageGenerationUsed": false,
+  "quotaOrAccessControlBypass": false,
+  "reusedLegacyAsset": false,
+  "embeddedText": false,
+  "realPersonDepicted": false,
+  "format": "720x1280 PNG",
+  "generatorSource": "reels/scripts/generate-reel0030-visuals.mjs",
+  "scenes": [
+    {
+      "scene": "01",
+      "svgFilename": "r0030_curiosity_learning_scene_01.svg",
+      "pngFilename": "r0030-curiosity-learning-01.png",
+      "svgSha256": "2a3f785043fd9d7019b90d94bf3857cb4933e1b171fca923f5ef0439acd43725",
+      "pngSha256": "c32e8812564557e1b5afd77864a26b1dd4ebf55132aba7a8bc2eef87e0d0d9e7"
+    },
+    {
+      "scene": "02",
+      "svgFilename": "r0030_curiosity_learning_scene_02.svg",
+      "pngFilename": "r0030-curiosity-learning-02.png",
+      "svgSha256": "fabe22ac166413d5b754b677e8484ccb096454310cdadf517bed0bb39a11d09c",
+      "pngSha256": "fe90f14d3c003499251c440e3928f4cfd56fd74143134b74325920f5433a083d"
+    },
+    {
+      "scene": "03",
+      "svgFilename": "r0030_curiosity_learning_scene_03.svg",
+      "pngFilename": "r0030-curiosity-learning-03.png",
+      "svgSha256": "7c3fd3fff538a7b1680a1eab93f7f17a2ca94c015eb7625e10ce5fac1ccbf2ca",
+      "pngSha256": "a93fea2c2beca996d69184495ba7aa81905f3d2d615cc0321a47807bb429e8b5"
+    },
+    {
+      "scene": "04",
+      "svgFilename": "r0030_curiosity_learning_scene_04.svg",
+      "pngFilename": "r0030-curiosity-learning-04.png",
+      "svgSha256": "4d84f8fabe584419fb244ea30bcb928a2d7069c1b1cdc8f1ae00d8fcbe839b6a",
+      "pngSha256": "d8ee47175659ce0da6c5039b5b26539e9a97411d5c920f2cf6897b001ac2b676"
+    },
+    {
+      "scene": "05",
+      "svgFilename": "r0030_curiosity_learning_scene_05.svg",
+      "pngFilename": "r0030-curiosity-learning-05.png",
+      "svgSha256": "ed8edc17c6d9b2ffa47fb636ea1a416ae7c52190bbbcdbb6e23ae8b54fc314ca",
+      "pngSha256": "471ce5bea6ed331503d382b046c9d8bbb3c39ca3a596855811e82f75dc5895f7"
+    },
+    {
+      "scene": "06",
+      "svgFilename": "r0030_curiosity_learning_scene_06.svg",
+      "pngFilename": "r0030-curiosity-learning-06.png",
+      "svgSha256": "aee17a63df4f3bd3a8bebc10455ae65890e547c74f509968d54b8c2bbd9897f7",
+      "pngSha256": "b7149d02c92dd865d7f658b1f6b549832a03508e9720ee0161497d98cdeaef82"
+    }
+  ],
+  "visualQc": {
+    "sourceContactSheet": "R0030_visual_contact_sheet.png",
+    "captionedRenderContactSheet": "R0030_render_qc_contact_sheet.png",
+    "result": "passed",
+    "observations": [
+      "Six scenes are compositionally distinct abstract portrait visuals.",
+      "Source frames contain no embedded text and no real-person depiction.",
+      "Sampled caption overlays remain visibly separated from source-art elements."
+    ]
+  }
+}

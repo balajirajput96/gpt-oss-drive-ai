@@ -1,0 +1,94 @@
+{
+  "manifestVersion": 1,
+  "reelId": "0030",
+  "batch": "Batch_001",
+  "question": "मुख्य सीख क्या है?",
+  "canonicalFolder": {
+    "id": "1iu4deIvDfSkBhzPQAzMliITycAFslcbO",
+    "name": "R0030_curiosity_learning_takeaway",
+    "parentId": "19uErd4g0xD0geAUi6SJbdPV3Ih4K3mHC"
+  },
+  "packageStatus": "drive_verified",
+  "artifactCountBeforeManifest": 28,
+  "artifactCountIncludingManifestAndSnapshot": 30,
+  "finalVideo": {
+    "id": "1jQQoCFdQNkJrQeHB6fxcmifCbOvPk7qX",
+    "name": "R0030_final.mp4",
+    "md5Checksum": "651b392d3e9f7a32e4c678bfae388a75",
+    "sha256": "2918d8b6fb87fd266883e41a04fc2acdb24e9b8259e34d8bd749f6e5ae33b58a",
+    "durationSeconds": 57.2,
+    "width": 720,
+    "height": 1280,
+    "videoCodec": "h264",
+    "audioCodec": "aac"
+  },
+  "captionValidation": {
+    "captionFileId": "1HvMd-tuB8dXPZtvtWuOReYiV28dH1wWR",
+    "cueCount": 12,
+    "maxEndMs": 57100,
+    "narrationDurationMs": 57200,
+    "regressionPassed": true
+  },
+  "visualProvenance": {
+    "route": "original_deterministic_svg_motion_graphics",
+    "imageGenerationUsed": false,
+    "quotaOrAccessControlBypass": false,
+    "reusedLegacyAsset": false,
+    "embeddedText": false,
+    "realPersonDepicted": false,
+    "generatorFileId": "1DUmOPWpVpwxt2FV8thYehilCpp8i9o-4"
+  },
+  "legacyBoundary": {
+    "nonCanonicalFolderIds": [
+      "1W2hybbF15ox5P76_yIpj08Sj-qAUkx-5",
+      "1_UWHiJEzgmUCyKcKvFTjOJZ59sF3zVXz",
+      "1VOx0bmijYrm2FNzCMJ7AnYJn8adn_JPt",
+      "19LUI42hcNi7w04Q3wAk6AXuxgVIyZtCg"
+    ],
+    "legacyAssetsReused": false
+  },
+  "guardedLifecycleVerification": {
+    "status": "complete",
+    "verifiedAt": "2026-08-27T07:31:05.669Z",
+    "manifestFileId": "1znt5jn4K2r03RmySgtS0GjJ7H9WAYkFH",
+    "nextReelId": "0031",
+    "activeReelId": null,
+    "runStatus": "ready_for_next"
+  },
+  "postVerificationSnapshot": {
+    "status": "verified",
+    "fileId": "1lpan_lWAsnqqxKVgKXzlmLU-x1pTjZ5C",
+    "name": "REEL-0030_LOCAL_VERIFIED_STATE.json",
+    "md5Checksum": "2277084399a00bb6d3d037ec2b6dc0d2"
+  },
+  "artifacts": [
+    {"name":"R0030_final.mp4","id":"1jQQoCFdQNkJrQeHB6fxcmifCbOvPk7qX","md5":"651b392d3e9f7a32e4c678bfae388a75","mimeType":"video/mp4"},
+    {"name":"R0030_narration_hi-IN.wav","id":"1yuzWtd9S7mujMBklieLchhf3AqLmRm17","md5":"d94e7be2c62a16fc1ad3550d68b75080","mimeType":"audio/wav"},
+    {"name":"R0030_render_qc_contact_sheet.png","id":"1SiLoIZKLkwk3VDd6hAXzdyEGjczNv6i8","md5":"2e715c0e6a4568eb5a1bc8f0a58b9491","mimeType":"image/png"},
+    {"name":"R0030_visual_contact_sheet.png","id":"1VSswxklta26lS-df1AFq8dN8_VyQvuXg","md5":"5f3e925f6688b758e852936c938d3111","mimeType":"image/png"},
+    {"name":"REEL-0030_CANONICAL_RECONCILIATION_20260827.md","id":"1Qey7mX5f9-qfx0jbFik-Zt9HFuitlhHI","md5":"3aa4459f00b545aef69abcf6e3f00458","mimeType":"text/markdown"},
+    {"name":"REEL-0030_CAPTIONS_HI.srt","id":"1HvMd-tuB8dXPZtvtWuOReYiV28dH1wWR","md5":"8d2d166803afafb567f8882e38575e3e","mimeType":"application/x-subrip"},
+    {"name":"REEL-0030_CLAIM_LEDGER.md","id":"15_pcgd5eZQz9sw1E-j6ufjb5lvFa-HED","md5":"00fb0f930867252e9fe77e3b122a05a7","mimeType":"text/markdown"},
+    {"name":"REEL-0030_CURIOSITY_LEARNING_TAKEAWAY_RESEARCH.md","id":"1N-uW3Wg575JgN47silWDHjPh4oLqSFM-","md5":"3743487ed96e9029a3884ef324f9e540","mimeType":"text/markdown"},
+    {"name":"REEL-0030_FINAL.sha256","id":"1ZmXYsZQYu5fKE_7eh7J7Qk1Am-wwZAyU","md5":"116afa1cc9996efcfca652e5d00db50a","mimeType":"application/octet-stream"},
+    {"name":"REEL-0030_LOCAL_RESEARCH_STATE.json","id":"10KdT61HFCD5zsvUEblpNSqHvEOcJSItm","md5":"b63d1727f09bd87c409b6051d321235a","mimeType":"application/json"},
+    {"name":"REEL-0030_NARRATION_HI_TRANSCRIPT.txt","id":"14poI9DPA8y_Dsh7NM61wrpuq_WN_3u4h","md5":"dff792726610e97f68796c6914054a35","mimeType":"text/plain"},
+    {"name":"REEL-0030_QC_REPORT.md","id":"1JFu73zohClXOf4YfjP2pzhrKtbG9cbMU","md5":"3eaedb57f74ba31c52ed2e784922c15c","mimeType":"text/markdown"},
+    {"name":"REEL-0030_SCRIPT_HI.md","id":"1MLmnh8t_69kDSHhUefciUpEjq_8IL-vC","md5":"dd98e55896aadd141e38f9af2888fe91","mimeType":"text/markdown"},
+    {"name":"REEL-0030_VISUAL_PROVENANCE.json","id":"1aUElGnvdPbhfhjPhShPiaYRecaeaNlQN","md5":"46432b585c46b544bfc76024d2cafee9","mimeType":"application/json"},
+    {"name":"REEL-0030_VISUAL_STORYBOARD.md","id":"1bjyZaU9TUe_6d6kur3h6vLhWIOCfaKi5","md5":"52e2434488fd8ccf1b4c36075d13de3e","mimeType":"text/markdown"},
+    {"name":"generate-reel0030-visuals.mjs","id":"1DUmOPWpVpwxt2FV8thYehilCpp8i9o-4","md5":"e26f28bb27f38ae9b11826f4ddd0a0e0","mimeType":"application/javascript"},
+    {"name":"r0030-curiosity-learning-01.png","id":"1f7l0gZmtHKY9Rl-L_TQe4xvw4TBldqGz","md5":"3839f963e6b2602f06f07c32cdc8c298","mimeType":"image/png"},
+    {"name":"r0030-curiosity-learning-02.png","id":"1RCLE8OZQMGjkVzABoBXauZ9Qd4ZyKenV","md5":"580b5e3e9bb279303fa374055c4abe9d","mimeType":"image/png"},
+    {"name":"r0030-curiosity-learning-03.png","id":"1LPAux6ipiTbd_1BKbI-GL-7IHyDvg_by","md5":"2760aaff16d6bda240e6d308f2e5c8ed","mimeType":"image/png"},
+    {"name":"r0030-curiosity-learning-04.png","id":"1RDbQrt2DyPnBEwONJH__ZzWHrApR1UIG","md5":"da216f2990742e4cb92cb49a58941be4","mimeType":"image/png"},
+    {"name":"r0030-curiosity-learning-05.png","id":"1-NUk6JYJxlV3YPZflKiJtAoNAr3rubfP","md5":"43a3b740b27922b40f764e0e41c292be","mimeType":"image/png"},
+    {"name":"r0030-curiosity-learning-06.png","id":"1_mQKkE5Y716h3u9fLP_qJa7VXUdTfH4Z","md5":"ab7955c92ea1680e658984c8ac6bb033","mimeType":"image/png"},
+    {"name":"r0030_curiosity_learning_scene_01.svg","id":"1x71x6imRDLf1QiIRfmUr0tID3_9pZMzL","md5":"bbb1bfbb7b8231fbd54ca221fbb7c166","mimeType":"image/svg+xml"},
+    {"name":"r0030_curiosity_learning_scene_02.svg","id":"13P7gexc1XKBnD72DTSw5c8KTv8GcsEhs","md5":"6f78be2fecf0bf9da9da7feb6db221f4","mimeType":"image/svg+xml"},
+    {"name":"r0030_curiosity_learning_scene_03.svg","id":"1Z8O4uHpCUdJVn6zWMSgGRBY_ehve0c_q","md5":"d6552f3abb7f3bb6c209dd2eefc8c7aa","mimeType":"image/svg+xml"},
+    {"name":"r0030_curiosity_learning_scene_04.svg","id":"1A4HqWfwziitqAc4vThMTctmQcUc7fajA","md5":"19ddfa8fc420e76b124ccdec8a5dc96a","mimeType":"image/svg+xml"},
+    {"name":"r0030_curiosity_learning_scene_05.svg","id":"1chhFQDvyHpavqlpjP-IM0LemdfULYMkB","md5":"ddf76db0d47c020046e270bc0be5f3ff","mimeType":"image/svg+xml"},
+    {"name":"r0030_curiosity_learning_scene_06.svg","id":"1QWidaW-qkOkl9ft1GR7TH798vREQQ7Lv","md5":"0c7fa8ce96a5487975155c85afa8cf4d","mimeType":"image/svg+xml"}
+  ]
+}

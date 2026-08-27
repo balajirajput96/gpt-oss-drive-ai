@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0030",
+  "nextReelId": "0031",
   "completedReelIds": [
     "0001",
     "0002",
@@ -31,7 +31,8 @@
     "0026",
     "0027",
     "0028",
-    "0029"
+    "0029",
+    "0030"
   ],
   "verifiedReels": [
     {
@@ -380,6 +381,18 @@
       "manifestFileId": "1gCVOl3Au4jwywoUDLuTwqEofaE8V_mDm",
       "verifiedAt": "2026-08-27T07:05:39.221Z",
       "sha256": "19e8cd3bb85ad8e40a552f11cee04382e289cadace87c13fa9002c60a833b7a6"
+    },
+    {
+      "reelId": "0030",
+      "driveFolderId": "1iu4deIvDfSkBhzPQAzMliITycAFslcbO",
+      "videoFileId": "1jQQoCFdQNkJrQeHB6fxcmifCbOvPk7qX",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1znt5jn4K2r03RmySgtS0GjJ7H9WAYkFH",
+      "verifiedAt": "2026-08-27T07:31:05.669Z",
+      "sha256": "2918d8b6fb87fd266883e41a04fc2acdb24e9b8259e34d8bd749f6e5ae33b58a"
     }
   ],
   "canonicalMappings": {
@@ -702,7 +715,7 @@
     "0030": {
       "driveFolderId": "1iu4deIvDfSkBhzPQAzMliITycAFslcbO",
       "topic": "मुख्य सीख क्या है?",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "1N-uW3Wg575JgN47silWDHjPh4oLqSFM-",
       "reconciliationFileId": "1Qey7mX5f9-qfx0jbFik-Zt9HFuitlhHI",
       "legacyNonCanonicalFolderIds": [
@@ -932,8 +945,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T07:11:23.599Z",
+  "lastCheckpointAt": "2026-08-27T07:31:05.669Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0030"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }
