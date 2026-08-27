@@ -98,3 +98,5 @@
 - [x] Produce canonical Reel 0026 from its bounded science-versus-tradition research through evidence-labeled Hindi script/captions, original provenance-recorded narration and visuals, render/QC, canonical Drive verification, and mandatory lifecycle transition.
 - [x] Activate deterministic Reel 0027, preserve any conflicting Drive drafts as noncanonical, and archive an evidence-bounded research package before media production or lifecycle advancement.
 - [x] Produce canonical Reel 0027 from its bounded small-change feasibility research through evidence-labeled Hindi script/captions, original provenance-recorded narration and visuals, render/QC, canonical Drive verification, and mandatory lifecycle transition.
+- [x] Activate deterministic Reel 0028, preserve any conflicting Drive drafts as noncanonical, and archive an evidence-bounded research package before media production or lifecycle advancement.
+- [ ] Produce canonical Reel 0028 from its evidence-bounded consciousness-measurement research through Hindi narration/captions, six distinct original text-free visuals, render/QC, canonical Drive media/manifest verification, and guarded lifecycle transition.

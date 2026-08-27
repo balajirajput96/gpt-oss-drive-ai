@@ -1,0 +1,41 @@
+{
+  "snapshotType": "reel_research_archive_verification",
+  "snapshotVersion": 1,
+  "createdAt": "2026-08-27T06:23:16Z",
+  "productionStateSha256": "79f0d267e701ad21e91b3c3176612587e6881add99f24bce8d2519d977668694",
+  "reel": {
+    "reelId": "0028",
+    "batch": "Batch_001",
+    "pillar": "MND",
+    "lens": "L01",
+    "question": "कौन-सा डेटा अभी गायब है?"
+  },
+  "lifecycle": {
+    "nextReelId": "0028",
+    "activeReelId": "0028",
+    "runStatus": "researching",
+    "completionAdvanced": false,
+    "completedReelCount": 27
+  },
+  "canonicalDriveArchive": {
+    "folderId": "18y1xe7JlObtqV19VebuwWo-tHzwbW4gb",
+    "parentId": "19uErd4g0xD0geAUi6SJbdPV3Ih4K3mHC",
+    "research": {
+      "fileId": "1gv1pvp04qaKLqRMIAv2D8WM88USVLkhp",
+      "name": "REEL-0028_MISSING_DATA_CONSCIOUSNESS_MEASUREMENT_RESEARCH.md",
+      "md5Checksum": "7e3fa5fd67cba6dc1ecf1f4a71165715"
+    },
+    "reconciliation": {
+      "fileId": "1obctlogNy_mQ7mbBFFcg-QqBYxMTEMXB",
+      "name": "REEL-0028_CANONICAL_RECONCILIATION_20260827.md",
+      "md5Checksum": "287b8bccad1b03e03228afa0f54c532a"
+    }
+  },
+  "preservedNonCanonicalFolderIds": [
+    "1Y77XvSUO9ECXoh-4s2piG_BY7NnPnSuV",
+    "1xAqBGmsvjd6T0d5scv5FWcEcR-8xRjs-",
+    "1QzY31UxAGPLRtKx8Do6ab0t5OH19LfKq",
+    "1F7-JmykLDrQG1GK8vzifMjTSV1EEPk-K"
+  ],
+  "archiveBoundary": "Research and collision-reconciliation evidence only. No narration, captions, visuals, render, QC, final manifest, or guarded lifecycle verification has occurred."
+}

@@ -647,6 +647,19 @@
         "1RnTjiG6an9qQ9agIQuSecmRJhHudhxoN",
         "1XngD3YZWRZeMdioUR1cL8NRwBhUIWAkP"
       ]
+    },
+    "0028": {
+      "driveFolderId": "18y1xe7JlObtqV19VebuwWo-tHzwbW4gb",
+      "topic": "कौन-सा डेटा अभी गायब है?",
+      "status": "research_archived",
+      "researchFileId": "1gv1pvp04qaKLqRMIAv2D8WM88USVLkhp",
+      "reconciliationFileId": "1obctlogNy_mQ7mbBFFcg-QqBYxMTEMXB",
+      "legacyNonCanonicalFolderIds": [
+        "1Y77XvSUO9ECXoh-4s2piG_BY7NnPnSuV",
+        "1xAqBGmsvjd6T0d5scv5FWcEcR-8xRjs-",
+        "1QzY31UxAGPLRtKx8Do6ab0t5OH19LfKq",
+        "1F7-JmykLDrQG1GK8vzifMjTSV1EEPk-K"
+      ]
     }
   },
   "failedReels": [
@@ -868,8 +881,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T06:07:48.254Z",
+  "lastCheckpointAt": "2026-08-27T06:15:37.611Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "ready_for_next",
-  "activeReelId": null
+  "runStatus": "researching",
+  "activeReelId": "0028"
 }
