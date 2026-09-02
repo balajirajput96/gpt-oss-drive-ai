@@ -1,0 +1,13 @@
+{
+  "manifestType": "canonical_reel_package",
+  "manifestVersion": 1,
+  "reelId": "0032",
+  "topic": "Multitasking misconception: task switching and competing task demands",
+  "canonicalFolder": {"id":"1g4qkzDGEK4MLHZ1azv0ufdGC4we_vFTv","name":"R0032_attention_multitasking_misconception","parentId":"1MCq0RKiLg8g1NiJYCTu50UzWJiQZLHDt"},
+  "researchBoundary": {"researchFileId":"15_QDwhf0of3hwYHZTtuMNE1PqDAuWhfP","reconciliationFileId":"16yvYUp3D7_2RX3U3R6z3LBijXcWfO2G9","researchSnapshotId":"1mqUNtaUToFqQTIcrMktPBicoqW8fGFn9","preservedNonCanonicalFolderIds":["1OaALPwooiMQVQXjPtlZGPXQhrrHpUIpT"]},
+  "media": {"finalVideo":{"id":"1KNrmKE_D1I3m5yvvr2n1jKqrEzuIi05T","name":"REEL-0032_attention_multitasking_final.mp4","sha256":"34ecade89f49607356308df551814147cd0a6a93c449370e600cfc8fafba7b42","driveMd5":"31bcecca6a1bd8854e7fa62bd1adb10c","durationSeconds":63.08,"width":720,"height":1280,"videoCodec":"h264","audioCodec":"aac"},"acceptedNarration":{"id":"1EKp4JDYgA-FUFDLJ7-LsSrisLY7NyiOI","name":"REEL-0032_voice_final.wav","sha256":"965e10a9d848709536a3d2ccdb592861f9cb4fd4fd5d69fd7899eb4a40e8766f","durationSeconds":63.08},"captions":{"id":"1sSPjc5CrUpBXGpHpIsBY0hBiKTmKhOcE","cueCount":13,"maxEndSeconds":62.939}},
+  "artifactIds": {"script":"1hwbE3GtfDU5MmKgwoXN5eYEnmRznB0-u","claimLedger":"1ZCeN_dfqWPrGi2asiYossNTh_IG9ZAgf","storyboard":"1xXfUeoyu5WnRcuCI5xAgcz3tv8EkdDvC","provenance":"17RbLxzxQ7l2RdSt_q3rQRFcmwZk3y08I","transcript":"10WBycy5VesjJeU_Yh8iPiHb4uyb-yFag","takes":"1xMI8yXTx1Mgzlh6HdTLiMK0_ZuGBWyTa","measuredTranscription":"1KwJQ3wZuieUAOHxKkQwC0hAvPwHwuZ6T","qcReport":"1hWezjwjh4uMXer97GgGLy2F0D9QeqaxK","checksumRecord":"1T55IQcA5o-BqDjWrELDetDMVWVZH2F9V","visualGenerator":"1gSHBwG6K2hlc16i0JdbT7Jnwxq1aS0sU","visualSvgs":["1R1Wc9HHbP0aL22cJc4WpEk20kw38zkyn","145_lT2fu5d3tvVkyH4DIfC3b2iJaK665","1maJP_29ZCwtrrOVWfdZp3kJSMp-3Wg4o","1FHVFc-pmsPxPG0BLNrGKKG5YtTXFle0a","1Tnwj0f4VgDuypoHjG-f7ak2-wTl4mrOw","1TsfPJThUyEIHDAdKntl6Eb_o9gC0CSWj"],"visualPngs":["1_78wu_sZyEXqpL3AVZmyznj3GnZkSKEK","1_1BhiURERxQBY47Fz5rFXWas_O4b4H8S","12K3tOxtc76X34tjF8ZWeSYqW-olVUy0z","1w0AgxSS0c4dmAGTz9EPO2wVccmo8X3ER","1Kp3qGeRB5J1MCto22pQ6KnhbVNUfuhlu","1vGBJtwdRzQ3vhRqglO-vhyxuVTrrR9JB"]},
+  "preVerificationAudit": {"verifiedArtifactCount":28,"allArtifactsParentTypeMd5Verified":true,"finalVideoMediaMetadataVerified":true},
+  "postVerificationSnapshot":{"id":"1RoSrT1UfBIoovknymRI_hTh7i840QZoP","md5":"58364a18136a447268a0e10bda6f8830","immutable":true},
+  "lifecycle": {"guardedVerificationComplete":true,"postVerificationSnapshotPending":false,"completionStatus":"drive_verified","verifiedAt":"2026-09-02T19:37:34.377Z","nextReelId":"0033","activeReelId":null,"runStatus":"ready_for_next","completedReelCount":32}
+}

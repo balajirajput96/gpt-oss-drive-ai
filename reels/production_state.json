@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "targetReelCount": 3000,
-  "nextReelId": "0032",
+  "nextReelId": "0033",
   "completedReelIds": [
     "0001",
     "0002",
@@ -33,7 +33,8 @@
     "0028",
     "0029",
     "0030",
-    "0031"
+    "0031",
+    "0032"
   ],
   "verifiedReels": [
     {
@@ -406,6 +407,18 @@
       "manifestFileId": "1E7bFD54lGK7yEGANJZcq7fGra0RrcQ2H",
       "verifiedAt": "2026-08-27T07:58:45.021Z",
       "sha256": "ca0de814a2639d6fcbba1695c39ad17a85ac988cfb6a33ff6e193478e8dab21d"
+    },
+    {
+      "reelId": "0032",
+      "driveFolderId": "1g4qkzDGEK4MLHZ1azv0ufdGC4we_vFTv",
+      "videoFileId": "1KNrmKE_D1I3m5yvvr2n1jKqrEzuIi05T",
+      "scriptFileId": "recorded_in_metadata",
+      "captionsFileId": "recorded_in_metadata",
+      "sourcesFileId": "recorded_in_metadata",
+      "qcFileId": "recorded_in_metadata",
+      "manifestFileId": "1tjnAwiyLuh06TNKFov1XsJVstWHPwG9C",
+      "verifiedAt": "2026-09-02T19:37:34.377Z",
+      "sha256": "34ecade89f49607356308df551814147cd0a6a93c449370e600cfc8fafba7b42"
     }
   ],
   "canonicalMappings": {
@@ -754,7 +767,7 @@
     "0032": {
       "driveFolderId": "1g4qkzDGEK4MLHZ1azv0ufdGC4we_vFTv",
       "topic": "Multitasking misconception: task switching and competing task demands",
-      "status": "research_archived",
+      "status": "drive_verified",
       "researchFileId": "15_QDwhf0of3hwYHZTtuMNE1PqDAuWhfP",
       "reconciliationFileId": "16yvYUp3D7_2RX3U3R6z3LBijXcWfO2G9",
       "legacyNonCanonicalFolderIds": ["1OaALPwooiMQVQXjPtlZGPXQhrrHpUIpT"]
@@ -979,8 +992,8 @@
       "verifiedAt": "2026-08-22T05:42:45Z"
     }
   ],
-  "lastCheckpointAt": "2026-08-27T08:07:06.800Z",
+  "lastCheckpointAt": "2026-09-02T19:37:34.377Z",
   "driveRootId": "1qBzjS18Pd4zNEmgNhZsDqKHrl17uCOyS",
-  "runStatus": "researching",
-  "activeReelId": "0032"
+  "runStatus": "ready_for_next",
+  "activeReelId": null
 }
